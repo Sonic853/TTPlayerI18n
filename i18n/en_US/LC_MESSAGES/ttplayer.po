@@ -1,0 +1,6423 @@
+# TTPlayer 界面翻译，按语言及文本用途分类。UTF-8。
+msgid ""
+msgstr ""
+"Project-Id-Version: TTPlayerRebuild\n"
+"Language: en_US\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# === 重建版自建文本 ===
+
+#: src/integrations/discord_presence.cpp:127
+msgctxt "app"
+msgid " / 未知时长"
+msgstr " / unknown duration"
+
+#: src/ui/output_devices.cpp:853
+msgctxt "app"
+msgid " Bits"
+msgstr ""
+
+#: src/ui/output_devices.cpp:846
+msgctxt "app"
+msgid " Channels"
+msgstr ""
+
+#: src/ui/output_devices.cpp:855
+msgctxt "app"
+msgid " Samples"
+msgstr ""
+
+#: src/ui/player_window_library.cpp:982
+#, c-format
+msgctxt "app"
+msgid "%d stars"
+msgstr ""
+
+#: src/plugins/plugin_manager.cpp:1139
+msgctxt "app"
+msgid "Aac.dll has no NERO_PLUGIN_GetPrimaryAudioObject export"
+msgstr ""
+
+#: src/ui/player_window_library.cpp:980
+msgctxt "app"
+msgid "Album"
+msgstr ""
+
+#: src/ui/player_window_library.cpp:980
+msgctxt "app"
+msgid "Artist"
+msgstr ""
+
+#: src/ui/player_window_library.cpp:981
+msgctxt "app"
+msgid "Date"
+msgstr ""
+
+#: src/ui/output_devices.cpp:794
+msgctxt "app"
+msgid "DirectSound capability query failed"
+msgstr ""
+
+#: src/ui/player_window_equalizer.cpp:1001
+msgctxt "app"
+msgid "Equlizer Profile (*.tteq_cfg)"
+msgstr ""
+
+#: src/app/main.cpp:54
+msgctxt "app"
+msgid "Error in ttpcomm.dll, please resetup this program!"
+msgstr "Unable to load ttpcomm.dll. Please reinstall the program."
+
+#: src/ui/player_window_lyrics.cpp:2710
+#, c-format
+msgctxt "app"
+msgid "Failed to save lyric file %s."
+msgstr ""
+
+#: src/ui/player_window_library.cpp:981
+msgctxt "app"
+msgid "Genre"
+msgstr ""
+
+#: src/ui/project_links.h:27
+msgctxt "app"
+msgid "Github仓库"
+msgstr "GitHub repository"
+
+#: src/ui/playlist_transforms.cpp:1667
+msgctxt "app"
+msgid "ISoundEncoder slot 4 start failed"
+msgstr ""
+
+#: src/ui/output_devices.cpp:813
+msgctxt "app"
+msgid "Kernel Streaming capability query failed"
+msgstr ""
+
+#: src/app/main.cpp:94
+msgctxt "app"
+msgid "Load resource (ttpres.dll) failed, please resetup this program!"
+msgstr "Unable to load ttpres.dll. Please reinstall the program."
+
+#: src/ui/player_window_options.cpp:6580 src/ui/player_window_options.cpp:6616
+msgctxt "app"
+msgid "Lyrics Profile (*.ttlr_cfg)"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:952
+msgctxt "app"
+msgid "MP3 (LAME DLL)"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1726
+msgctxt "app"
+msgid "MP3 metadata write failed"
+msgstr ""
+
+#: src/ui/player_window_library.cpp:980
+msgctxt "app"
+msgid "Music"
+msgstr ""
+
+#: src/ui/player_window_options.cpp:6579 src/ui/player_window_options.cpp:6615
+msgctxt "app"
+msgid "Playlist Profile (*.ttpl_cfg)"
+msgstr ""
+
+#: src/ui/player_window_library.cpp:981
+msgctxt "app"
+msgid "Rating"
+msgstr ""
+
+#: src/app/main.cpp:111
+msgctxt "app"
+msgid "Sound Library init failed, the player can not run!"
+msgstr "The sound library could not be initialized. The player cannot run."
+
+#: src/app/main.cpp:55 src/app/main.cpp:95
+msgctxt "app"
+msgid "TTPlayer"
+msgstr "TTPlayer"
+
+#: src/ui/player_window_lyrics.cpp:2742
+msgctxt "app"
+msgid "The lyric file was modified. Save it?"
+msgstr ""
+
+#: src/plugins/plugin_manager.cpp:1133
+msgctxt "app"
+msgid "Unable to load Nero component: "
+msgstr ""
+
+#: src/ui/player_window_options.cpp:4741
+msgctxt "app"
+msgid "Unavailable device"
+msgstr ""
+
+#: src/ui/player_window_visual_options.cpp:340
+msgctxt "app"
+msgid "Vis Profile (*.ttvi_cfg)"
+msgstr ""
+
+#: src/settings/file_association.cpp:64
+msgctxt "app"
+msgid "Windows error "
+msgstr ""
+
+#: src/settings/file_association.cpp:295
+msgctxt "app"
+msgid "association key is managed by another executable"
+msgstr ""
+
+#: src/settings/file_association.cpp:1238
+msgctxt "app"
+msgid "capabilities belong to another installation"
+msgstr ""
+
+#: src/settings/file_association.cpp:550
+msgctxt "app"
+msgid "clear legacy UserChoice backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:317
+msgctxt "app"
+msgid "clear stale registry backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:1445
+msgctxt "app"
+msgid "configure IShellLinkW"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1559 src/ui/playlist_transforms.cpp:1610 src/ui/playlist_transforms.cpp:1676
+msgctxt "app"
+msgid "conversion cancelled"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1588
+msgctxt "app"
+msgid "conversion destination is a source file"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1594
+msgctxt "app"
+msgid "conversion destination is another batch source"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1564
+msgctxt "app"
+msgid "conversion destination is empty"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1197
+msgctxt "app"
+msgid "conversion worker exception"
+msgstr ""
+
+#: src/settings/file_association.cpp:643
+msgctxt "app"
+msgid "create default-program registration"
+msgstr ""
+
+#: src/settings/file_association.cpp:1397
+msgctxt "app"
+msgid "create shortcut"
+msgstr ""
+
+#: src/settings/file_association.cpp:1408
+msgctxt "app"
+msgid "create shortcut directory"
+msgstr ""
+
+#: src/settings/file_association.cpp:1074
+msgctxt "app"
+msgid "default program belongs to another installation"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1601
+msgctxt "app"
+msgid "destination is a directory"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1605
+msgctxt "app"
+msgid "destination requires prompt"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1602 src/ui/playlist_transforms.cpp:1606
+msgctxt "app"
+msgid "destination skipped"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1709
+msgctxt "app"
+msgid "empty non-final PCM block"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1699
+msgctxt "app"
+msgid "encoder PCM write failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1660
+msgctxt "app"
+msgid "encoder destination open failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1714
+msgctxt "app"
+msgid "encoder finalize failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1579
+msgctxt "app"
+msgid "encoder has no valid configured file extension"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1563
+msgctxt "app"
+msgid "encoder index is out of range"
+msgstr ""
+
+#: src/settings/file_association.cpp:1249
+msgctxt "app"
+msgid "enumerate registered formats"
+msgstr ""
+
+#: src/settings/file_association.cpp:898 src/settings/file_association.cpp:1060 src/settings/file_association.cpp:1317 src/settings/file_association.cpp:1397
+msgctxt "app"
+msgid "executable is empty"
+msgstr ""
+
+#: src/ui/output_devices.cpp:819
+msgctxt "app"
+msgid "invalid ASIO descriptor"
+msgstr ""
+
+#: src/ui/output_devices.cpp:777
+msgctxt "app"
+msgid "invalid DirectSound GUID"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1621
+msgctxt "app"
+msgid "invalid decoded PCM format"
+msgstr ""
+
+#: src/settings/file_association.cpp:815 src/settings/file_association.cpp:896 src/settings/file_association.cpp:1064 src/settings/file_association.cpp:1147 src/settings/file_association.cpp:1225
+msgctxt "app"
+msgid "invalid extension"
+msgstr ""
+
+#: src/settings/file_association.cpp:731
+msgctxt "app"
+msgid "invalid shortcut name"
+msgstr ""
+
+#: src/settings/file_association.cpp:1176
+msgctxt "app"
+msgid "isolated registration cannot launch the live shell"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:606
+msgctxt "app"
+msgid "legacy PCM processors require the x86 host"
+msgstr ""
+
+#: src/settings/file_association.cpp:508
+msgctxt "app"
+msgid "legacy UserChoice backup belongs to another installation"
+msgstr ""
+
+#: src/ui/player_window_options.cpp:4272
+msgctxt "app"
+msgid "nanling与社区"
+msgstr "nanling and the community"
+
+#: src/ui/playlist_transforms.cpp:642
+msgctxt "app"
+msgid "offline processor could not encode PCM"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:615
+msgctxt "app"
+msgid "offline processor does not support the PCM format"
+msgstr ""
+
+#: src/settings/file_association.cpp:662
+msgctxt "app"
+msgid "open OpenWithProgids"
+msgstr ""
+
+#: src/settings/file_association.cpp:1088
+msgctxt "app"
+msgid "open RegisteredApplications"
+msgstr ""
+
+#: src/settings/file_association.cpp:1076 src/settings/file_association.cpp:1233
+msgctxt "app"
+msgid "open capabilities"
+msgstr ""
+
+#: src/settings/file_association.cpp:1176
+msgctxt "app"
+msgid "open default programs"
+msgstr ""
+
+#: src/settings/file_association.cpp:853
+msgctxt "app"
+msgid "open extension key"
+msgstr ""
+
+#: src/settings/file_association.cpp:501
+msgctxt "app"
+msgid "open legacy UserChoice backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:1195
+msgctxt "app"
+msgid "open system default programs"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1684
+msgctxt "app"
+msgid "partial decoded PCM frame"
+msgstr ""
+
+#: src/settings/file_association.cpp:721
+msgctxt "app"
+msgid "programs_subdirectory may not contain '..'"
+msgstr ""
+
+#: src/settings/file_association.cpp:716
+msgctxt "app"
+msgid "programs_subdirectory must be relative"
+msgstr ""
+
+#: src/settings/file_association.cpp:666
+msgctxt "app"
+msgid "query OpenWithProgids"
+msgstr ""
+
+#: src/settings/file_association.cpp:815
+msgctxt "app"
+msgid "query extension"
+msgstr ""
+
+#: src/settings/file_association.cpp:1084
+msgctxt "app"
+msgid "read RegisteredApplications"
+msgstr ""
+
+#: src/settings/file_association.cpp:401
+msgctxt "app"
+msgid "read association backup metadata"
+msgstr ""
+
+#: src/settings/file_association.cpp:291 src/settings/file_association.cpp:366
+msgctxt "app"
+msgid "read association owner"
+msgstr ""
+
+#: src/settings/file_association.cpp:1072
+msgctxt "app"
+msgid "read capabilities owner"
+msgstr ""
+
+#: src/settings/file_association.cpp:647
+msgctxt "app"
+msgid "read default-program registration"
+msgstr ""
+
+#: src/settings/file_association.cpp:848
+msgctxt "app"
+msgid "read extension backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:935
+msgctxt "app"
+msgid "read later legacy UserChoice"
+msgstr ""
+
+#: src/settings/file_association.cpp:485
+msgctxt "app"
+msgid "read legacy UserChoice"
+msgstr ""
+
+#: src/settings/file_association.cpp:490
+msgctxt "app"
+msgid "read legacy UserChoice Progid"
+msgstr ""
+
+#: src/settings/file_association.cpp:532
+msgctxt "app"
+msgid "read legacy UserChoice backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:505
+msgctxt "app"
+msgid "read legacy UserChoice backup owner"
+msgstr ""
+
+#: src/settings/file_association.cpp:1243
+msgctxt "app"
+msgid "read registered formats"
+msgstr ""
+
+#: src/settings/file_association.cpp:303 src/settings/file_association.cpp:582
+msgctxt "app"
+msgid "read registry default value"
+msgstr ""
+
+#: src/settings/file_association.cpp:1060 src/settings/file_association.cpp:1064
+msgctxt "app"
+msgid "register default program"
+msgstr ""
+
+#: src/settings/file_association.cpp:1086
+msgctxt "app"
+msgid "registered application name already in use"
+msgstr ""
+
+#: src/settings/file_association.cpp:1287
+msgctxt "app"
+msgid "remove RegisteredApplications entry"
+msgstr ""
+
+#: src/settings/file_association.cpp:432
+msgctxt "app"
+msgid "remove association metadata"
+msgstr ""
+
+#: src/settings/file_association.cpp:1291
+msgctxt "app"
+msgid "remove capabilities"
+msgstr ""
+
+#: src/settings/file_association.cpp:451
+msgctxt "app"
+msgid "remove empty association key"
+msgstr ""
+
+#: src/settings/file_association.cpp:560
+msgctxt "app"
+msgid "remove legacy UserChoice backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:522
+msgctxt "app"
+msgid "remove legacy UserChoice key"
+msgstr ""
+
+#: src/settings/file_association.cpp:715 src/settings/file_association.cpp:720
+msgctxt "app"
+msgid "resolve Programs shortcut"
+msgstr ""
+
+#: src/settings/file_association.cpp:731
+msgctxt "app"
+msgid "resolve shortcut path"
+msgstr ""
+
+#: src/settings/file_association.cpp:545
+msgctxt "app"
+msgid "restore legacy UserChoice"
+msgstr ""
+
+#: src/settings/file_association.cpp:421
+msgctxt "app"
+msgid "restore registry default value"
+msgstr ""
+
+#: src/settings/file_association.cpp:329
+msgctxt "app"
+msgid "save association ownership metadata"
+msgstr ""
+
+#: src/settings/file_association.cpp:516
+msgctxt "app"
+msgid "save legacy UserChoice backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:311
+msgctxt "app"
+msgid "save registry default backup"
+msgstr ""
+
+#: src/settings/file_association.cpp:896 src/settings/file_association.cpp:898 src/settings/file_association.cpp:1147
+msgctxt "app"
+msgid "set extension association"
+msgstr ""
+
+#: src/settings/file_association.cpp:1028
+msgctxt "app"
+msgid "set icon for an unmanaged association"
+msgstr ""
+
+#: src/settings/file_association.cpp:1317
+msgctxt "app"
+msgid "set shell integration"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:593
+msgctxt "app"
+msgid "ttpcomm equalizer initialization failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:588
+msgctxt "app"
+msgid "ttpcomm equalizer is unavailable"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:632
+msgctxt "app"
+msgid "ttpcomm equalizer processing failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:601
+msgctxt "app"
+msgid "ttpcomm surround initialization failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:596
+msgctxt "app"
+msgid "ttpcomm surround is unavailable"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:639
+msgctxt "app"
+msgid "ttpcomm surround processing failed"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1732
+msgctxt "app"
+msgid "unable to commit converted file"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1612
+msgctxt "app"
+msgid "unable to create decoded audio source"
+msgstr ""
+
+#: src/ui/playlist_transforms.cpp:1656
+msgctxt "app"
+msgid "unable to create output file"
+msgstr ""
+
+#: src/settings/file_association.cpp:1225
+msgctxt "app"
+msgid "unregister default program"
+msgstr ""
+
+#: src/ui/output_devices.cpp:835
+msgctxt "app"
+msgid "unsupported output backend"
+msgstr ""
+
+#: src/settings/file_association.cpp:672
+msgctxt "app"
+msgid "update OpenWithProgids"
+msgstr ""
+
+#: src/ui/output_devices.cpp:760
+msgctxt "app"
+msgid "waveOutGetDevCapsW failed"
+msgstr ""
+
+#: src/settings/file_association.cpp:651
+msgctxt "app"
+msgid "write default-program registration"
+msgstr ""
+
+#: src/settings/file_association.cpp:342
+msgctxt "app"
+msgid "write registry default value"
+msgstr ""
+
+#: src/integrations/discord_presence.cpp:146
+msgctxt "app"
+msgid "专辑："
+msgstr "Album: "
+
+#: src/lyrics/service_catalog.cpp:240
+msgctxt "app"
+msgid "保存失败，未完成的文件保持原样。"
+msgstr "Saving failed. Unfinished files were left unchanged."
+
+#: src/lyrics/service_catalog.cpp:239
+msgctxt "app"
+msgid "保存未完成（已成功保存的文件已保留）："
+msgstr "Saving was incomplete (successfully saved files were retained): "
+
+#: src/ui/player_window_playlist_search.cpp:823
+msgctxt "app"
+msgid "停止搜索"
+msgstr "Stop search"
+
+#: src/ui/player_window_playlist_search.cpp:409
+msgctxt "app"
+msgid "公用文档"
+msgstr "Public documents"
+
+#: src/ui/player_window_playlist_search.cpp:410
+msgctxt "app"
+msgid "公用音乐"
+msgstr "Public music"
+
+#: src/ui/player_window.cpp:4497
+msgctxt "app"
+msgid "原始文本"
+msgstr "Original text"
+
+#: src/ui/player_window_options.cpp:4304
+msgctxt "app"
+msgid "向 Discord 发送播放的歌曲信息"
+msgstr "Share playing tracks on Discord"
+
+#: src/ui/player_window_options.cpp:4312
+msgctxt "app"
+msgid "向 Discord 发送歌词"
+msgstr "Share lyrics on Discord"
+
+#: src/integrations/discord_presence.cpp:123
+msgctxt "app"
+msgid "已收听 "
+msgstr "Listened for "
+
+#: src/integrations/discord_presence.cpp:122
+msgctxt "app"
+msgid "已暂停 · "
+msgstr "Paused · "
+
+#: src/ui/player_window_playlist_search.cpp:822
+msgctxt "app"
+msgid "开始搜索"
+msgstr "Start search"
+
+#: src/ui/player_window_playlist_search.cpp:408
+msgctxt "app"
+msgid "我的音乐"
+msgstr "My music"
+
+#: src/ui/player_window_playlist_network.cpp:36
+msgctxt "app"
+msgid "报告服务不可用，尚未提交。"
+msgstr "The reporting service is unavailable. Nothing was submitted."
+
+#: src/ui/project_links.h:28
+msgctxt "app"
+msgid "提交反馈"
+msgstr "Report an issue"
+
+#: src/ui/player_window.cpp:5078
+msgctxt "app"
+msgid "无法保存界面语言设置。"
+msgstr "Could not save the interface language setting."
+
+#: src/lyrics/service_catalog.cpp:141
+msgctxt "app"
+msgid "无法读取有效的服务器 XML，保留原文件，不允许覆盖。"
+msgstr "Could not read valid server XML. The original file is preserved and cannot be overwritten."
+
+#: src/integrations/discord_presence.cpp:133
+msgctxt "app"
+msgid "时长未知"
+msgstr "Unknown duration"
+
+#: src/integrations/discord_presence.cpp:385 src/integrations/discord_track_presence.cpp:96
+msgctxt "app"
+msgid "未知曲目"
+msgstr "Unknown track"
+
+#: src/ui/player_window_options.cpp:4284
+msgctxt "app"
+msgid "构建日期:"
+msgstr "Build date:"
+
+#: src/integrations/discord_presence.cpp:147
+msgctxt "app"
+msgid "正在播放"
+msgstr "Playing"
+
+#: src/integrations/discord_presence.cpp:129
+msgctxt "app"
+msgid "电台"
+msgstr "Radio"
+
+#: src/integrations/discord_presence.cpp:129
+msgctxt "app"
+msgid "电台直播"
+msgstr "Live radio"
+
+#: src/ui/player_window.cpp:4504
+msgctxt "app"
+msgid "界面语言"
+msgstr "Interface language"
+
+#: src/ui/player_window.cpp:5074
+msgctxt "app"
+msgid "界面语言将在下次启动播放器时生效。"
+msgstr "The interface language will change the next time you start the player."
+
+#: src/ui/player_window_options.cpp:4288
+msgctxt "app"
+msgid "社区版"
+msgstr "Community edition"
+
+#: src/integrations/discord_presence.cpp:131 src/integrations/discord_track_presence.cpp:91
+msgctxt "app"
+msgid "网络音频"
+msgstr "Online audio"
+
+#: src/integrations/discord_presence.cpp:131
+msgctxt "app"
+msgid "网络音频 · 时长未知"
+msgstr "Online audio · unknown duration"
+
+#: src/ui/player_window.cpp:4496
+msgctxt "app"
+msgid "自动（系统语言）"
+msgstr "Automatic (system language)"
+
+#: src/ui/player_window_playlist_search.cpp:470
+msgctxt "app"
+msgid "自定义..."
+msgstr "Custom..."
+
+#: src/ui/player_window_playlist_search.cpp:406
+msgctxt "app"
+msgid "计算机"
+msgstr "Computer"
+
+#: src/lyrics/service_catalog.cpp:248
+msgctxt "app"
+msgid "读取歌词服务器列表失败。"
+msgstr "Could not read the lyric server list."
+
+#: src/ui/player_window_playlist_search.cpp:598
+#, c-format
+msgctxt "app/search/count"
+msgid "%u 个"
+msgid_plural "%u 个"
+msgstr[0] "%u item"
+msgstr[1] "%u items"
+
+# === 重建版字符串资源 ===
+
+msgctxt "exe/string/4091"
+msgid "屏幕选择"
+msgstr "Select monitor"
+
+msgctxt "exe/string/4093"
+msgid "显示器"
+msgstr "Monitor"
+
+msgctxt "exe/string/4094"
+msgid "主显示器"
+msgstr "Primary monitor"
+
+msgctxt "exe/string/4095"
+msgid "专辑图片"
+msgstr "Album artwork"
+
+msgctxt "exe/string/4096"
+msgid "专辑图片背景"
+msgstr "Album artwork background"
+
+msgctxt "exe/string/4097"
+msgid "备用图片:"
+msgstr "Fallback image:"
+
+msgctxt "exe/string/4098"
+msgid "浏览…"
+msgstr "Browse…"
+
+msgctxt "exe/string/4099"
+msgid "清除"
+msgstr "Clear"
+
+msgctxt "exe/string/4100"
+msgid "透明度:"
+msgstr "Opacity:"
+
+msgctxt "exe/string/4101"
+msgid "选择无专辑封面时使用的备用图片"
+msgstr "Choose an image to use when album artwork is unavailable"
+
+msgctxt "exe/string/4102"
+msgid "图片文件"
+msgstr "Image files"
+
+msgctxt "exe/string/4103"
+msgid "允许拖拽歌词"
+msgstr "Allow dragging lyrics"
+
+msgctxt "exe/string/4104"
+msgid "放大歌词"
+msgstr "Increase lyric size"
+
+msgctxt "exe/string/4105"
+msgid "缩小歌词"
+msgstr "Decrease lyric size"
+
+msgctxt "exe/string/4110"
+msgid "编辑列表"
+msgstr "Edit list"
+
+msgctxt "exe/string/4111"
+msgid "正在读取歌词服务器列表…"
+msgstr "Loading lyric servers…"
+
+msgctxt "exe/string/4112"
+msgid "DLL 内置服务器不可修改或删除。新增条目保存到所选 DLL 同名的 INI 文件。"
+msgstr "Built-in servers cannot be edited or deleted. New entries are saved in the selected DLL’s INI file."
+
+msgctxt "exe/string/4113"
+msgid "可编辑 INI 条目；地址须为兼容千千歌词搜索协议的 HTTP 或 HTTPS 服务。"
+msgstr "Editable INI entry. Use an HTTP or HTTPS server supporting the TTPlayer lyric search protocol."
+
+msgctxt "exe/string/4114"
+msgid "正在保存，请稍候…"
+msgstr "Saving, please wait…"
+
+msgctxt "exe/string/4115"
+msgid "列表已保存，下次搜索立即生效。"
+msgstr "Saved. The next search will use this list."
+
+msgctxt "exe/string/4116"
+msgid "放弃尚未保存的服务器列表更改？"
+msgstr "Discard unsaved server changes?"
+
+msgctxt "exe/string/4117"
+msgid "名称"
+msgstr "Name"
+
+msgctxt "exe/string/4118"
+msgid "地址"
+msgstr "Address"
+
+msgctxt "exe/string/4119"
+msgid "保存位置（只读）"
+msgstr "Storage location (read-only)"
+
+msgctxt "exe/string/4120"
+msgid "新服务器"
+msgstr "New server"
+
+msgctxt "exe/string/4121"
+msgid "未加载歌词搜索 DLL，无法添加服务器。"
+msgstr "No lyric search DLL is loaded. Servers cannot be added."
+
+msgctxt "exe/string/4122"
+msgid "上移"
+msgstr "Move up"
+
+msgctxt "exe/string/4123"
+msgid "下移"
+msgstr "Move down"
+
+msgctxt "exe/string/4124"
+msgid "新增"
+msgstr "Add"
+
+msgctxt "exe/string/4125"
+msgid "删除"
+msgstr "Delete"
+
+msgctxt "exe/string/4126"
+msgid "Win7 以上系统需要手动关联"
+msgstr "Set default apps in Windows settings"
+
+msgctxt "exe/string/4127"
+msgid "已注册可打开的音频格式。默认播放器需要在 Windows 的系统关联界面中由您确认；返回后列表将显示实际关联状态。"
+msgstr "Audio formats are registered. Choose your default player in Windows settings, then return to see the current associations."
+
+msgctxt "exe/string/4128"
+msgid "不再提示关联提醒"
+msgstr "Do not remind me about file associations"
+
+msgctxt "exe/string/4129"
+msgid "刷新"
+msgstr "Refresh"
+
+msgctxt "exe/string/4130"
+msgid "前往系统设置"
+msgstr "Open Windows settings"
+
+msgctxt "exe/string/4131"
+msgid "正在打开歌词上传页面…"
+msgstr "Opening the lyric upload page…"
+
+msgctxt "exe/string/4132"
+msgid "已填入歌曲信息和歌词，请在网页中确认并提交。"
+msgstr "Song details and lyrics have been filled in. Review and submit them on the page."
+
+msgctxt "exe/string/4133"
+msgid "上传页面不可用或不兼容，未提交歌词。"
+msgstr "The upload page is unavailable or incompatible. No lyrics were submitted."
+
+msgctxt "exe/string/4134"
+msgid "请先在歌词搜索中选择有效的 HTTP 或 HTTPS 服务器。"
+msgstr "Select a valid HTTP or HTTPS server in lyric search first."
+
+# === 重建版对话框 ===
+
+msgctxt "exe/dialog/4090/control/1/0"
+msgid "OK"
+msgstr ""
+
+msgctxt "exe/dialog/4090/control/2/0"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "exe/dialog/4090/control/4294967295/0"
+msgid "Mode:"
+msgstr "Mode:"
+
+msgctxt "exe/dialog/4090/control/4294967295/1"
+msgid "Bitrate (kbps):"
+msgstr "Bitrate (kbps):"
+
+msgctxt "exe/dialog/4090/control/4294967295/2"
+msgid "VBR quality (0-9):"
+msgstr "VBR quality (0-9):"
+
+msgctxt "exe/dialog/4090/title"
+msgid "LAME MP3"
+msgstr ""
+
+msgctxt "exe/dialog/4200/control/1/0"
+msgid "保存"
+msgstr "Save"
+
+msgctxt "exe/dialog/4200/control/2/0"
+msgid "关闭"
+msgstr "Close"
+
+msgctxt "exe/dialog/4200/control/4294967295/0"
+msgid "名称:"
+msgstr "Name:"
+
+msgctxt "exe/dialog/4200/control/4294967295/1"
+msgid "地址:"
+msgstr "Address:"
+
+msgctxt "exe/dialog/4200/control/4294967295/2"
+msgid "保存位置:"
+msgstr "Location:"
+
+msgctxt "exe/dialog/4200/title"
+msgid "编辑歌词服务器列表"
+msgstr "Edit lyric servers"
+
+# === ttpres 字符串表 ===
+
+msgctxt "ttpres/string/1"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/string/10000"
+msgid "第一个播放项"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1033"
+msgid "垂直滚动|水平滚动"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1037"
+msgid "左对齐(上对齐)|居中|右对齐(下对齐)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1041"
+msgid "忽略|提问|覆盖"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1047"
+msgid "不检查|每天|每周|每月"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1058"
+msgid "较慢|普通|较快"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1100"
+msgid "最高|普通|空闲"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/1106"
+msgid "<不显示>|梦幻星空|频谱分析|示波显示|专辑封面"
+msgstr ""
+
+msgctxt "ttpres/string/128"
+msgid "千千静听"
+msgstr "TTPlayer"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/129"
+msgid "    一个集播放、音效、转换、歌词等多种功能于一身的专业音频播放软件。\n\n    拥有自主研发的全新音频引擎，支持DirectSound、内核音频流(Kernel Streaming)和ASIO音频流输出、AddIn插件扩展技术，具有资源占用低、运行效率高、扩展能力强等优点。\n\n    支持MP3/mp3PRO、AAC/AAC+、M4A/MP4、WMA、APE、MPC、OGG、WAVE、CD、FLAC、RM、TTA、AIFF、AU等音频格式以及多种MOD和MIDI音乐，支持CUE音轨索引文件，支持所有格式到WAVE、MP3、APE、WMA等格式的转换，通过基于COM接口的AddIn插件可以支持更多格式的播放和转换。\n\n    支持采样频率转换(SSRC)和多种比特输出方式，支持回放增益，支持10波段均衡器、多级杜比环绕、淡入淡出音效，兼容并可同时激活多个Winamp2的音效插件。\n\n    支持ID3v1/v2、WMA、RM、APE和Vorbis标签，支持批量修改标签和以标签重命名文件。\n\n    支持同步歌词滚动显示和拖动定位播放，并且支持在线歌词搜索和歌词编辑功能。\n\n    支持多播放列表和音频文件搜索，支持多种视觉效果，采用XML格式的ZIP压缩的皮肤，同时具有磁性窗口、半透明/淡入淡出窗口、窗口阴影、任务栏图标、自定义快捷键、信息滚动、菜单功能提示等功能。\n\n    真正免费且无需注册，也不存在任何功能或时间限制。"
+msgstr ""
+
+msgctxt "ttpres/string/132"
+msgid "最新版本"
+msgstr ""
+
+msgctxt "ttpres/string/133"
+msgid "最新消息"
+msgstr ""
+
+msgctxt "ttpres/string/134"
+msgid "尽听精彩"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/135"
+msgid "您现在使用的已经是最新的版本！\n请继续关注和支持“千千静听”！"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/136"
+msgid "千千靜聽現在有更新，建議您立即安裝更新，體驗 \n最新版本功能。"
+msgstr ""
+
+msgctxt "ttpres/string/148"
+msgid "歌词编辑"
+msgstr "Lyric editor"
+
+msgctxt "ttpres/string/2"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/string/200"
+msgid "“千千静听”的简明介绍"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2009"
+msgid "显示|添加|播放"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2043"
+msgid "无噪音形态|三角形频谱|强ATH噪音形态|弱ATH噪音形态"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2100"
+msgid "清除字段\n清除"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2150"
+msgid "卡拉OK模式|非卡拉OK模式"
+msgstr ""
+
+msgctxt "ttpres/string/2151"
+msgid "歌词背景透明"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2155"
+msgid "内码转换\n内码转换"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2156"
+msgid "简繁体转换\n简繁转换"
+msgstr ""
+
+msgctxt "ttpres/string/2157"
+msgid "简体 -> 繁体"
+msgstr ""
+
+msgctxt "ttpres/string/2158"
+msgid "繁体 -> 简体"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2165"
+msgid "高级模式\n高级模式\n高级"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2186"
+msgid "快速线性算法|高级频域算法|高质量频域算法(慢速)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2196"
+msgid "不保存|提示|自动保存"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2230"
+msgid "并列|重叠"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2232"
+msgid "梦幻星空|频谱分析|示波显示"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2257"
+msgid "单行显示|双行显示"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/2258"
+msgid "居中|左对齐|右对齐|左右分离"
+msgstr ""
+
+msgctxt "ttpres/string/2301"
+msgid "后退"
+msgstr ""
+
+msgctxt "ttpres/string/2302"
+msgid "前进"
+msgstr ""
+
+msgctxt "ttpres/string/2303"
+msgid "刷新"
+msgstr "Refresh"
+
+msgctxt "ttpres/string/2305"
+msgid "音乐窗"
+msgstr ""
+
+msgctxt "ttpres/string/2306"
+msgid "下载管理窗口"
+msgstr ""
+
+msgctxt "ttpres/string/2307"
+msgid "下载管理"
+msgstr ""
+
+msgctxt "ttpres/string/250"
+msgid "常规操作的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/251"
+msgid "播放相关的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/252"
+msgid "自定义播放器的快捷键"
+msgstr ""
+
+msgctxt "ttpres/string/253"
+msgid "视觉效果相关的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/254"
+msgid "播放列表相关的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/256"
+msgid "歌词秀相关的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/257"
+msgid "歌词的本地以及在线搜索"
+msgstr ""
+
+msgctxt "ttpres/string/258"
+msgid "网络连接相关的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/259"
+msgid "激活及配置音效插件"
+msgstr ""
+
+msgctxt "ttpres/string/260"
+msgid "选择及配置音频输出设备"
+msgstr ""
+
+msgctxt "ttpres/string/261"
+msgid "选择播放器的皮肤"
+msgstr ""
+
+msgctxt "ttpres/string/262"
+msgid "关联音频文件以及创建快捷方式"
+msgstr ""
+
+msgctxt "ttpres/string/263"
+msgid "全屏显示相关的参数设置"
+msgstr ""
+
+msgctxt "ttpres/string/3001"
+msgid "更改媒体.."
+msgstr ""
+
+msgctxt "ttpres/string/3002"
+msgid "打开媒体.."
+msgstr ""
+
+msgctxt "ttpres/string/3003"
+msgid "状态: 完毕"
+msgstr ""
+
+msgctxt "ttpres/string/3004"
+msgid "状态: 就绪"
+msgstr ""
+
+msgctxt "ttpres/string/31000"
+msgid "播放器皮肤的选项"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32000"
+msgid "播放音频\n播放"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32001"
+msgid "暂停播放\n暂停"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32002"
+msgid "停止播放\n停止"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32003"
+msgid "快退5秒\n快退"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32004"
+msgid "快进5秒\n快进"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32005"
+msgid "播放上一首\n上一首"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32006"
+msgid "播放下一首\n下一首"
+msgstr ""
+
+msgctxt "ttpres/string/32007"
+msgid "音量开关"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32008"
+msgid "播放音频 CD 或 MTV VCD\n播放CD"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32009"
+msgid "打开一个网络URL进行播放\n播放URL"
+msgstr ""
+
+msgctxt "ttpres/string/32010"
+msgid "增大音量"
+msgstr ""
+
+msgctxt "ttpres/string/32011"
+msgid "减小音量"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32100"
+msgid "显示或隐藏歌词秀\n歌词秀"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32101"
+msgid "设置均衡器参数\n均衡器"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32102"
+msgid "查看音频文件播放列表\n播放列表"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32103"
+msgid "编辑音频文件属性\n文件属性"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32104"
+msgid "打开或关闭音乐窗口\n音乐窗"
+msgstr ""
+
+msgctxt "ttpres/string/32200"
+msgid "设置窗口透明度"
+msgstr ""
+
+msgctxt "ttpres/string/32210"
+msgid "窗口激活时不透明"
+msgstr ""
+
+msgctxt "ttpres/string/32211"
+msgid "最小化"
+msgstr "Minimize"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32212"
+msgid "切换迷你模式和普通模式(需皮肤支持)\n切换迷你模式"
+msgstr ""
+
+msgctxt "ttpres/string/32213"
+msgid "最小化/还原"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32214"
+msgid "重新排列主要窗口\n重新排列(&R)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32215"
+msgid "使所有播放器窗口总在最前面\n总在最前(&T)"
+msgstr ""
+
+msgctxt "ttpres/string/32216"
+msgid "主菜单"
+msgstr ""
+
+msgctxt "ttpres/string/32217"
+msgid "文件属性"
+msgstr ""
+
+msgctxt "ttpres/string/32218"
+msgid "播放进度"
+msgstr ""
+
+msgctxt "ttpres/string/32219"
+msgid "音量调节"
+msgstr ""
+
+msgctxt "ttpres/string/32220"
+msgid "视觉效果"
+msgstr "Visualization"
+
+msgctxt "ttpres/string/32221"
+msgid "播放时间"
+msgstr ""
+
+msgctxt "ttpres/string/32222"
+msgid "窗口阴影效果(需要Windows XP或更高版本)"
+msgstr ""
+
+msgctxt "ttpres/string/32230"
+msgid "全屏显示"
+msgstr "Fullscreen"
+
+msgctxt "ttpres/string/32231"
+msgid "退出全屏显示(&F)"
+msgstr ""
+
+msgctxt "ttpres/string/32232"
+msgid "全屏显示歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32233"
+msgid "全屏显示视觉效果"
+msgstr ""
+
+msgctxt "ttpres/string/32234"
+msgid "全屏时同时显示歌词和视觉效果"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32250"
+msgid "启用或禁用杜比环绕\n杜比环绕开关"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32300"
+msgid "启用或禁用均衡器\n均衡开关"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32301"
+msgid "使用推荐的EQ配置\n推荐配置"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32302"
+msgid "使用自定义的EQ配置\n自定义"
+msgstr ""
+
+msgctxt "ttpres/string/32400"
+msgid "EQ配置文件"
+msgstr ""
+
+msgctxt "ttpres/string/32500"
+msgid "无播放曲目"
+msgstr ""
+
+msgctxt "ttpres/string/32501"
+msgid "播放选中的文件"
+msgstr ""
+
+msgctxt "ttpres/string/32502"
+msgid "编辑音频文件属性"
+msgstr ""
+
+msgctxt "ttpres/string/32503"
+msgid "转换选中的文件为其它格式"
+msgstr ""
+
+msgctxt "ttpres/string/32506"
+msgid "访问freedb.org查询音轨信息"
+msgstr ""
+
+msgctxt "ttpres/string/32508"
+msgid "浏览文件所在的文件夹"
+msgstr ""
+
+msgctxt "ttpres/string/32509"
+msgid "播放列表的选项"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32510"
+msgid "操作播放列表\n列表"
+msgstr ""
+
+msgctxt "ttpres/string/32511"
+msgid "加载一个播放列表文件"
+msgstr ""
+
+msgctxt "ttpres/string/32512"
+msgid "保存播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32513"
+msgid "新建一个播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32514"
+msgid "删除播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32515"
+msgid "选择并添加播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32516"
+msgid "重命名播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32517"
+msgid "将该列表切换成为当前播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32518"
+msgid "保存所有列表到一个指定的文件夹"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32520"
+msgid "添加文件\n添加"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32521"
+msgid "选择并添加音频文件\n添加文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32522"
+msgid "选择并添加文件夹中的音频文件\n添加文件夹"
+msgstr ""
+
+msgctxt "ttpres/string/32523"
+msgid "搜索并添加电脑中的音频文件"
+msgstr ""
+
+msgctxt "ttpres/string/32524"
+msgid "添加网络URL"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32525"
+msgid "搜索互联网上的音频文件，请将搜索到的音乐链接拖到播放列表\n搜索网上音乐"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32530"
+msgid "删除文件\n删除"
+msgstr ""
+
+msgctxt "ttpres/string/32531"
+msgid "删除选中的文件"
+msgstr ""
+
+msgctxt "ttpres/string/32532"
+msgid "删除当前列表的所有文件"
+msgstr ""
+
+msgctxt "ttpres/string/32533"
+msgid "删除重复的文件"
+msgstr ""
+
+msgctxt "ttpres/string/32534"
+msgid "删除不支持或者不存在的文件"
+msgstr ""
+
+msgctxt "ttpres/string/32535"
+msgid "从硬盘上删除选中的文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32540"
+msgid "排序列表\n排序"
+msgstr ""
+
+msgctxt "ttpres/string/32541"
+msgid "按照当前显示的标题排序"
+msgstr ""
+
+msgctxt "ttpres/string/32542"
+msgid "按照文件名排序"
+msgstr ""
+
+msgctxt "ttpres/string/32543"
+msgid "按照路径名排序"
+msgstr ""
+
+msgctxt "ttpres/string/32544"
+msgid "按照专辑名排序"
+msgstr ""
+
+msgctxt "ttpres/string/32545"
+msgid "按照星级排序"
+msgstr ""
+
+msgctxt "ttpres/string/32546"
+msgid "按照文件时间排序"
+msgstr ""
+
+msgctxt "ttpres/string/32547"
+msgid "按照音轨序号排序"
+msgstr ""
+
+msgctxt "ttpres/string/32548"
+msgid "按照播放长度排序"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32549"
+msgid "随机打乱播放列表的顺序\n随机乱序"
+msgstr ""
+
+msgctxt "ttpres/string/32550"
+msgid "按列表的名称排序"
+msgstr ""
+
+msgctxt "ttpres/string/32560"
+msgid "剪切选中的文件到剪贴板"
+msgstr ""
+
+msgctxt "ttpres/string/32561"
+msgid "复制选中的文件到剪贴板"
+msgstr ""
+
+msgctxt "ttpres/string/32562"
+msgid "插入剪贴板的文件"
+msgstr ""
+
+msgctxt "ttpres/string/32563"
+msgid "移动选中的文件到其它播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32564"
+msgid "复制选中的文件到其它播放列表"
+msgstr ""
+
+msgctxt "ttpres/string/32565"
+msgid "选中所有的文件项"
+msgstr ""
+
+msgctxt "ttpres/string/32566"
+msgid "不选中所有的文件项"
+msgstr ""
+
+msgctxt "ttpres/string/32567"
+msgid "反向选中所有文件项"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32568"
+msgid "查找\n查找"
+msgstr ""
+
+msgctxt "ttpres/string/32569"
+msgid "查找歌曲文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32570"
+msgid "查找下一个\n查找下一个"
+msgstr ""
+
+msgctxt "ttpres/string/32571"
+msgid "快速定位文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32580"
+msgid "选择播放模式\n播放模式"
+msgstr ""
+
+msgctxt "ttpres/string/32581"
+msgid "单遍播放当前文件"
+msgstr ""
+
+msgctxt "ttpres/string/32582"
+msgid "循环播放当前文件"
+msgstr ""
+
+msgctxt "ttpres/string/32583"
+msgid "按顺序播放当前列表"
+msgstr ""
+
+msgctxt "ttpres/string/32584"
+msgid "循环播放当前列表"
+msgstr ""
+
+msgctxt "ttpres/string/32585"
+msgid "随机播放当前列表"
+msgstr ""
+
+msgctxt "ttpres/string/32586"
+msgid "连续播放时当播放完当前列表后自动切换到下一个列表"
+msgstr ""
+
+msgctxt "ttpres/string/32587"
+msgid "将选中歌曲作为下一个播放对象"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32588"
+msgid "切换媒体库模式\n媒体库模式"
+msgstr ""
+
+msgctxt "ttpres/string/32746"
+msgid "当标题格式中有星级字段时，可以用鼠标左键点击星号评级"
+msgstr ""
+
+msgctxt "ttpres/string/32747"
+msgid "到网上搜索并下载该首歌曲"
+msgstr ""
+
+msgctxt "ttpres/string/32750"
+msgid "刷新媒体库树"
+msgstr ""
+
+msgctxt "ttpres/string/32751"
+msgid "媒体库的选项"
+msgstr ""
+
+msgctxt "ttpres/string/32770"
+msgid "窗口模式"
+msgstr ""
+
+msgctxt "ttpres/string/32771"
+msgid "桌面模式"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32800"
+msgid "返回到歌词显示模式\n返回歌词秀"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32801"
+msgid "打开一个歌词文件进行编辑\n打开"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32802"
+msgid "保存当前的歌词文件并且应用到歌词秀\n保存"
+msgstr ""
+
+msgctxt "ttpres/string/32803"
+msgid "歌词秀的选项"
+msgstr ""
+
+msgctxt "ttpres/string/32804"
+msgid "重新载入歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32805"
+msgid "本句提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32806"
+msgid "本句延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32807"
+msgid "其后提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32808"
+msgid "其后延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32809"
+msgid "全部提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32810"
+msgid "全部延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32811"
+msgid "调整全部歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32812"
+msgid "编辑当前歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32813"
+msgid "关联歌词文件"
+msgstr ""
+
+msgctxt "ttpres/string/32814"
+msgid "撤消歌词关联"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32815"
+msgid "在线搜索并下载当前歌曲的歌词\n下载歌词"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32819"
+msgid "歌词秀窗口总在最前面(不随主窗口最小化)\n总在最前"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32820"
+msgid "复制原始歌词到剪贴板\n复制歌词"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32821"
+msgid "上传歌词到服务器\n上传歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32824"
+msgid "返回窗口模式"
+msgstr ""
+
+msgctxt "ttpres/string/32825"
+msgid "显示桌面歌词"
+msgstr "Show desktop lyrics"
+
+msgctxt "ttpres/string/32826"
+msgid "撤销不关联"
+msgstr ""
+
+msgctxt "ttpres/string/32827"
+msgid "点击此处手动搜索歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32830"
+msgid "播放曲目"
+msgstr "Tracks"
+
+msgctxt "ttpres/string/32831"
+msgid "预设方案"
+msgstr ""
+
+msgctxt "ttpres/string/32832"
+msgid "锁定桌面歌词"
+msgstr ""
+
+msgctxt "ttpres/string/32833"
+msgid "解锁桌面歌词"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32834"
+msgid "总在最前\n取消总在最前"
+msgstr ""
+
+msgctxt "ttpres/string/32835"
+msgid "在不锁定的情况下可以实现歌词背景鼠标穿透"
+msgstr ""
+
+msgctxt "ttpres/string/32836"
+msgid "切换歌词模式"
+msgstr ""
+
+msgctxt "ttpres/string/32837"
+msgid "解/锁桌面歌词"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32840"
+msgid "在行首插入当前的时间标签到\n插入时间标签"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32841"
+msgid "用当前时间替换本行中最接近当前时间的标签\n替换时间标签"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32842"
+msgid "删除光标处的时间标签\n删除时间标签"
+msgstr ""
+
+msgctxt "ttpres/string/32843"
+msgid "将所有时间标签都提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32844"
+msgid "将所有时间标签都延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/string/32847"
+msgid "插入或替换标签后光标移到下一行"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32880"
+msgid "千千静听软件主页\n软件主页"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32881"
+msgid "千千音乐在线网站\n千千音乐在线"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32882"
+msgid "千千静听的官方论坛\n论坛"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32883"
+msgid "千千静听的帮助页面\n帮助"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32885"
+msgid "还原所有字段内容\n还原"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32886"
+msgid "首字母大写\n首字母大写"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32887"
+msgid "添加字段\n添加字段"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32888"
+msgid "删除字段\n删除字段"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/32889"
+msgid "编辑字段\n编辑字段"
+msgstr ""
+
+msgctxt "ttpres/string/32900"
+msgid "视觉效果的选项"
+msgstr ""
+
+msgctxt "ttpres/string/32901"
+msgid "不显示任何效果"
+msgstr ""
+
+msgctxt "ttpres/string/32902"
+msgid "显示梦幻星空效果"
+msgstr ""
+
+msgctxt "ttpres/string/32903"
+msgid "显示频谱分析效果"
+msgstr ""
+
+msgctxt "ttpres/string/32904"
+msgid "将选中歌曲作为下一个播放对象"
+msgstr ""
+
+msgctxt "ttpres/string/32905"
+msgid "如果有专辑封面，则进行显示"
+msgstr ""
+
+msgctxt "ttpres/string/32930"
+msgid "千千物语"
+msgstr ""
+
+msgctxt "ttpres/string/32931"
+msgid "盛夏果实"
+msgstr ""
+
+msgctxt "ttpres/string/32932"
+msgid "桃之夭夭"
+msgstr ""
+
+msgctxt "ttpres/string/33010"
+msgid "使用“千千静听”来播放各种音频文件和数字音频CD。"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+msgctxt "ttpres/string/33012"
+msgid "“%s”遇到问题需要关闭，我们对此引起的不便表示抱歉。\n\n单击“确定”，将通过您的电子邮件发送以下信息以帮助开发人员进行错误分析。\n\n"
+msgstr ""
+
+msgctxt "ttpres/string/33048"
+msgid "压缩文件(zip;rar)"
+msgstr ""
+
+msgctxt "ttpres/string/33049"
+msgid "TAK 音频文件(*.tak)"
+msgstr ""
+
+msgctxt "ttpres/string/33050"
+msgid "Wave 文件输出"
+msgstr ""
+
+msgctxt "ttpres/string/33051"
+msgid "Window Media 音频文件(*.wma;*.wmv;*.asf)"
+msgstr ""
+
+msgctxt "ttpres/string/33052"
+msgid "CD 数字音轨(*.cda)"
+msgstr ""
+
+msgctxt "ttpres/string/33053"
+msgid "CUE 索引文件(*.cue)"
+msgstr ""
+
+msgctxt "ttpres/string/33054"
+msgid "MP3 音频文件(*.mp3;*.mp2;*.mp1;*.mpa;*.mp3pro)"
+msgstr ""
+
+msgctxt "ttpres/string/33055"
+msgid "MIDI 音乐文件(*.mid;*.midi;*.rmi)"
+msgstr ""
+
+msgctxt "ttpres/string/33056"
+msgid "Wave 音频文件(*.wav)"
+msgstr ""
+
+msgctxt "ttpres/string/33057"
+msgid "AIFF 音频文件(*.aif;*.aifc;*.aiff)"
+msgstr ""
+
+msgctxt "ttpres/string/33058"
+msgid "AU 音频文件(*.au;*.snd)"
+msgstr ""
+
+msgctxt "ttpres/string/33059"
+msgid "所有音频格式"
+msgstr ""
+
+msgctxt "ttpres/string/33060"
+msgid "所有文件(*.*)"
+msgstr ""
+
+msgctxt "ttpres/string/33061"
+msgid "播放列表文件(*.ttpl;*.ttbl;*.m3u;*.m3u8)"
+msgstr ""
+
+msgctxt "ttpres/string/33062"
+msgid "千千播放列表(*.ttpl;*.ttbl)"
+msgstr ""
+
+msgctxt "ttpres/string/33063"
+msgid "M3U播放列表(*.m3u;*.m3u8)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33064"
+msgid "同步歌词文件(lrc;txt)|*.lrc;*.txt||"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33065"
+msgid "图标文件|*.ico;*.exe;*.dll|所有文件|*.*||"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33066"
+msgid "驱动版本|音量调节|音量平衡|精确采样率"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33067"
+msgid "设备鉴定|驱动程序|支持采样率|硬件混音"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33068"
+msgid "最大声道数|支持采样率|输出比特|音量调节"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33069"
+msgid "最大声道数|支持采样率|输出比特|缓冲大小"
+msgstr ""
+
+msgctxt "ttpres/string/33080"
+msgid "<歌词下载文件夹>"
+msgstr ""
+
+msgctxt "ttpres/string/33081"
+msgid "<歌曲所在文件夹>"
+msgstr ""
+
+msgctxt "ttpres/string/33082"
+msgid "[默认]"
+msgstr ""
+
+msgctxt "ttpres/string/33083"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/string/33084"
+msgid "设备类型"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33085"
+msgid "%d 帧/秒"
+msgstr ""
+
+msgctxt "ttpres/string/33086"
+msgid "不使用"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33087"
+msgid "1/%d 高度(宽度)"
+msgstr ""
+
+msgctxt "ttpres/string/33088"
+msgid "全部重置"
+msgstr ""
+
+msgctxt "ttpres/string/33089"
+msgid "全部保存"
+msgstr ""
+
+msgctxt "ttpres/string/33090"
+msgid "相关链接:"
+msgstr ""
+
+msgctxt "ttpres/string/33091"
+msgid "所有的设置都将重置为默认值，要继续吗？"
+msgstr "All settings will be reset to their defaults. Continue?"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33092"
+msgid "支持|不支持"
+msgstr ""
+
+msgctxt "ttpres/string/33093"
+msgid "输入错误"
+msgstr ""
+
+msgctxt "ttpres/string/33094"
+msgid "文件名不能包含下列字符:"
+msgstr ""
+
+msgctxt "ttpres/string/33095"
+msgid "请输入一个网络URL添加到当前播放列表:"
+msgstr ""
+
+msgctxt "ttpres/string/33096"
+msgid "每周推荐"
+msgstr ""
+
+msgctxt "ttpres/string/33099"
+msgid "自定义..."
+msgstr "Custom..."
+
+msgctxt "ttpres/string/33100"
+msgid "默认"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33101"
+msgid "目标文件 %s 已存在，是否覆盖？"
+msgstr "The destination file %s already exists. Overwrite it?"
+
+msgctxt "ttpres/string/33102"
+msgid "保存文件失败！"
+msgstr "Failed to save the file!"
+
+msgctxt "ttpres/string/33103"
+msgid "该文件为“只读”属性，无法保存标签，尝试去掉“只读”属性后再保存文件？"
+msgstr "This file is read-only, so its tags cannot be saved. Remove the read-only attribute and try again?"
+
+msgctxt "ttpres/string/33104"
+msgid "请输入要一个文件名！"
+msgstr ""
+
+msgctxt "ttpres/string/33105"
+msgid "原始比特"
+msgstr ""
+
+msgctxt "ttpres/string/33106"
+msgid "请选择一个文件夹:"
+msgstr ""
+
+msgctxt "ttpres/string/33107"
+msgid "包括子目录"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33108"
+msgid "单声道|立体声|三声道|四声道|五声道|5.1声道|6.1声道|7.1声道|未知声道"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33109"
+msgid "标题|状态|源文件|目标文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33110"
+msgid "属性|值"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33111"
+msgid "歌手|歌名"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33112"
+msgid "文件名|所在位置"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33113"
+msgid "歌曲文件|歌词文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33114"
+msgid "命令|快捷键|全局键"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33115"
+msgid "描述|文件名"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33116"
+msgid "标题|艺术家|专辑|格式|文件名"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33117"
+msgid "waveOut(Windows 波型输出)|DirectSound|Kernel Streaming(内核音频流)|ASIO(Steinberg Audio Stream I/O API)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+msgctxt "ttpres/string/33118"
+msgid "\"该内核音频输出设备只支持 %dHz 这一种采样频率，如果遇到别的采样频率的文件将无法播放！\n启用采样频率转换可以解决这个问题，是否启用采样频率转换？"
+msgstr ""
+
+msgctxt "ttpres/string/33119"
+msgid "读取音频设备信息失败！"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33120"
+msgid "已完成|已跳过|出错"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33121"
+msgid "正在转换第 %d 个文件, 共 %d 个"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33122"
+msgid "正在扫描第 %d 个文件, 共 %d 个"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33123"
+msgid "正在删除增益信息...|要终止吗？"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33124"
+msgid "专辑|流派|年代|----"
+msgstr ""
+
+msgctxt "ttpres/string/33125"
+msgid "查询CDDB失败: 无法从服务器读取信息！"
+msgstr "CDDB lookup failed: unable to read information from the server!"
+
+#, c-format
+msgctxt "ttpres/string/33126"
+msgid "保存音轨信息失败: %s！"
+msgstr ""
+
+msgctxt "ttpres/string/33127"
+msgid "未能从freedb网站上取得当前CD信息！"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33128"
+msgid "查询CDDB失败:\n"
+msgstr ""
+
+msgctxt "ttpres/string/33130"
+msgid "(不同的值)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33131"
+msgid "正在检查文件更新...|要终止读取吗？"
+msgstr "Checking for file updates...|Stop reading?"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33132"
+msgid "正在保存文件属性...|要终止保存吗？"
+msgstr "Saving file properties...|Stop saving?"
+
+#, c-format
+msgctxt "ttpres/string/33133"
+msgid "文件属性(%d个文件)"
+msgstr "File properties (%d files)"
+
+#, c-format
+msgctxt "ttpres/string/33134"
+msgid "文件属性(%d/%d)"
+msgstr "File properties (%d/%d)"
+
+msgctxt "ttpres/string/33135"
+msgid "文件属性(正在播放)"
+msgstr "File properties (playing)"
+
+msgctxt "ttpres/string/33136"
+msgid "很多软件(例如Winamp)不支持基于UTF-8编码的ID3v2标签，是否继续？"
+msgstr "Many programs (such as Winamp) do not support ID3v2 tags encoded in UTF-8. Continue?"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33137"
+msgid "简体中文|繁体中文|韩文|日文(Shift-JIS)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33140"
+msgid "推荐配置|流行音乐|摇滚|金属乐|舞曲|电子乐|乡村音乐|爵士乐|古典乐|布鲁斯|怀旧音乐|歌剧|语音"
+msgstr ""
+
+msgctxt "ttpres/string/33141"
+msgid "配置文件"
+msgstr ""
+
+msgctxt "ttpres/string/33142"
+msgid "重设均衡器"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33143"
+msgid "均衡: %d db"
+msgstr ""
+
+msgctxt "ttpres/string/33144"
+msgid "已取消歌词下载"
+msgstr ""
+
+msgctxt "ttpres/string/33145"
+msgid "正在下载歌词..."
+msgstr ""
+
+msgctxt "ttpres/string/33146"
+msgid "正在服务器上搜索歌词..."
+msgstr ""
+
+msgctxt "ttpres/string/33147"
+msgid "在线搜索歌词失败！"
+msgstr ""
+
+msgctxt "ttpres/string/33148"
+msgid "音频文件中的歌词已修改，是否保存？"
+msgstr "The embedded lyrics have been modified. Save them?"
+
+msgctxt "ttpres/string/33149"
+msgid "歌词文件已修改，是否保存？"
+msgstr "The lyric file has been modified. Save it?"
+
+msgctxt "ttpres/string/33150"
+msgid "该音频文件的标签中未包含歌词！"
+msgstr "This audio file does not contain embedded lyrics!"
+
+msgctxt "ttpres/string/33151"
+msgid "该音频文件不支持文件属性标签！"
+msgstr ""
+
+msgctxt "ttpres/string/33152"
+msgid "该音频文件无法写入歌词标签！"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33153"
+msgid "打开歌词文件 %s 失败！"
+msgstr "Failed to open lyric file %s!"
+
+#, c-format
+msgctxt "ttpres/string/33154"
+msgid "保存歌词文件 %s 失败！"
+msgstr "Failed to save lyric file %s!"
+
+msgctxt "ttpres/string/33155"
+msgid "上传歌词"
+msgstr "Upload lyrics"
+
+msgctxt "ttpres/string/33156"
+msgid "选择歌词文件进行下载"
+msgstr ""
+
+msgctxt "ttpres/string/33157"
+msgid "下载歌词失败！"
+msgstr ""
+
+msgctxt "ttpres/string/33158"
+msgid "下载歌词成功！"
+msgstr ""
+
+msgctxt "ttpres/string/33159"
+msgid "重命名歌词文件失败！"
+msgstr "Failed to rename the lyric file!"
+
+#, c-format
+msgctxt "ttpres/string/33170"
+msgid "新列表%d"
+msgstr ""
+
+msgctxt "ttpres/string/33171"
+msgid "未找到任何相匹配的文件！"
+msgstr "No matching files found!"
+
+#, c-format
+msgctxt "ttpres/string/33172"
+msgid "打开播放列表 %s 失败！"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33173"
+msgid "保存播放列表 %s 失败！"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33174"
+msgid "文件夹 %s 下的已经存在的同名播放列表将被覆盖，要继续吗？"
+msgstr "Existing playlists with the same names in %s will be overwritten. Continue?"
+
+msgctxt "ttpres/string/33175"
+msgid "未选中任何文件！"
+msgstr "No files selected!"
+
+msgctxt "ttpres/string/33176"
+msgid "正在查找文件..."
+msgstr ""
+
+msgctxt "ttpres/string/33177"
+msgid "无法移动或复制到同一个播放列表！"
+msgstr "Cannot move or copy files to the same playlist!"
+
+msgctxt "ttpres/string/33178"
+msgid "是否同时删除已关联的歌词文件？"
+msgstr "Also delete the associated lyric files?"
+
+#, c-format
+msgctxt "ttpres/string/33180"
+msgid "是否同时发送相应的歌词文件到 %s ？"
+msgstr "Also send the corresponding lyric files to %s?"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33181"
+msgid "正在搜索本地的歌词文件...|要终止吗？"
+msgstr ""
+
+msgctxt "ttpres/string/33190"
+msgid "<默认皮肤>"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33191"
+msgid "确实要删除\"%s\"皮肤吗？"
+msgstr "Delete the \"%s\" skin?"
+
+msgctxt "ttpres/string/33192"
+msgid "千千播放(&T)"
+msgstr ""
+
+msgctxt "ttpres/string/33193"
+msgid "千千播放列表(&L)"
+msgstr ""
+
+msgctxt "ttpres/string/33194"
+msgid "未选中任何图标"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33195"
+msgid "选中了第 %d 个图标"
+msgstr ""
+
+msgctxt "ttpres/string/33196"
+msgid "搜索音频文件"
+msgstr ""
+
+msgctxt "ttpres/string/33197"
+msgid "请选择一个包括图标文件(例如:mp3.ico和wma.ico)的文件夹,将根据扩展名进行关联:"
+msgstr ""
+
+msgctxt "ttpres/string/33204"
+msgid "未选中文件"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33205"
+msgid "选中了%d个文件"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33206"
+msgid "距离自动关机还剩 %d 秒..."
+msgstr ""
+
+msgctxt "ttpres/string/33207"
+msgid "声道"
+msgstr ""
+
+msgctxt "ttpres/string/33208"
+msgid "静音"
+msgstr ""
+
+msgctxt "ttpres/string/33209"
+msgid "状态: 播放"
+msgstr ""
+
+msgctxt "ttpres/string/33210"
+msgid "状态: 暂停"
+msgstr ""
+
+msgctxt "ttpres/string/33211"
+msgid "状态: 停止"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33212"
+msgid "音量: %d%%"
+msgstr ""
+
+msgctxt "ttpres/string/33213"
+msgid "平衡: 居中"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33214"
+msgid "偏左: %d%%"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33215"
+msgid "偏右: %d%%"
+msgstr ""
+
+msgctxt "ttpres/string/33216"
+msgid "环绕: 关闭"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33217"
+msgid "环绕: %d"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33218"
+msgid "普通模式|迷你模式"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+msgctxt "ttpres/string/33219"
+msgid "作者: %s\n主页: %s\n邮箱: %s"
+msgstr ""
+
+msgctxt "ttpres/string/33220"
+msgid "(请到选项的\"播放列表\"页中启用或禁用本功能)"
+msgstr ""
+
+msgctxt "ttpres/string/33221"
+msgid "现在播放:"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33223"
+msgid "%d%% 透明"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33224"
+msgid "(未知%s)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33225"
+msgid "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)|文件名: %(Filename)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33226"
+msgid "标题: %(Title)|艺术家: %(Artist)|专辑: %(Album)|格式: %(Format)|长度: %(Duration)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33227"
+msgid "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+msgctxt "ttpres/string/33228"
+msgid "我的音乐|艺术家|专辑|流派|年代|评级|%d 星级"
+msgstr ""
+
+msgctxt "ttpres/string/33229"
+msgid "必须先启用才能媒体库切换，现在要启用媒体库吗？"
+msgstr "The media library must be enabled before switching to it. Enable it now?"
+
+msgctxt "ttpres/string/33230"
+msgid "[媒体库]"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33231"
+msgid "%d 星级"
+msgstr ""
+
+msgctxt "ttpres/string/33250"
+msgid "下载管理"
+msgstr ""
+
+msgctxt "ttpres/string/33251"
+msgid "歌曲名"
+msgstr ""
+
+msgctxt "ttpres/string/33252"
+msgid "歌手名"
+msgstr ""
+
+msgctxt "ttpres/string/33253"
+msgid "格式"
+msgstr ""
+
+msgctxt "ttpres/string/33254"
+msgid "大小"
+msgstr ""
+
+msgctxt "ttpres/string/33255"
+msgid "进度"
+msgstr ""
+
+msgctxt "ttpres/string/33256"
+msgid "速度"
+msgstr ""
+
+msgctxt "ttpres/string/33257"
+msgid "下载时间"
+msgstr ""
+
+msgctxt "ttpres/string/33258"
+msgid "码率Kbps"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33259"
+msgid " 下载中(%u)"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33260"
+msgid " 已下载(%u)"
+msgstr ""
+
+msgctxt "ttpres/string/33261"
+msgid "未知"
+msgstr ""
+
+msgctxt "ttpres/string/33262"
+msgid "在线试听"
+msgstr ""
+
+msgctxt "ttpres/string/33263"
+msgid "歌曲下载"
+msgstr ""
+
+msgctxt "ttpres/string/33264"
+msgid "下载路径\\TEMP"
+msgstr ""
+
+msgctxt "ttpres/string/33265"
+msgid "错误"
+msgstr ""
+
+msgctxt "ttpres/string/33266"
+msgid "下载目录不存在，请更换下载目录"
+msgstr ""
+
+msgctxt "ttpres/string/33267"
+msgid "下载拷贝失败，请检查磁盘空间或确保没有同名文件被使用"
+msgstr ""
+
+msgctxt "ttpres/string/33268"
+msgid "信息"
+msgstr "Information"
+
+msgctxt "ttpres/string/33269"
+msgid "对不起，您没有安装音乐窗，不支持音乐窗及下载管理功能"
+msgstr "Music Window is not installed. Music Window and download management are unavailable."
+
+msgctxt "ttpres/string/33270"
+msgid "对不起，对应的歌曲文件不存在"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33300"
+msgid "%d %% 高度"
+msgstr ""
+
+msgctxt "ttpres/string/33302"
+msgid "暂不支持该媒体格式的封面显示"
+msgstr ""
+
+msgctxt "ttpres/string/33303"
+msgid "上一首"
+msgstr ""
+
+msgctxt "ttpres/string/33304"
+msgid "下一首"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33305"
+msgid "%d个文件中含有专辑封面信息"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/string/33306"
+msgid "请将图片大小限制在 %d 个字节以内"
+msgstr ""
+
+msgctxt "ttpres/string/33307"
+msgid "添加专辑封面"
+msgstr ""
+
+msgctxt "ttpres/string/33308"
+msgid "保存到文件"
+msgstr ""
+
+msgctxt "ttpres/string/33309"
+msgid "重新读取文件"
+msgstr ""
+
+msgctxt "ttpres/string/33320"
+msgid "个人版"
+msgstr ""
+
+msgctxt "ttpres/string/33321"
+msgid "千千音乐每周推荐"
+msgstr ""
+
+msgctxt "ttpres/string/33401"
+msgid "启动时自动显示"
+msgstr ""
+
+msgctxt "ttpres/string/33402"
+msgid "千千静听使用技巧"
+msgstr ""
+
+msgctxt "ttpres/string/33403"
+msgid "对不起，您没有安装千千音乐窗模块。请重新安装千千静听并选择千千音乐窗。"
+msgstr "The TTPlayer Music Window module is not installed. Reinstall TTPlayer and select Music Window."
+
+msgctxt "ttpres/string/33405"
+msgid "点击这里打开“千千音乐窗”！"
+msgstr ""
+
+msgctxt "ttpres/string/33406"
+msgid "正在打开网页..."
+msgstr ""
+
+msgctxt "ttpres/string/33407"
+msgid "歌曲已成功添加到下载界面，点击此处可查看"
+msgstr ""
+
+msgctxt "ttpres/string/33408"
+msgid "提示"
+msgstr ""
+
+msgctxt "ttpres/string/33409"
+msgid "可在右键菜单选择“解锁桌面歌词”"
+msgstr ""
+
+msgctxt "ttpres/string/33411"
+msgid "状态: 连接"
+msgstr ""
+
+msgctxt "ttpres/string/33412"
+msgid "状态: 缓冲"
+msgstr ""
+
+msgctxt "ttpres/string/33413"
+msgid "状态: 无效"
+msgstr ""
+
+msgctxt "ttpres/string/33421"
+msgid "了解更多歌曲信息"
+msgstr ""
+
+msgctxt "ttpres/string/33422"
+msgid "无法打开 - 文件无效或不存在"
+msgstr "Unable to open the file: it is invalid or does not exist."
+
+msgctxt "ttpres/string/33423"
+msgid "无法连接到网络媒体"
+msgstr ""
+
+msgctxt "ttpres/string/33424"
+msgid "无法获得网络资源"
+msgstr ""
+
+msgctxt "ttpres/string/33425"
+msgid "无法打开网络媒体"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33430"
+msgid "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)|歌曲出处: %(Filename)"
+msgstr ""
+
+msgctxt "ttpres/string/33431"
+msgid "网络音乐"
+msgstr ""
+
+msgctxt "ttpres/string/33433"
+msgid "5.7 正式版"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33441"
+msgid "升级新版本失败！\r\n\r\n请到千千静听网站(http://ttplayer.qianqian.com)下载新版本。\r\n感谢使用千千静听！"
+msgstr ""
+
+msgctxt "ttpres/string/33442"
+msgid "升级失败"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/33443"
+msgid "下载完成！单击“安装”开始安装新版本！\r\n\r\n（如果程序正在运行，将被自动关闭）"
+msgstr ""
+
+msgctxt "ttpres/string/33444"
+msgid "千千静听在线升级"
+msgstr ""
+
+msgctxt "ttpres/string/34000"
+msgid "感谢您对歌曲的举报，我们会尽快纠正"
+msgstr ""
+
+msgctxt "ttpres/string/34001"
+msgid "举报歌曲"
+msgstr "Report song"
+
+msgctxt "ttpres/string/34002"
+msgid "歌曲："
+msgstr ""
+
+msgctxt "ttpres/string/34003"
+msgid "已经存在于下载管理列表"
+msgstr ""
+
+msgctxt "ttpres/string/35000"
+msgid "正在下载"
+msgstr ""
+
+msgctxt "ttpres/string/35001"
+msgid "暂停下载"
+msgstr ""
+
+msgctxt "ttpres/string/35002"
+msgid "等待下载"
+msgstr ""
+
+msgctxt "ttpres/string/35003"
+msgid "下载失败或存储目录不存在"
+msgstr ""
+
+msgctxt "ttpres/string/36000"
+msgid "友情提示"
+msgstr "Notice"
+
+msgctxt "ttpres/string/36001"
+msgid "对不起，文件已被移动或删除"
+msgstr "The file has been moved or deleted."
+
+msgctxt "ttpres/string/36002"
+msgid "播放歌曲"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/36003"
+msgid "歌曲名: %(Title)|歌手名: %(Artist)|格  式: %(Format)|长  度: %(Duration)"
+msgstr ""
+
+msgctxt "ttpres/string/36004"
+msgid "网络歌曲"
+msgstr ""
+
+msgctxt "ttpres/string/36005"
+msgid "本地歌曲"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57601"
+msgid "打开一个音频文件进行播放\n播放文件"
+msgstr ""
+
+msgctxt "ttpres/string/57602"
+msgid "关闭文件"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57634"
+msgid "复制选定内容并将其放到剪贴板上\n复制"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57635"
+msgid "剪切选定内容并将其放到剪贴板上\n剪切"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57636"
+msgid "查找指定的文字\n查找"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57637"
+msgid "插入剪贴板内容\n粘贴"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57641"
+msgid "替换并指定的文字\n替换"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57642"
+msgid "选中全部的内容\n全选"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57643"
+msgid "撤消上次的操作\n撤消"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57644"
+msgid "重做上次撤消的动作\n重做"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57664"
+msgid "“千千静听”的参数选项\n千千选项"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/57665"
+msgid "退出“千千静听”\n退出"
+msgstr ""
+
+msgctxt "ttpres/string/6"
+msgid "是"
+msgstr ""
+
+msgctxt "ttpres/string/7"
+msgid "否"
+msgstr ""
+
+msgctxt "ttpres/string/8"
+msgid "关闭"
+msgstr "Close"
+
+# === ttpres 菜单 ===
+
+msgctxt "ttpres/menu/130/item/0"
+msgid "DOWNLOADING"
+msgstr ""
+
+msgctxt "ttpres/menu/130/item/0.0"
+msgid "开始下载(&S)"
+msgstr ""
+
+msgctxt "ttpres/menu/130/item/0.1"
+msgid "暂停下载(&P)"
+msgstr ""
+
+msgctxt "ttpres/menu/130/item/0.2"
+msgid "删除任务(&E)"
+msgstr ""
+
+msgctxt "ttpres/menu/130/item/0.3"
+msgid "全部选中(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/138/item/0"
+msgid "Main Menu"
+msgstr ""
+
+msgctxt "ttpres/menu/138/item/0.0"
+msgid "千千选项..."
+msgstr "Options..."
+
+msgctxt "ttpres/menu/138/item/0.1"
+msgid "相关链接"
+msgstr "Related links"
+
+msgctxt "ttpres/menu/138/item/0.10"
+msgid "歌词编辑"
+msgstr "Lyric editor"
+
+msgctxt "ttpres/menu/138/item/0.11"
+msgid "均衡器"
+msgstr "Equalizer"
+
+msgctxt "ttpres/menu/138/item/0.13"
+msgid "皮肤"
+msgstr "Skins"
+
+msgctxt "ttpres/menu/138/item/0.14"
+msgid "透明"
+msgstr "Opacity"
+
+msgctxt "ttpres/menu/138/item/0.15"
+msgid "查看"
+msgstr "View"
+
+msgctxt "ttpres/menu/138/item/0.17"
+msgid "显示桌面歌词"
+msgstr "Show desktop lyrics"
+
+msgctxt "ttpres/menu/138/item/0.19"
+msgid "最小化"
+msgstr "Minimize"
+
+msgctxt "ttpres/menu/138/item/0.20"
+msgid "全屏显示"
+msgstr "Fullscreen"
+
+msgctxt "ttpres/menu/138/item/0.21"
+msgid "退出(&X)"
+msgstr "E&xit"
+
+msgctxt "ttpres/menu/138/item/0.3"
+msgid "播放控制"
+msgstr "Playback"
+
+msgctxt "ttpres/menu/138/item/0.4"
+msgid "音量控制"
+msgstr "Volume"
+
+msgctxt "ttpres/menu/138/item/0.5"
+msgid "播放模式"
+msgstr "Playback order"
+
+msgctxt "ttpres/menu/138/item/0.6"
+msgid "播放曲目"
+msgstr "Tracks"
+
+msgctxt "ttpres/menu/138/item/0.8"
+msgid "视觉效果"
+msgstr "Visualization"
+
+msgctxt "ttpres/menu/138/item/0.9"
+msgid "歌词秀"
+msgstr "Lyrics"
+
+msgctxt "ttpres/menu/139/item/0"
+msgid "添加"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/0.0"
+msgid "文件(&F)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/0.1"
+msgid "文件夹(&P)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/0.2"
+msgid "本地搜索(&S)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/0.3"
+msgid "网上搜索(&O)..."
+msgstr "Search &online..."
+
+msgctxt "ttpres/menu/139/item/0.5"
+msgid "添加 &URL..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/1"
+msgid "删除"
+msgstr "Delete"
+
+msgctxt "ttpres/menu/139/item/1.0"
+msgid "选中的文件(&S)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/1.1"
+msgid "重复的文件(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/1.2"
+msgid "错误的文件(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/1.4"
+msgid "全部删除(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/1.6"
+msgid "物理删除(&P)"
+msgstr "Delete &file"
+
+msgctxt "ttpres/menu/139/item/2"
+msgid "列表"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.0"
+msgid "新建列表(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.1"
+msgid "添加列表(&A)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.2"
+msgid "打开列表(&O)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.3"
+msgid "保存列表(&S)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.4"
+msgid "删除列表(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.6"
+msgid "保存所有列表..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/2.8"
+msgid "媒体库模式"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3"
+msgid "排序"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.0"
+msgid "按显示标题(&T)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.1"
+msgid "按文件名(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.2"
+msgid "按路径名(&P)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.3"
+msgid "按专辑名(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.4"
+msgid "按星级(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.5"
+msgid "按文件时间(&T)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.6"
+msgid "按音轨序号(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.7"
+msgid "按播放长度(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/3.9"
+msgid "随机乱序(&S)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/4"
+msgid "查找"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/4.0"
+msgid "快速定位(&J)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/4.2"
+msgid "查找歌曲(&F)..."
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/4.3"
+msgid "查找下一个(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/5"
+msgid "编辑"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/5.0"
+msgid "剪切(&T)"
+msgstr "Cu&t"
+
+msgctxt "ttpres/menu/139/item/5.1"
+msgid "复制(&C)"
+msgstr "&Copy"
+
+msgctxt "ttpres/menu/139/item/5.2"
+msgid "粘贴(&P)"
+msgstr "&Paste"
+
+msgctxt "ttpres/menu/139/item/5.4"
+msgid "移动到列表..."
+msgstr "Move to playlist..."
+
+msgctxt "ttpres/menu/139/item/5.5"
+msgid "复制到列表..."
+msgstr "Copy to playlist..."
+
+msgctxt "ttpres/menu/139/item/5.7"
+msgid "全部选中(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/5.8"
+msgid "全部不选(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/5.9"
+msgid "反向选中(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6"
+msgid "模式"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.0"
+msgid "单曲播放(&S)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.1"
+msgid "单曲循环(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.2"
+msgid "顺序播放(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.3"
+msgid "循环播放(&C)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.4"
+msgid "随机播放(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.6"
+msgid "播放跟随光标(&F)"
+msgstr ""
+
+msgctxt "ttpres/menu/139/item/6.7"
+msgid "自动切换列表(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0"
+msgid "Player"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.0"
+msgid "播放(&P)"
+msgstr "&Play"
+
+msgctxt "ttpres/menu/141/item/0.1"
+msgid "暂停(&P)"
+msgstr "&Pause"
+
+msgctxt "ttpres/menu/141/item/0.10"
+msgid "播放文件(&O)..."
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.11"
+msgid "播放 C&D/VCD"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.12"
+msgid "播放 &URL"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.14"
+msgid "关闭文件(&C)"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.2"
+msgid "停止(&S)"
+msgstr "&Stop"
+
+msgctxt "ttpres/menu/141/item/0.4"
+msgid "快退5秒(&B)"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.5"
+msgid "快进5秒(&F)"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.7"
+msgid "上一首(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/141/item/0.8"
+msgid "下一首(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/142/item/0"
+msgid "Volume"
+msgstr ""
+
+msgctxt "ttpres/menu/142/item/0.0"
+msgid "增大(&U)"
+msgstr ""
+
+msgctxt "ttpres/menu/142/item/0.1"
+msgid "减小(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/142/item/0.3"
+msgid "静音(&M)"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0"
+msgid "Lyric"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0"
+msgid "调整歌词"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.0"
+msgid "本句提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.1"
+msgid "本句延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.2"
+msgid "其后提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.3"
+msgid "其后延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.4"
+msgid "全部提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.5"
+msgid "全部延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.7"
+msgid "全部调整..."
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.0.9"
+msgid "鼠标滚轮调整"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.10"
+msgid "上传歌词(U)..."
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.11"
+msgid "内嵌歌词"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.11.0"
+msgid "嵌入到音频文件"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.11.1"
+msgid "从音频文件中读取"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.11.2"
+msgid "从音频文件中删除"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.13"
+msgid "显示方式"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.13.0"
+msgid "水平滚动(&M)"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.13.2"
+msgid "卡拉OK方式"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.13.3"
+msgid "以背景色透明"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.13.4"
+msgid "淡入淡出当前行"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.14"
+msgid "简繁转换"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.14.0"
+msgid "简体 -> 繁体"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.14.1"
+msgid "繁体 -> 简体"
+msgstr ""
+
+msgctxt "ttpres/menu/143/item/0.15"
+msgid "字符编码"
+msgstr "Text encoding"
+
+msgctxt "ttpres/menu/143/item/0.15.0"
+msgid "系统默认"
+msgstr "System default"
+
+msgctxt "ttpres/menu/143/item/0.16"
+msgid "总在最前(&T)"
+msgstr "Always on &top"
+
+msgctxt "ttpres/menu/143/item/0.17"
+msgid "显示桌面歌词"
+msgstr "Show desktop lyrics"
+
+msgctxt "ttpres/menu/143/item/0.18"
+msgid "全屏显示"
+msgstr "Fullscreen"
+
+msgctxt "ttpres/menu/143/item/0.2"
+msgid "在线搜索(&D)..."
+msgstr "Search &online..."
+
+msgctxt "ttpres/menu/143/item/0.20"
+msgid "退出全屏(&F)"
+msgstr "Exit &fullscreen"
+
+msgctxt "ttpres/menu/143/item/0.22"
+msgid "选项(&P)..."
+msgstr "&Preferences..."
+
+msgctxt "ttpres/menu/143/item/0.3"
+msgid "关联歌词(&L)..."
+msgstr "&Associate lyrics..."
+
+msgctxt "ttpres/menu/143/item/0.4"
+msgid "编辑歌词(&E)"
+msgstr "&Edit lyrics"
+
+msgctxt "ttpres/menu/143/item/0.6"
+msgid "复制歌词(&C)"
+msgstr "&Copy lyrics"
+
+msgctxt "ttpres/menu/143/item/0.7"
+msgid "撤消歌词(&U)"
+msgstr "&Unload lyrics"
+
+msgctxt "ttpres/menu/143/item/0.8"
+msgid "重新载入(&R)"
+msgstr "&Reload"
+
+msgctxt "ttpres/menu/144/item/0"
+msgid "Equalizer"
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.0"
+msgid "推荐配置"
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.1"
+msgid "自定义"
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.2"
+msgid "可选类别"
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.2.0"
+msgid "<>"
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.2.2"
+msgid "从文件加载..."
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.2.3"
+msgid "保存到文件..."
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.4"
+msgid "启用均衡器"
+msgstr ""
+
+msgctxt "ttpres/menu/144/item/0.5"
+msgid "启用杜比环绕"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0"
+msgid "Visual"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0.0"
+msgid "梦幻星空(&G)"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0.1"
+msgid "频谱分析(&S)"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0.11"
+msgid "选项(&P)..."
+msgstr "&Preferences..."
+
+msgctxt "ttpres/menu/145/item/0.2"
+msgid "示波显示(&O)"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0.4"
+msgid "专辑封面(&T)"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0.5"
+msgid "不显示(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/145/item/0.7"
+msgid "全屏显示"
+msgstr "Fullscreen"
+
+msgctxt "ttpres/menu/145/item/0.9"
+msgid "退出全屏(&F)"
+msgstr "Exit &fullscreen"
+
+msgctxt "ttpres/menu/146/item/0"
+msgid "Windows"
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.0"
+msgid "歌词秀(&L)\tF2 "
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.1"
+msgid "均衡器(&E)\tF3 "
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.10"
+msgid "重新排列(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.11"
+msgid "总在最前(&T)"
+msgstr "Always on &top"
+
+msgctxt "ttpres/menu/146/item/0.2"
+msgid "播放列表(&P)\tF4 "
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.3"
+msgid "音乐窗口(&B)\tF11"
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.5"
+msgid "文件属性(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.7"
+msgid "媒体库模式"
+msgstr ""
+
+msgctxt "ttpres/menu/146/item/0.9"
+msgid "迷你模式(&M)"
+msgstr ""
+
+msgctxt "ttpres/menu/147/item/0"
+msgid "Alpha"
+msgstr ""
+
+msgctxt "ttpres/menu/147/item/0.0"
+msgid "不透明"
+msgstr ""
+
+msgctxt "ttpres/menu/147/item/0.1"
+msgid "激活时不透明"
+msgstr ""
+
+msgctxt "ttpres/menu/147/item/0.3"
+msgid "窗口阴影"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0"
+msgid "Lyric Edit"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.0"
+msgid "插入标签(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.1"
+msgid "替换标签(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.11"
+msgid "调整时间"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.11.0"
+msgid "全部提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.11.1"
+msgid "全部延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.11.3"
+msgid "全部调整..."
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.13"
+msgid "排列方式"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.13.0"
+msgid "全部展开(&E)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.13.1"
+msgid "全部压缩(&C)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.15"
+msgid "内嵌歌词"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.15.0"
+msgid "嵌入到音频文件"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.15.1"
+msgid "从音频文件中读取"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.15.2"
+msgid "从音频文件中删除"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.17"
+msgid "返回显示(&B)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.2"
+msgid "删除标签(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.3"
+msgid "修改标签后换行"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.5"
+msgid "剪切(&T)"
+msgstr "Cu&t"
+
+msgctxt "ttpres/menu/148/item/0.6"
+msgid "复制(&C)"
+msgstr "&Copy"
+
+msgctxt "ttpres/menu/148/item/0.7"
+msgid "粘贴(&P)"
+msgstr "&Paste"
+
+msgctxt "ttpres/menu/148/item/0.8"
+msgid "全选(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.9"
+msgid "简繁转换"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.9.0"
+msgid "简体 -> 繁体"
+msgstr ""
+
+msgctxt "ttpres/menu/148/item/0.9.1"
+msgid "繁体 -> 简体"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0"
+msgid "Play Mode"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.0"
+msgid "单曲播放(&S)"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.1"
+msgid "单曲循环(&I)"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.2"
+msgid "顺序播放(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.3"
+msgid "循环播放(&C)"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.4"
+msgid "随机播放(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.6"
+msgid "播放跟随光标(&F)"
+msgstr ""
+
+msgctxt "ttpres/menu/150/item/0.7"
+msgid "自动切换列表(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/151/item/0"
+msgid "PlayList"
+msgstr ""
+
+msgctxt "ttpres/menu/151/item/0.0"
+msgid "空"
+msgstr "Empty"
+
+msgctxt "ttpres/menu/152/item/0"
+msgid "PlayList Item"
+msgstr ""
+
+msgctxt "ttpres/menu/152/item/0.0"
+msgid "播放(&P)"
+msgstr "&Play"
+
+msgctxt "ttpres/menu/152/item/0.11"
+msgid "转换格式(&C)..."
+msgstr "&Convert format..."
+
+msgctxt "ttpres/menu/152/item/0.12"
+msgid "回放增益"
+msgstr "ReplayGain"
+
+msgctxt "ttpres/menu/152/item/0.12.0"
+msgid "扫描增益信息"
+msgstr "Scan ReplayGain"
+
+msgctxt "ttpres/menu/152/item/0.12.1"
+msgid "删除增益信息"
+msgstr "Remove ReplayGain"
+
+msgctxt "ttpres/menu/152/item/0.14"
+msgid "重命名文件"
+msgstr "Rename file"
+
+msgctxt "ttpres/menu/152/item/0.14.0"
+msgid "歌曲名.扩展名"
+msgstr "Title.extension"
+
+msgctxt "ttpres/menu/152/item/0.14.1"
+msgid "歌手 - 歌曲名.扩展名"
+msgstr "Artist - Title.extension"
+
+msgctxt "ttpres/menu/152/item/0.14.2"
+msgid "歌曲名 - 歌手.扩展名"
+msgstr "Title - Artist.extension"
+
+msgctxt "ttpres/menu/152/item/0.14.4"
+msgid "自定义格式..."
+msgstr "Custom format..."
+
+msgctxt "ttpres/menu/152/item/0.15"
+msgid "发送到"
+msgstr "Send to"
+
+msgctxt "ttpres/menu/152/item/0.15.0"
+msgid "文件夹(&F)..."
+msgstr "&Folder..."
+
+msgctxt "ttpres/menu/152/item/0.16"
+msgid "下载歌曲(&D)"
+msgstr "&Download track"
+
+msgctxt "ttpres/menu/152/item/0.17"
+msgid "网上搜索(&O)..."
+msgstr "Search &online..."
+
+msgctxt "ttpres/menu/152/item/0.18"
+msgid "浏览文件(&F)..."
+msgstr "Show &file..."
+
+msgctxt "ttpres/menu/152/item/0.2"
+msgid "文件属性(&I)..."
+msgstr "File &properties..."
+
+msgctxt "ttpres/menu/152/item/0.20"
+msgid "网络歌曲举报(&R)..."
+msgstr "&Report online track..."
+
+msgctxt "ttpres/menu/152/item/0.22"
+msgid "选项(&O)..."
+msgstr "&Options..."
+
+msgctxt "ttpres/menu/152/item/0.3"
+msgid "freedb 查询..."
+msgstr ""
+
+msgctxt "ttpres/menu/152/item/0.5"
+msgid "评级"
+msgstr "Rating"
+
+msgctxt "ttpres/menu/152/item/0.5.0"
+msgid "1 星级(&1)"
+msgstr "&1 star"
+
+msgctxt "ttpres/menu/152/item/0.5.1"
+msgid "2 星级(&2)"
+msgstr "&2 stars"
+
+msgctxt "ttpres/menu/152/item/0.5.2"
+msgid "3 星级(&3)"
+msgstr "&3 stars"
+
+msgctxt "ttpres/menu/152/item/0.5.3"
+msgid "4 星级(&4)"
+msgstr "&4 stars"
+
+msgctxt "ttpres/menu/152/item/0.5.4"
+msgid "5 星级(&5)"
+msgstr "&5 stars"
+
+msgctxt "ttpres/menu/152/item/0.5.6"
+msgid "允许鼠标左键评级"
+msgstr "Allow rating with the left mouse button"
+
+msgctxt "ttpres/menu/152/item/0.7"
+msgid "删除(&E)"
+msgstr "R&emove"
+
+msgctxt "ttpres/menu/152/item/0.8"
+msgid "物理删除(&P)"
+msgstr "Delete &file"
+
+msgctxt "ttpres/menu/152/item/0.9"
+msgid "编辑列表"
+msgstr "Edit list"
+
+msgctxt "ttpres/menu/152/item/0.9.0"
+msgid "剪切(&T)"
+msgstr "Cu&t"
+
+msgctxt "ttpres/menu/152/item/0.9.1"
+msgid "复制(&C)"
+msgstr "&Copy"
+
+msgctxt "ttpres/menu/152/item/0.9.2"
+msgid "粘贴(&P)"
+msgstr "&Paste"
+
+msgctxt "ttpres/menu/152/item/0.9.4"
+msgid "移动到列表..."
+msgstr "Move to playlist..."
+
+msgctxt "ttpres/menu/152/item/0.9.5"
+msgid "复制到列表..."
+msgstr "Copy to playlist..."
+
+msgctxt "ttpres/menu/153/item/0"
+msgid "PlayList Items"
+msgstr ""
+
+msgctxt "ttpres/menu/153/item/0.0"
+msgid "批量文件属性(&I)..."
+msgstr ""
+
+msgctxt "ttpres/menu/153/item/0.11"
+msgid "重命名文件"
+msgstr "Rename file"
+
+msgctxt "ttpres/menu/153/item/0.11.0"
+msgid "歌曲名.扩展名"
+msgstr "Title.extension"
+
+msgctxt "ttpres/menu/153/item/0.11.1"
+msgid "歌手 - 歌曲名.扩展名"
+msgstr "Artist - Title.extension"
+
+msgctxt "ttpres/menu/153/item/0.11.2"
+msgid "歌曲名 - 歌手.扩展名"
+msgstr "Title - Artist.extension"
+
+msgctxt "ttpres/menu/153/item/0.11.4"
+msgid "自定义格式..."
+msgstr "Custom format..."
+
+msgctxt "ttpres/menu/153/item/0.12"
+msgid "发送到"
+msgstr "Send to"
+
+msgctxt "ttpres/menu/153/item/0.12.0"
+msgid "文件夹(&F)..."
+msgstr "&Folder..."
+
+msgctxt "ttpres/menu/153/item/0.14"
+msgid "选项(&O)..."
+msgstr "&Options..."
+
+msgctxt "ttpres/menu/153/item/0.2"
+msgid "批量评级"
+msgstr ""
+
+msgctxt "ttpres/menu/153/item/0.2.0"
+msgid "1 星级(&1)"
+msgstr "&1 star"
+
+msgctxt "ttpres/menu/153/item/0.2.1"
+msgid "2 星级(&2)"
+msgstr "&2 stars"
+
+msgctxt "ttpres/menu/153/item/0.2.2"
+msgid "3 星级(&3)"
+msgstr "&3 stars"
+
+msgctxt "ttpres/menu/153/item/0.2.3"
+msgid "4 星级(&4)"
+msgstr "&4 stars"
+
+msgctxt "ttpres/menu/153/item/0.2.4"
+msgid "5 星级(&5)"
+msgstr "&5 stars"
+
+msgctxt "ttpres/menu/153/item/0.4"
+msgid "删除(&E)"
+msgstr "R&emove"
+
+msgctxt "ttpres/menu/153/item/0.5"
+msgid "物理删除(&P)"
+msgstr "Delete &file"
+
+msgctxt "ttpres/menu/153/item/0.6"
+msgid "编辑列表"
+msgstr "Edit list"
+
+msgctxt "ttpres/menu/153/item/0.6.0"
+msgid "剪切(&T)"
+msgstr "Cu&t"
+
+msgctxt "ttpres/menu/153/item/0.6.1"
+msgid "复制(&C)"
+msgstr "&Copy"
+
+msgctxt "ttpres/menu/153/item/0.6.2"
+msgid "粘贴(&P)"
+msgstr "&Paste"
+
+msgctxt "ttpres/menu/153/item/0.6.4"
+msgid "移动到列表..."
+msgstr "Move to playlist..."
+
+msgctxt "ttpres/menu/153/item/0.6.5"
+msgid "复制到列表..."
+msgstr "Copy to playlist..."
+
+msgctxt "ttpres/menu/153/item/0.8"
+msgid "转换格式(&C)..."
+msgstr "&Convert format..."
+
+msgctxt "ttpres/menu/153/item/0.9"
+msgid "回放增益"
+msgstr "ReplayGain"
+
+msgctxt "ttpres/menu/153/item/0.9.0"
+msgid "扫描增益信息"
+msgstr "Scan ReplayGain"
+
+msgctxt "ttpres/menu/153/item/0.9.1"
+msgid "删除增益信息"
+msgstr "Remove ReplayGain"
+
+msgctxt "ttpres/menu/154/item/0"
+msgid "App Icon"
+msgstr ""
+
+msgctxt "ttpres/menu/154/item/0.0"
+msgid "默认或皮肤图标(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/154/item/0.1"
+msgid "自定义图标(&C)..."
+msgstr ""
+
+msgctxt "ttpres/menu/155/item/0"
+msgid "Skin"
+msgstr ""
+
+msgctxt "ttpres/menu/155/item/0.0"
+msgid "<默认皮肤>"
+msgstr ""
+
+msgctxt "ttpres/menu/155/item/0.3"
+msgid "选项(&O)..."
+msgstr "&Options..."
+
+msgctxt "ttpres/menu/156/item/0"
+msgid "Playlists"
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.0"
+msgid "切换列表(&W)"
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.11"
+msgid "按名称排序"
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.2"
+msgid "新建列表(&N)"
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.3"
+msgid "添加列表(&A)..."
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.4"
+msgid "保存列表(&S)..."
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.5"
+msgid "删除列表(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.7"
+msgid "保存所有列表..."
+msgstr ""
+
+msgctxt "ttpres/menu/156/item/0.9"
+msgid "重命名(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/157/item/0"
+msgid "Web"
+msgstr ""
+
+msgctxt "ttpres/menu/157/item/0.0"
+msgid "<>"
+msgstr ""
+
+msgctxt "ttpres/menu/158/item/0"
+msgid "profile"
+msgstr ""
+
+msgctxt "ttpres/menu/158/item/0.0"
+msgid "从文件加载..."
+msgstr ""
+
+msgctxt "ttpres/menu/158/item/0.1"
+msgid "保存到文件..."
+msgstr ""
+
+msgctxt "ttpres/menu/159/item/0"
+msgid "Library"
+msgstr ""
+
+msgctxt "ttpres/menu/159/item/0.0"
+msgid "文件属性(&I)..."
+msgstr "File &properties..."
+
+msgctxt "ttpres/menu/159/item/0.1"
+msgid "保存列表(&S)..."
+msgstr ""
+
+msgctxt "ttpres/menu/159/item/0.3"
+msgid "全部选中(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/159/item/0.4"
+msgid "删除(&D)"
+msgstr ""
+
+msgctxt "ttpres/menu/159/item/0.6"
+msgid "刷新(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/159/item/0.8"
+msgid "选项(&O)..."
+msgstr "&Options..."
+
+msgctxt "ttpres/menu/388/item/0"
+msgid "PROFILE"
+msgstr ""
+
+msgctxt "ttpres/menu/388/item/0.0"
+msgid "方案一"
+msgstr ""
+
+msgctxt "ttpres/menu/388/item/0.2"
+msgid "修改预设方案"
+msgstr ""
+
+msgctxt "ttpres/menu/388/item/0.2.0"
+msgid "修改方案一"
+msgstr ""
+
+msgctxt "ttpres/menu/388/item/0.3"
+msgid "选项(&P)..."
+msgstr "&Preferences..."
+
+msgctxt "ttpres/menu/389/item/0"
+msgid "桌面歌词"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.0"
+msgid "预设方案"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.1"
+msgid "显示方式"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.1.0"
+msgid "单行显示"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.1.1"
+msgid "双行显示"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.10"
+msgid "锁定桌面歌词"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.11"
+msgid "返回窗口模式"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.13"
+msgid "选项(&P)..."
+msgstr "&Preferences..."
+
+msgctxt "ttpres/menu/389/item/0.2"
+msgid "简繁转换"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.2.0"
+msgid "简体 -> 繁体"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.2.1"
+msgid "繁体 -> 简体"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.3"
+msgid "总在最前"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5"
+msgid "调整歌词"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.0"
+msgid "本句提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.1"
+msgid "本句延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.2"
+msgid "其后提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.3"
+msgid "其后延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.4"
+msgid "全部提前0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.5"
+msgid "全部延后0.5秒"
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.5.7"
+msgid "全部调整..."
+msgstr ""
+
+msgctxt "ttpres/menu/389/item/0.7"
+msgid "在线搜索(&D)..."
+msgstr "Search &online..."
+
+msgctxt "ttpres/menu/389/item/0.9"
+msgid "歌词背景穿透"
+msgstr ""
+
+msgctxt "ttpres/menu/390/item/0"
+msgid "全屏显示"
+msgstr "Fullscreen"
+
+msgctxt "ttpres/menu/390/item/0.0"
+msgid "歌词全屏"
+msgstr ""
+
+msgctxt "ttpres/menu/390/item/0.1"
+msgid "视觉全屏"
+msgstr ""
+
+msgctxt "ttpres/menu/390/item/0.3"
+msgid "歌词视觉同屏"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0"
+msgid "DOWNLOADED"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.0"
+msgid "播放歌曲(&P)"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.1"
+msgid "添加到列表(&D)..."
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.3"
+msgid "删除记录(&E)"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.4"
+msgid "删除文件(&L)"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.5"
+msgid "重新下载(&R)"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.7"
+msgid "全部选中(&A)"
+msgstr ""
+
+msgctxt "ttpres/menu/394/item/0.8"
+msgid "浏览文件(&F)..."
+msgstr "Show &file..."
+
+msgctxt "ttpres/menu/394/item/0.9"
+msgid "发送到"
+msgstr "Send to"
+
+msgctxt "ttpres/menu/394/item/0.9.0"
+msgid "文件夹(&F)..."
+msgstr "&Folder..."
+
+# === ttpres 对话框 ===
+
+msgctxt "ttpres/dialog/200/control/1005/0"
+msgid "nanling"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/1009/0"
+msgid "千千静听"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/1011/0"
+msgid "0.0"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/1020/0"
+msgid "XXX 个人版"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/1040/0"
+msgid "0000"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/4294967295/0"
+msgid "2003-2011"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/4294967295/1"
+msgid "作者: "
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/4294967295/2"
+msgid "版本:"
+msgstr ""
+
+#: src/ui/player_window_options.cpp:4282
+msgctxt "ttpres/dialog/200/control/4294967295/3"
+msgid "完成日期:"
+msgstr "Completion date:"
+
+msgctxt "ttpres/dialog/200/control/4294967295/4"
+msgid "简介"
+msgstr ""
+
+msgctxt "ttpres/dialog/200/control/4294967295/5"
+msgid "版权所有: "
+msgstr ""
+
+msgctxt "ttpres/dialog/200/title"
+msgid "关于"
+msgstr "About"
+
+msgctxt "ttpres/dialog/202/control/1002/0"
+msgid "查找下一个"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1004/0"
+msgid "替换"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1008/0"
+msgid "替换为:"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1010/0"
+msgid "大小写匹配"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1012/0"
+msgid "全字匹配"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1014/0"
+msgid "向上搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1016/0"
+msgid "整个文档"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1017/0"
+msgid "仅限选定内容"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1019/0"
+msgid "全部替换"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1022/0"
+msgid "搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/1024/0"
+msgid "查找内容:"
+msgstr ""
+
+msgctxt "ttpres/dialog/202/control/2/0"
+msgid "关闭"
+msgstr "Close"
+
+msgctxt "ttpres/dialog/202/title"
+msgid "查找"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/1002/0"
+msgid "查找下一个"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/1052/0"
+msgid "提示: 在播放列表中输入汉字拼音的首字母即可快速定位"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/1102/0"
+msgid "反方向查找"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/1103/0"
+msgid "大小写匹配"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/1104/0"
+msgid "全字符匹配"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/1107/0"
+msgid "标记全部"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/2/0"
+msgid "关闭"
+msgstr "Close"
+
+msgctxt "ttpres/dialog/203/control/4294967295/0"
+msgid "标  题:"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/4294967295/1"
+msgid "艺术家:"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/control/4294967295/2"
+msgid "专  辑:"
+msgstr ""
+
+msgctxt "ttpres/dialog/203/title"
+msgid "查找文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/204/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/204/control/1023/0"
+msgid "浏览..."
+msgstr ""
+
+msgctxt "ttpres/dialog/204/control/1052/0"
+msgid "请输入一个网络URL进行播放(例如:http://129.168.0.1/1.mp3):"
+msgstr ""
+
+msgctxt "ttpres/dialog/204/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/204/title"
+msgid "播放 URL"
+msgstr ""
+
+msgctxt "ttpres/dialog/205/control/1/0"
+msgid "关闭"
+msgstr "Close"
+
+msgctxt "ttpres/dialog/205/control/2132/0"
+msgid "删除错误关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/205/control/32813/0"
+msgid "重新关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/205/control/32814/0"
+msgid "撤消关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/205/title"
+msgid "歌词关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/1023/0"
+msgid "浏览..."
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/1046/0"
+msgid "本地搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/206/control/2087/0"
+msgid "查看所有关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2115/0"
+msgid "关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2116/0"
+msgid "撤消关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2117/0"
+msgid "重命名"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2118/0"
+msgid "删除文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2119/0"
+msgid "部分匹配"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/2120/0"
+msgid "不关联歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/4294967295/0"
+msgid "歌词标题:"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/control/4294967295/1"
+msgid "从以下列文件中选择一个进行关联:"
+msgstr ""
+
+msgctxt "ttpres/dialog/206/title"
+msgid "指定歌词文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/207/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/207/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/207/control/4294967295/0"
+msgid "请输入要调整歌词的偏移时间:"
+msgstr ""
+
+msgctxt "ttpres/dialog/207/control/4294967295/1"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/207/control/4294967295/2"
+msgid "提示:负数表示提前,正数表示延后"
+msgstr ""
+
+msgctxt "ttpres/dialog/207/title"
+msgid "调整全部歌词时间"
+msgstr ""
+
+msgctxt "ttpres/dialog/208/control/1/0"
+msgid "下载"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/dialog/208/control/1052/0"
+msgid "(将在 %d 秒后自动下载选中的文件)"
+msgstr ""
+
+msgctxt "ttpres/dialog/208/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/208/control/2064/0"
+msgid "下载后自动与歌曲进行关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/208/control/2067/0"
+msgid "以后请选择最佳匹配后自动下载"
+msgstr ""
+
+msgctxt "ttpres/dialog/208/control/4294967295/0"
+msgid "选择歌词文件进行下载:"
+msgstr ""
+
+msgctxt "ttpres/dialog/208/control/4294967295/1"
+msgid "保存文件名:"
+msgstr ""
+
+msgctxt "ttpres/dialog/208/title"
+msgid "下载歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/1/0"
+msgid "下载"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/1046/0"
+msgid "搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/1052/0"
+msgid "选择搜索到的歌词文件进行下载:"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/2/0"
+msgid "关闭"
+msgstr "Close"
+
+msgctxt "ttpres/dialog/209/control/2064/0"
+msgid "下载后与歌曲文件进行关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/2185/0"
+msgid "代理设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/2269/0"
+msgid "点击此处帮你找到歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/4294967295/0"
+msgid "保存为:"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/4294967295/1"
+msgid "歌词服务器:"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/4294967295/2"
+msgid "歌名:"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/control/4294967295/3"
+msgid "歌手:"
+msgstr ""
+
+msgctxt "ttpres/dialog/209/title"
+msgid "在线搜索并下载歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/210/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/210/control/1023/0"
+msgid "浏览..."
+msgstr ""
+
+msgctxt "ttpres/dialog/210/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/210/control/4294967295/0"
+msgid "在这个文件中查找图标(&L):"
+msgstr ""
+
+msgctxt "ttpres/dialog/210/control/4294967295/1"
+msgid "从以下列表选择一个图标(&S):"
+msgstr ""
+
+msgctxt "ttpres/dialog/210/title"
+msgid "选择图标"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/1/0"
+msgid "立即转换"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/1015/0"
+msgid "配置"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/220/control/2017/0"
+msgid "转换完成后添加到播放列表"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/2036/0"
+msgid "转换采样频率"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/2060/0"
+msgid "启用当前均衡器设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/2061/0"
+msgid "启用当前杜比环绕设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/2129/0"
+msgid "启用回放增益"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/2207/0"
+msgid "自动为目标文件添加序号"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/0"
+msgid "编码格式"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/1"
+msgid "目标文件夹:"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/10"
+msgid "目标文件存在时:"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/2"
+msgid "任务优先级:"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/3"
+msgid "提示: 1.如果不指定目标文件夹，将把目标文件生成在源文件夹内             2.由于CD播放是独占方式，如果正在播放CD，请先停止播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/4"
+msgid "输出比特:"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/5"
+msgid "输出格式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/6"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/7"
+msgid "(只对 Wave 输出格式有效)"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/8"
+msgid "音效处理"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/control/4294967295/9"
+msgid "(编码器不一定支持所有频率)"
+msgstr ""
+
+msgctxt "ttpres/dialog/220/title"
+msgid "转换格式"
+msgstr ""
+
+msgctxt "ttpres/dialog/221/control/1052/0"
+msgid "0"
+msgstr ""
+
+msgctxt "ttpres/dialog/221/control/2/0"
+msgid "终止转换"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/221/control/2187/0"
+msgid "暂停转换|继续转换"
+msgstr ""
+
+msgctxt "ttpres/dialog/221/title"
+msgid "正在转换格式..."
+msgstr ""
+
+msgctxt "ttpres/dialog/222/control/1052/0"
+msgid "0"
+msgstr ""
+
+msgctxt "ttpres/dialog/222/control/2/0"
+msgid "终止扫描"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/222/control/2187/0"
+msgid "暂停扫描|继续扫描"
+msgstr ""
+
+msgctxt "ttpres/dialog/222/title"
+msgid "正在扫描增益信息..."
+msgstr ""
+
+msgctxt "ttpres/dialog/223/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/223/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/223/control/32513/0"
+msgid "新列表"
+msgstr ""
+
+msgctxt "ttpres/dialog/223/control/4294967295/0"
+msgid "选择目标播放列表:"
+msgstr ""
+
+msgctxt "ttpres/dialog/223/title"
+msgid "选择播放列表"
+msgstr ""
+
+msgctxt "ttpres/dialog/224/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/224/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/224/control/4294967295/0"
+msgid "请输入歌曲文件名的样式:"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/224/control/4294967295/1"
+msgid "%(Artist): 艺术家\t%(Title): 歌曲标题\n%(Album): 专辑标题\t%(Tracknumber): 音轨号\n%(Genre): 流派\t\t%(Date): 年代"
+msgstr ""
+
+msgctxt "ttpres/dialog/224/title"
+msgid "文件名格式"
+msgstr ""
+
+msgctxt "ttpres/dialog/225/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/225/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/225/control/4294967295/0"
+msgid "字段名:"
+msgstr ""
+
+msgctxt "ttpres/dialog/225/control/4294967295/1"
+msgid "字段值:"
+msgstr ""
+
+msgctxt "ttpres/dialog/225/title"
+msgid "文件标签"
+msgstr ""
+
+msgctxt "ttpres/dialog/226/control/1/0"
+msgid "保存"
+msgstr "Save"
+
+msgctxt "ttpres/dialog/226/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/226/control/2172/0"
+msgid "查询音轨信息"
+msgstr ""
+
+msgctxt "ttpres/dialog/226/control/4294967295/0"
+msgid "从freedb网站上查询到的结果:"
+msgstr ""
+
+msgctxt "ttpres/dialog/226/control/4294967295/1"
+msgid "音轨信息(选择字符集): "
+msgstr ""
+
+msgctxt "ttpres/dialog/226/title"
+msgid "freedb 标签"
+msgstr ""
+
+msgctxt "ttpres/dialog/227/control/1/0"
+msgid "立即关机"
+msgstr ""
+
+msgctxt "ttpres/dialog/227/control/2/0"
+msgid "取消关机"
+msgstr ""
+
+msgctxt "ttpres/dialog/227/title"
+msgid "千千静听 - 自动关机"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/1/0"
+msgid "完成"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/1027/0"
+msgid "添加已选结果"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/228/control/1046/0"
+msgid "开始搜索|停止搜索"
+msgstr ""
+
+#, c-format
+msgctxt "ttpres/dialog/228/control/1052/0"
+msgid "已搜索到 %d 个, 正在搜索 %s"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/2201/0"
+msgid "全选"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/2202/0"
+msgid "全不选"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/2204/0"
+msgid "不包含少于"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/4294967295/0"
+msgid "搜索到的结果:"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/4294967295/1"
+msgid "搜索位置:"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/4294967295/2"
+msgid "搜索类型:"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/4294967295/3"
+msgid "高级选项:"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/control/4294967295/4"
+msgid "秒的文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/228/title"
+msgid "搜索计算机上的音乐"
+msgstr ""
+
+msgctxt "ttpres/dialog/229/control/1/0"
+msgid "播放"
+msgstr "Playback"
+
+msgctxt "ttpres/dialog/229/control/1052/0"
+msgid "请选择 CD 驱动器:"
+msgstr ""
+
+msgctxt "ttpres/dialog/229/control/2017/0"
+msgid "添加到播放列表"
+msgstr ""
+
+msgctxt "ttpres/dialog/229/title"
+msgid "播放音频 CD"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/1075/0"
+msgid "淡入淡出效果显示主要窗口(需要Windows 2000或更高)"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/1076/0"
+msgid "当窗口靠近时自动粘合"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/1079/0"
+msgid "在菜单上显示命令提示"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/1083/0"
+msgid "标题栏自动切换歌曲信息,滚动延时间隔"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2085/0"
+msgid "在系统栏显示程序图标"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2086/0"
+msgid "在屏幕右下角弹出播放提示"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2088/0"
+msgid "启动播放器后最小化"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2127/0"
+msgid "在工具提示中显示快捷键"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2137/0"
+msgid "从命令行方式操作时总是针对这个列表:"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2139/0"
+msgid "从命令行方式打开文件时先清除当前播放列表"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2153/0"
+msgid "分多列显示播放曲目菜单"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2182/0"
+msgid "自动关闭计算机"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2188/0"
+msgid "向MSN和百度Hi发送播放的歌曲信息"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2189/0"
+msgid "在任务栏滚动歌曲标题"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/2197/0"
+msgid "立即检查"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/4294967295/0"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/4294967295/1"
+msgid "像素"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/4294967295/2"
+msgid "秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/4294967295/3"
+msgid "自动检查软件新版本:"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/4294967295/4"
+msgid "命令行方式(从外部打开或添加文件)"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/control/4294967295/5"
+msgid "软件更新"
+msgstr ""
+
+msgctxt "ttpres/dialog/250/title"
+msgid "常规"
+msgstr "General"
+
+msgctxt "ttpres/dialog/251/control/1070/0"
+msgid "程序启动时自动播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2070/0"
+msgid "播放时"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2071/0"
+msgid "暂停时"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2072/0"
+msgid "交叉定位"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2073/0"
+msgid "停止时"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2074/0"
+msgid "歌曲自动切换时"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2092/0"
+msgid "继续上一次的播放进度"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2093/0"
+msgid "出现错误时不再连续播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2129/0"
+msgid "启用回放增益(使用增益信息将不同文件的音量调节到相同水平)"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2130/0"
+msgid "自动扫描(在播放未包含增益信息的文件时自动扫描增益信息)"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/2131/0"
+msgid "扫描增益信息时跳过已包含增益信息的文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/0"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/1"
+msgid "连续播放文件时间隔:"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/10"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/11"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/12"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/13"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/2"
+msgid "播放优先级:"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/3"
+msgid "秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/4"
+msgid "全文件缓冲:"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/5"
+msgid "KB"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/6"
+msgid "播放"
+msgstr "Playback"
+
+msgctxt "ttpres/dialog/251/control/4294967295/7"
+msgid "声音淡入淡出(仅支持DirectSound输出方式)"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/8"
+msgid "回放增益(自动音量)"
+msgstr ""
+
+msgctxt "ttpres/dialog/251/control/4294967295/9"
+msgid "提示: \"自动增益信息\"是通过对音频文件的扫描分析检测到的一个最佳的增益值, 在以后的播放中如果使用这个增益值就可以把音频文件的音量调整到最佳的水平,从而减少甚至避免不同音频文件之间的音量差异. "
+msgstr ""
+
+msgctxt "ttpres/dialog/251/title"
+msgid "播放"
+msgstr "Playback"
+
+msgctxt "ttpres/dialog/252/control/1098/0"
+msgid "设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/252/control/2053/0"
+msgid "启用全局快捷键(播放器后台时也能响应)"
+msgstr ""
+
+msgctxt "ttpres/dialog/252/control/4294967295/0"
+msgid "快捷键:"
+msgstr ""
+
+msgctxt "ttpres/dialog/252/control/4294967295/1"
+msgid "全局键:"
+msgstr ""
+
+msgctxt "ttpres/dialog/252/title"
+msgid "快捷键"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1036/0"
+msgid "选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1101/0"
+msgid "波形逐渐消逝"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1150/0"
+msgid "高峰"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1151/0"
+msgid "顶端"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1152/0"
+msgid "中端"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1153/0"
+msgid "底端"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1154/0"
+msgid "波形"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/1155/0"
+msgid "文字"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/2035/0"
+msgid "0  帧/秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/2121/0"
+msgid "显示粗的频带(柱状)"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/2154/0"
+msgid "配置文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/0"
+msgid "频谱分析"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/1"
+msgid "配色方案:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/10"
+msgid "文字显示"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/11"
+msgid "字体:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/12"
+msgid "颜色:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/2"
+msgid "视觉效果类型:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/3"
+msgid "分析显示速度:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/4"
+msgid "示波显示"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/5"
+msgid "配色方案:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/6"
+msgid "消逝速度:"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/7"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/8"
+msgid "10"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/control/4294967295/9"
+msgid "40"
+msgstr ""
+
+msgctxt "ttpres/dialog/253/title"
+msgid "视觉效果"
+msgstr "Visualization"
+
+msgctxt "ttpres/dialog/254/control/1036/0"
+msgid "选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1086/0"
+msgid "在歌曲标题前显示序号"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1099/0"
+msgid "有标签时的格式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1155/0"
+msgid "标题"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1156/0"
+msgid "加亮"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1158/0"
+msgid "背景"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1159/0"
+msgid "序号"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1160/0"
+msgid "长度"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1161/0"
+msgid "选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/1162/0"
+msgid "背景2"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/2008/0"
+msgid "在每个曲目上提示文件信息"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/2010/0"
+msgid "允许在播放列表上进行拖放操作"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/2045/0"
+msgid "加载列表时忽略不存在的文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/2125/0"
+msgid "使用相对路径保存歌曲的文件名"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/2128/0"
+msgid "禁用物理文件删除功能"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/254/control/2148/0"
+msgid "缓存已读取的文件信息到播放列表中,避免以后加载列表时重新读取\n(这样会增加列表文件的大小和内存的使用)"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/2154/0"
+msgid "配置文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/0"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/1"
+msgid "默认格式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/2"
+msgid "标题格式"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/3"
+msgid "颜色:"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+msgctxt "ttpres/dialog/254/control/4294967295/4"
+msgid "%F:文件名   %E:扩展名    %P:上级路径  %C:编码      %B:码率\n%A:艺术家   %T:标题      %L:专辑      %G:流派      %I:音轨号\n%Y:年代     %D:备注      %R:星级      %(字段名):其它标签字段"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/5"
+msgid "显示"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/6"
+msgid "字体:"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/7"
+msgid "时读取文件信息"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/control/4294967295/8"
+msgid "当"
+msgstr ""
+
+msgctxt "ttpres/dialog/254/title"
+msgid "播放列表"
+msgstr "Playlist"
+
+msgctxt "ttpres/dialog/255/control/2210/0"
+msgid "监视文件夹以更新媒体库或默认的播放列表(需要Windows 2000或更高)"
+msgstr ""
+
+msgctxt "ttpres/dialog/255/control/2212/0"
+msgid "启用媒体库"
+msgstr ""
+
+msgctxt "ttpres/dialog/255/control/4294967295/0"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/dialog/255/control/4294967295/1"
+msgid "监视下列的文件夹，如果有新增、删除、重命名或移动的媒体文件，自动将变化反应到媒体库中。(选定表示同时监控其子文件夹)"
+msgstr ""
+
+msgctxt "ttpres/dialog/255/control/4294967295/2"
+msgid "为了获得最佳性能，请避免监视网络中的共享文件夹、根文件夹。"
+msgstr ""
+
+msgctxt "ttpres/dialog/255/title"
+msgid "媒体库"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2021/0"
+msgid "有歌词时自动显示歌词秀，否则自动隐藏"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2024/0"
+msgid "左键拖动歌词来定位播放(提示:用方向键可以实现单句歌词跳跃)"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2062/0"
+msgid "播放音频文件时自动加载歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2063/0"
+msgid "加载时剪裁行首和行尾的空格"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2066/0"
+msgid "用行压缩方式保存以减少大小"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2087/0"
+msgid "歌词关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2089/0"
+msgid "本地搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2091/0"
+msgid "在线搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2126/0"
+msgid "自动嵌入歌词到音频文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/2176/0"
+msgid "不从音频文件中加载内嵌歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/4294967295/0"
+msgid "保存修改过的歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/4294967295/1"
+msgid "->"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/4294967295/2"
+msgid "->"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/4294967295/3"
+msgid "歌词搜索顺序: 歌曲内嵌歌词 ->"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/control/4294967295/4"
+msgid "选项"
+msgstr ""
+
+msgctxt "ttpres/dialog/256/title"
+msgid "歌词秀"
+msgstr "Lyrics"
+
+msgctxt "ttpres/dialog/257/control/2016/0"
+msgid "自动覆盖已存在的歌词文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2064/0"
+msgid "下载后与音频文件进行关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2065/0"
+msgid "播放音频文件时自动在线搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2067/0"
+msgid "有多个可选下载时自动选择最佳"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2146/0"
+msgid "保存到歌曲所在的文件夹"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2147/0"
+msgid "保存成歌曲文件相同的文件名"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2180/0"
+msgid "当歌曲信息完整时才自动搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/2185/0"
+msgid "代理设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/4294967295/0"
+msgid "本地搜索(选定表示同时搜索子文件夹,上下移动来设置搜索顺序)"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/4294967295/1"
+msgid "在线搜索"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/4294967295/2"
+msgid "歌词服务器:"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/control/4294967295/3"
+msgid "保存到其它文件夹:"
+msgstr ""
+
+msgctxt "ttpres/dialog/257/title"
+msgid "歌词搜索"
+msgstr "Lyric search"
+
+msgctxt "ttpres/dialog/258/control/2173/0"
+msgid "播放缺少信息的CD音轨时自动查询"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/2176/0"
+msgid "查询失败时在屏幕右下角显示错误信息"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/2190/0"
+msgid "不使用代理服务器"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/2191/0"
+msgid "使用 Internet Explorer 的代理设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/2192/0"
+msgid "使用自定义的代理服务器"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/0"
+msgid "服务器:"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/1"
+msgid "端口:"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/2"
+msgid "用户名:"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/3"
+msgid "密码:"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/4"
+msgid "freedb (用于从 freedb.org 免费获取 CD 的专辑和音轨信息)"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/5"
+msgid "选择 freedb 服务器:"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/control/4294967295/6"
+msgid "代理服务器"
+msgstr ""
+
+msgctxt "ttpres/dialog/258/title"
+msgid "网络连接"
+msgstr ""
+
+msgctxt "ttpres/dialog/259/control/1015/0"
+msgid "配置插件"
+msgstr ""
+
+msgctxt "ttpres/dialog/259/control/4294967295/0"
+msgid "Winamp 2 音效插件(dsp_*.dll)"
+msgstr ""
+
+msgctxt "ttpres/dialog/259/control/4294967295/1"
+msgid "插件目录:"
+msgstr ""
+
+msgctxt "ttpres/dialog/259/control/4294967295/2"
+msgid "提示: 选定即可激活,并且可以同时激活多个插件!"
+msgstr ""
+
+msgctxt "ttpres/dialog/259/control/4294967295/3"
+msgid "调整加载顺序:"
+msgstr ""
+
+msgctxt "ttpres/dialog/259/title"
+msgid "音效插件"
+msgstr "DSP plugins"
+
+msgctxt "ttpres/dialog/260/control/2033/0"
+msgid "优先使用硬件混音缓冲区(DirectSound方式硬件加速)"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/2034/0"
+msgid "创建主缓冲区(DirectSound方式用于修正老声卡的音质问题)"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/2036/0"
+msgid "启用采样频率转换"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/2037/0"
+msgid "高频抖动"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/0"
+msgid "毫秒"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/1"
+msgid "输出设备:"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/2"
+msgid "缓冲长度:"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/3"
+msgid "输出格式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/4"
+msgid "提示: 上述所有参数设置都在重新播放时才会生效。"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/5"
+msgid "注意: 对于某些声卡驱动或操作系统,Kernel Streaming和ASIO不支持音量调节,甚至可能无法正常播放声音。"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/control/4294967295/6"
+msgid "模式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/260/title"
+msgid "音频设备"
+msgstr "Audio output"
+
+msgctxt "ttpres/dialog/261/control/1039/0"
+msgid "删除"
+msgstr "Delete"
+
+msgctxt "ttpres/dialog/261/control/1098/0"
+msgid "应用"
+msgstr "Apply"
+
+msgctxt "ttpres/dialog/261/control/2109/0"
+msgid "下载更多皮肤..."
+msgstr ""
+
+msgctxt "ttpres/dialog/261/control/4294967295/0"
+msgid "作  者:"
+msgstr ""
+
+msgctxt "ttpres/dialog/261/control/4294967295/1"
+msgid "主  页:"
+msgstr ""
+
+msgctxt "ttpres/dialog/261/control/4294967295/2"
+msgid "邮  箱:"
+msgstr ""
+
+msgctxt "ttpres/dialog/261/control/4294967295/3"
+msgid "请选择程序皮肤:"
+msgstr ""
+
+msgctxt "ttpres/dialog/261/control/4294967295/4"
+msgid "皮肤预览:"
+msgstr ""
+
+msgctxt "ttpres/dialog/261/title"
+msgid "皮肤"
+msgstr "Skins"
+
+msgctxt "ttpres/dialog/262/control/1069/0"
+msgid "关联CD播放器"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2030/0"
+msgid "我的桌面"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2031/0"
+msgid "程序菜单"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2032/0"
+msgid "快速启动"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2106/0"
+msgid "选择播放器图标"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2108/0"
+msgid "选择文件图标"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2120/0"
+msgid "关联文件夹"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2121/0"
+msgid "启动时检查关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2216/0"
+msgid "从文件夹自动选择图标"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2281/0"
+msgid "手动设置关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/2282/0"
+msgid "Vista,Win7下设置关联失效"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/4294967295/0"
+msgid "创建快捷方式"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/4294967295/1"
+msgid "关联文件类型:"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/control/4294967295/2"
+msgid "当前文件类型的图标:"
+msgstr ""
+
+msgctxt "ttpres/dialog/262/title"
+msgid "系统关联"
+msgstr "File associations"
+
+msgctxt "ttpres/dialog/263/control/1036/0"
+msgid "选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/1155/0"
+msgid "普通"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/1156/0"
+msgid "加亮"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/1158/0"
+msgid "背景"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/2022/0"
+msgid "自动调整字体以适应歌词宽度"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/2145/0"
+msgid "淡入淡出当前行的歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/2150/0"
+msgid "卡拉OK方式显示当前行歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/2151/0"
+msgid "以桌面为背景显示全屏歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/2233/0"
+msgid "对所有视觉效果使用统一设置"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/0"
+msgid "对齐方式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/1"
+msgid "歌词全屏显示"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/10"
+msgid "视觉效果与歌词同屏显示"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/11"
+msgid "视觉效果:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/2"
+msgid "淡入淡出:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/3"
+msgid "滚动模式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/4"
+msgid "竖直行距:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/5"
+msgid "像素"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/6"
+msgid "颜色:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/7"
+msgid "字体:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/8"
+msgid "视觉效果与歌词位置:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/control/4294967295/9"
+msgid "歌词占居屏幕:"
+msgstr ""
+
+msgctxt "ttpres/dialog/263/title"
+msgid "全屏显示"
+msgstr "Fullscreen"
+
+msgctxt "ttpres/dialog/264/control/2271/0"
+msgid "浏览..."
+msgstr ""
+
+msgctxt "ttpres/dialog/264/control/2272/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/264/control/2273/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/264/control/2274/0"
+msgid "这是您第一次使用下载功能，是否需要更改歌曲默认保存文件夹："
+msgstr ""
+
+msgctxt "ttpres/dialog/264/control/2275/0"
+msgid "友情提示：如果您的皮肤没有下载管理面板，建议您更换默认皮肤完美享受下载体验"
+msgstr ""
+
+msgctxt "ttpres/dialog/264/title"
+msgid "下载歌曲保存路径"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/2281/0"
+msgid "覆盖原文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/2282/0"
+msgid "自动重命名"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/2283/0"
+msgid "记住我的选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/2284/0"
+msgid "否"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/2285/0"
+msgid "是"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/4294967295/0"
+msgid "重新下载时会优先选择不同的文件。"
+msgstr ""
+
+msgctxt "ttpres/dialog/265/control/4294967295/1"
+msgid "请选择歌曲保存方式："
+msgstr ""
+
+msgctxt "ttpres/dialog/265/title"
+msgid "重新下载"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/1066/0"
+msgid "歌手详情"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/2160/0"
+msgid "从文件名猜测标签..."
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/2175/0"
+msgid "ID3v2写入时使用填充数据"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/0"
+msgid "标  题:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/1"
+msgid "艺术家:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/10"
+msgid "读取类型优先级:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/11"
+msgid "ID3v2编码类型:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/12"
+msgid "编码:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/13"
+msgid "声道:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/14"
+msgid "频率:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/15"
+msgid "码率:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/16"
+msgid "长度:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/17"
+msgid "比特:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/18"
+msgid "格式"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/19"
+msgid "增益:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/2"
+msgid "专  辑:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/20"
+msgid "文件名:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/21"
+msgid "歌曲来源:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/3"
+msgid "年代:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/4"
+msgid "流  派:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/5"
+msgid "备  注:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/6"
+msgid "标签"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/7"
+msgid "音轨:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/8"
+msgid "写入类型:"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/control/4294967295/9"
+msgid "MP3标签"
+msgstr ""
+
+msgctxt "ttpres/dialog/372/title"
+msgid "属性"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/373/control/1066/0"
+msgid "歌手详情"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/0"
+msgid "编码:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/1"
+msgid "声道:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/10"
+msgid "专  辑:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/11"
+msgid "年代:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/12"
+msgid "流  派:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/13"
+msgid "备  注:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/14"
+msgid "标签"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/15"
+msgid "音轨:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/2"
+msgid "频率:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/3"
+msgid "码率:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/4"
+msgid "长度:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/5"
+msgid "比特:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/6"
+msgid "格式"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/7"
+msgid "文件名:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/8"
+msgid "标  题:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/control/4294967295/9"
+msgid "艺术家:"
+msgstr ""
+
+msgctxt "ttpres/dialog/373/title"
+msgid "媒体属性"
+msgstr ""
+
+msgctxt "ttpres/dialog/374/control/1066/0"
+msgid "专辑详情"
+msgstr ""
+
+msgctxt "ttpres/dialog/374/control/2220/0"
+msgid "浏览..."
+msgstr ""
+
+msgctxt "ttpres/dialog/374/control/2221/0"
+msgid "删除"
+msgstr "Delete"
+
+msgctxt "ttpres/dialog/374/title"
+msgid "专辑封面"
+msgstr ""
+
+msgctxt "ttpres/dialog/378/control/2252/0"
+msgid "每次启动时自动关联"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/378/control/4294967295/0"
+msgid "千千静听目前没有关联常见的音频格式。\n\n您想将千千静听设置为常见音频格式的默认播放器吗？"
+msgstr ""
+
+msgctxt "ttpres/dialog/378/control/6/0"
+msgid "是"
+msgstr ""
+
+msgctxt "ttpres/dialog/378/control/7/0"
+msgid "否"
+msgstr ""
+
+msgctxt "ttpres/dialog/378/title"
+msgid "检查文件关联"
+msgstr ""
+
+msgctxt "ttpres/dialog/379/control/1/0"
+msgid "安装"
+msgstr ""
+
+msgctxt "ttpres/dialog/379/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/379/control/2254/0"
+msgid "100%"
+msgstr ""
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/dialog/379/control/4294967295/0"
+msgid "\r\n正在下载升级文件..."
+msgstr ""
+
+msgctxt "ttpres/dialog/379/title"
+msgid "千千静听在线升级"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/1165/0"
+msgid "正常限速(听歌体验更好)"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/1166/0"
+msgid "智能限速(节省带宽占用)"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/2249/0"
+msgid "接收每周推荐歌曲"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/2250/0"
+msgid "缓存网络歌曲(使在线播放更加流畅)"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/4294967295/0"
+msgid "缓存空间:"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/4294967295/1"
+msgid "(600MB-2GB)"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/4294967295/2"
+msgid "缓存路径:"
+msgstr ""
+
+msgctxt "ttpres/dialog/381/control/4294967295/3"
+msgid "MB"
+msgstr ""
+
+msgctxt "ttpres/dialog/382/control/1175/0"
+msgid "按照歌手名创建文件夹保存"
+msgstr ""
+
+msgctxt "ttpres/dialog/382/control/1176/0"
+msgid "重新下载歌曲时覆盖原文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/382/control/1180/0"
+msgid "试听歌曲时同步下载歌曲文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/382/control/1182/0"
+msgid "下载歌曲时同步下载歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/382/control/4294967295/0"
+msgid "同时下载任务数(1-5)："
+msgstr ""
+
+msgctxt "ttpres/dialog/382/control/4294967295/1"
+msgid "下载路径："
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/1036/0"
+msgid "选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/1155/0"
+msgid "普通"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/1156/0"
+msgid "加亮"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/1158/0"
+msgid "背景"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2022/0"
+msgid "自动调整窗口以适应歌词宽度"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2023/0"
+msgid "仅调整垂直滚动模式"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2145/0"
+msgid "淡入淡出当前行的歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2150/0"
+msgid "卡拉OK方式显示当前行歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2151/0"
+msgid "使用背景色来透明"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2152/0"
+msgid "连皮肤也作为背景一起透明"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/2154/0"
+msgid "配置文件"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/0"
+msgid "对齐方式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/1"
+msgid "淡入淡出:"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/2"
+msgid "滚动模式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/3"
+msgid "竖直行距:"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/4"
+msgid "像素"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/5"
+msgid "颜色:"
+msgstr ""
+
+msgctxt "ttpres/dialog/384/control/4294967295/6"
+msgid "字体:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/1036/0"
+msgid "选择"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/1038/0"
+msgid "描边"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/1155/0"
+msgid "未播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/1156/0"
+msgid "已播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/1158/0"
+msgid "背景"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/2022/0"
+msgid "自动调整窗口以适应歌词宽度"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/2023/0"
+msgid "关闭时自动解锁桌面歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/2150/0"
+msgid "卡拉OK方式显示当前行歌词"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/2154/0"
+msgid "预设方案"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/2258/0"
+msgid "阴影"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/2259/0"
+msgid "平滑字体效果"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/0"
+msgid "对齐方式:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/1"
+msgid "歌词行数:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/2"
+msgid "颜色:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/3"
+msgid "字体:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/4"
+msgid "文字:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/5"
+msgid "背景:"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/6"
+msgid "不透明"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/7"
+msgid "透明"
+msgstr "Opacity"
+
+msgctxt "ttpres/dialog/385/control/4294967295/8"
+msgid "不透明"
+msgstr ""
+
+msgctxt "ttpres/dialog/385/control/4294967295/9"
+msgid "透明"
+msgstr "Opacity"
+
+msgctxt "ttpres/dialog/386/control/1/0"
+msgid "确定"
+msgstr "OK"
+
+msgctxt "ttpres/dialog/386/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/386/control/2264/0"
+msgid "添加"
+msgstr ""
+
+msgctxt "ttpres/dialog/386/control/2265/0"
+msgid "删除"
+msgstr "Delete"
+
+msgctxt "ttpres/dialog/386/control/2266/0"
+msgid "更改"
+msgstr ""
+
+msgctxt "ttpres/dialog/386/control/2267/0"
+msgid "上移"
+msgstr "Move up"
+
+msgctxt "ttpres/dialog/386/control/2268/0"
+msgid "下移"
+msgstr "Move down"
+
+msgctxt "ttpres/dialog/386/control/4294967295/0"
+msgid "颜色列表："
+msgstr ""
+
+msgctxt "ttpres/dialog/386/title"
+msgid "歌词颜色设定"
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/1155/0"
+msgid "未播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/1156/0"
+msgid "已播放"
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/2/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/387/control/2094/0"
+msgid "保存修改"
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/3/0"
+msgid "恢复默认"
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/4294967295/0"
+msgid "命名："
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/4294967295/1"
+msgid "（限12个字符以内）"
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/4294967295/2"
+msgid "修改预设方案颜色："
+msgstr ""
+
+msgctxt "ttpres/dialog/387/control/4294967295/3"
+msgid "歌词示例："
+msgstr ""
+
+msgctxt "ttpres/dialog/387/title"
+msgid "修改预设方案"
+msgstr ""
+
+msgctxt "ttpres/dialog/396/control/1/0"
+msgid "提交"
+msgstr ""
+
+msgctxt "ttpres/dialog/396/control/1170/0"
+msgid "歌曲听不了"
+msgstr ""
+
+msgctxt "ttpres/dialog/396/control/1171/0"
+msgid "歌曲错了(包括听到的不是这首歌、版本不对或不完整)"
+msgstr ""
+
+msgctxt "ttpres/dialog/396/control/2/0"
+msgid "关闭"
+msgstr "Close"
+
+msgctxt "ttpres/dialog/396/control/2276/0"
+msgid "举报歌曲："
+msgstr ""
+
+msgctxt "ttpres/dialog/396/title"
+msgid "歌曲举报"
+msgstr ""
+
+msgctxt "ttpres/dialog/397/control/2277/0"
+msgid "歌曲名"
+msgstr ""
+
+msgctxt "ttpres/dialog/397/control/2278/0"
+msgid "重新下载"
+msgstr ""
+
+msgctxt "ttpres/dialog/397/control/2279/0"
+msgid "取消"
+msgstr "Cancel"
+
+msgctxt "ttpres/dialog/397/control/4294967295/0"
+msgid "请选择您的操作："
+msgstr ""
+
+msgctxt "ttpres/dialog/397/title"
+msgid "友情提示"
+msgstr ""
+

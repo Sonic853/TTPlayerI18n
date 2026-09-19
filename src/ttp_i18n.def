@@ -1,0 +1,3 @@
+LIBRARY ttp_i18n
+EXPORTS
+    TtpI18n_GetApi

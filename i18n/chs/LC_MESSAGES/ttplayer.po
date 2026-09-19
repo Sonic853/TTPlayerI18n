@@ -1,0 +1,7728 @@
+# TTPlayer 界面翻译，按语言及文本用途分类。UTF-8。
+msgid ""
+msgstr ""
+"Project-Id-Version: TTPlayerRebuild\n"
+"Language: zh_CN\n"
+"Language-Team: 简体中文\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# === 重建版自建文本 ===
+
+#: src/integrations/discord_presence.cpp:127
+msgctxt "app"
+msgid " / 未知时长"
+msgstr " / 未知时长"
+
+#: src/ui/output_devices.cpp:853
+msgctxt "app"
+msgid " Bits"
+msgstr " 位"
+
+#: src/ui/output_devices.cpp:846
+msgctxt "app"
+msgid " Channels"
+msgstr " 声道"
+
+#: src/ui/output_devices.cpp:855
+msgctxt "app"
+msgid " Samples"
+msgstr " 个采样"
+
+#: src/ui/player_window_library.cpp:982
+#, c-format
+msgctxt "app"
+msgid "%d stars"
+msgstr "%d 星"
+
+#: src/plugins/plugin_manager.cpp:1139
+msgctxt "app"
+msgid "Aac.dll has no NERO_PLUGIN_GetPrimaryAudioObject export"
+msgstr "Aac.dll 未导出 NERO_PLUGIN_GetPrimaryAudioObject"
+
+#: src/ui/player_window_library.cpp:980
+msgctxt "app"
+msgid "Album"
+msgstr "专辑"
+
+#: src/ui/player_window_library.cpp:980
+msgctxt "app"
+msgid "Artist"
+msgstr "艺术家"
+
+#: src/ui/player_window_library.cpp:981
+msgctxt "app"
+msgid "Date"
+msgstr "日期"
+
+#: src/ui/output_devices.cpp:794
+msgctxt "app"
+msgid "DirectSound capability query failed"
+msgstr "查询 DirectSound 设备能力失败"
+
+#: src/ui/player_window_equalizer.cpp:1001
+msgctxt "app"
+msgid "Equlizer Profile (*.tteq_cfg)"
+msgstr "均衡器设置 (*.tteq_cfg)"
+
+#: src/app/main.cpp:54
+msgctxt "app"
+msgid "Error in ttpcomm.dll, please resetup this program!"
+msgstr "ttpcomm.dll 加载失败，请重新安装播放器！"
+
+#: src/ui/player_window_lyrics.cpp:2710
+#, c-format
+msgctxt "app"
+msgid "Failed to save lyric file %s."
+msgstr "保存歌词文件 %s 失败。"
+
+#: src/ui/player_window_library.cpp:981
+msgctxt "app"
+msgid "Genre"
+msgstr "流派"
+
+#: src/ui/project_links.h:27
+msgctxt "app"
+msgid "Github仓库"
+msgstr "Github仓库"
+
+#: src/ui/playlist_transforms.cpp:1667
+msgctxt "app"
+msgid "ISoundEncoder slot 4 start failed"
+msgstr "ISoundEncoder 接口槽位 4 启动失败"
+
+#: src/ui/output_devices.cpp:813
+msgctxt "app"
+msgid "Kernel Streaming capability query failed"
+msgstr "查询 Kernel Streaming 设备能力失败"
+
+#: src/app/main.cpp:94
+msgctxt "app"
+msgid "Load resource (ttpres.dll) failed, please resetup this program!"
+msgstr "加载资源 ttpres.dll 失败，请重新安装播放器！"
+
+#: src/ui/player_window_options.cpp:6580 src/ui/player_window_options.cpp:6616
+msgctxt "app"
+msgid "Lyrics Profile (*.ttlr_cfg)"
+msgstr "歌词设置 (*.ttlr_cfg)"
+
+#: src/ui/playlist_transforms.cpp:952
+msgctxt "app"
+msgid "MP3 (LAME DLL)"
+msgstr "MP3 (LAME DLL)"
+
+#: src/ui/playlist_transforms.cpp:1726
+msgctxt "app"
+msgid "MP3 metadata write failed"
+msgstr "写入 MP3 标签失败"
+
+#: src/ui/player_window_library.cpp:980
+msgctxt "app"
+msgid "Music"
+msgstr "音乐"
+
+#: src/ui/player_window_options.cpp:6579 src/ui/player_window_options.cpp:6615
+msgctxt "app"
+msgid "Playlist Profile (*.ttpl_cfg)"
+msgstr "播放列表设置 (*.ttpl_cfg)"
+
+#: src/ui/player_window_library.cpp:981
+msgctxt "app"
+msgid "Rating"
+msgstr "评分"
+
+#: src/app/main.cpp:111
+msgctxt "app"
+msgid "Sound Library init failed, the player can not run!"
+msgstr "音频库初始化失败，播放器无法运行！"
+
+#: src/app/main.cpp:55 src/app/main.cpp:95
+msgctxt "app"
+msgid "TTPlayer"
+msgstr "TTPlayer"
+
+#: src/ui/player_window_lyrics.cpp:2742
+msgctxt "app"
+msgid "The lyric file was modified. Save it?"
+msgstr "歌词文件已修改，是否保存？"
+
+#: src/plugins/plugin_manager.cpp:1133
+msgctxt "app"
+msgid "Unable to load Nero component: "
+msgstr "无法加载 Nero 组件："
+
+#: src/ui/player_window_options.cpp:4741
+msgctxt "app"
+msgid "Unavailable device"
+msgstr "设备不可用"
+
+#: src/ui/player_window_visual_options.cpp:340
+msgctxt "app"
+msgid "Vis Profile (*.ttvi_cfg)"
+msgstr "可视化设置 (*.ttvi_cfg)"
+
+#: src/settings/file_association.cpp:64
+msgctxt "app"
+msgid "Windows error "
+msgstr "Windows 错误 "
+
+#: src/settings/file_association.cpp:295
+msgctxt "app"
+msgid "association key is managed by another executable"
+msgstr "关联注册表项由其他程序管理"
+
+#: src/settings/file_association.cpp:1238
+msgctxt "app"
+msgid "capabilities belong to another installation"
+msgstr "功能注册信息属于另一个安装实例"
+
+#: src/settings/file_association.cpp:550
+msgctxt "app"
+msgid "clear legacy UserChoice backup"
+msgstr "清除旧版 UserChoice 备份"
+
+#: src/settings/file_association.cpp:317
+msgctxt "app"
+msgid "clear stale registry backup"
+msgstr "清除过期的注册表备份"
+
+#: src/settings/file_association.cpp:1445
+msgctxt "app"
+msgid "configure IShellLinkW"
+msgstr "配置 IShellLinkW 快捷方式"
+
+#: src/ui/playlist_transforms.cpp:1559 src/ui/playlist_transforms.cpp:1610 src/ui/playlist_transforms.cpp:1676
+msgctxt "app"
+msgid "conversion cancelled"
+msgstr "转换已取消"
+
+#: src/ui/playlist_transforms.cpp:1588
+msgctxt "app"
+msgid "conversion destination is a source file"
+msgstr "转换目标与源文件相同"
+
+#: src/ui/playlist_transforms.cpp:1594
+msgctxt "app"
+msgid "conversion destination is another batch source"
+msgstr "转换目标是本批次的另一个源文件"
+
+#: src/ui/playlist_transforms.cpp:1564
+msgctxt "app"
+msgid "conversion destination is empty"
+msgstr "转换目标为空"
+
+#: src/ui/playlist_transforms.cpp:1197
+msgctxt "app"
+msgid "conversion worker exception"
+msgstr "转换工作线程发生异常"
+
+#: src/settings/file_association.cpp:643
+msgctxt "app"
+msgid "create default-program registration"
+msgstr "创建默认程序注册信息"
+
+#: src/settings/file_association.cpp:1397
+msgctxt "app"
+msgid "create shortcut"
+msgstr "创建快捷方式"
+
+#: src/settings/file_association.cpp:1408
+msgctxt "app"
+msgid "create shortcut directory"
+msgstr "创建快捷方式目录"
+
+#: src/settings/file_association.cpp:1074
+msgctxt "app"
+msgid "default program belongs to another installation"
+msgstr "默认程序注册信息属于另一个安装实例"
+
+#: src/ui/playlist_transforms.cpp:1601
+msgctxt "app"
+msgid "destination is a directory"
+msgstr "目标是一个文件夹"
+
+#: src/ui/playlist_transforms.cpp:1605
+msgctxt "app"
+msgid "destination requires prompt"
+msgstr "目标文件需要确认"
+
+#: src/ui/playlist_transforms.cpp:1602 src/ui/playlist_transforms.cpp:1606
+msgctxt "app"
+msgid "destination skipped"
+msgstr "已跳过目标文件"
+
+#: src/ui/playlist_transforms.cpp:1709
+msgctxt "app"
+msgid "empty non-final PCM block"
+msgstr "在结束前收到空的 PCM 数据块"
+
+#: src/ui/playlist_transforms.cpp:1699
+msgctxt "app"
+msgid "encoder PCM write failed"
+msgstr "编码器写入 PCM 数据失败"
+
+#: src/ui/playlist_transforms.cpp:1660
+msgctxt "app"
+msgid "encoder destination open failed"
+msgstr "编码器打开目标文件失败"
+
+#: src/ui/playlist_transforms.cpp:1714
+msgctxt "app"
+msgid "encoder finalize failed"
+msgstr "编码器完成文件写入失败"
+
+#: src/ui/playlist_transforms.cpp:1579
+msgctxt "app"
+msgid "encoder has no valid configured file extension"
+msgstr "编码器未配置有效的文件扩展名"
+
+#: src/ui/playlist_transforms.cpp:1563
+msgctxt "app"
+msgid "encoder index is out of range"
+msgstr "编码器索引超出范围"
+
+#: src/settings/file_association.cpp:1249
+msgctxt "app"
+msgid "enumerate registered formats"
+msgstr "枚举已注册的格式"
+
+#: src/settings/file_association.cpp:898 src/settings/file_association.cpp:1060 src/settings/file_association.cpp:1317 src/settings/file_association.cpp:1397
+msgctxt "app"
+msgid "executable is empty"
+msgstr "可执行文件路径为空"
+
+#: src/ui/output_devices.cpp:819
+msgctxt "app"
+msgid "invalid ASIO descriptor"
+msgstr "ASIO 描述符无效"
+
+#: src/ui/output_devices.cpp:777
+msgctxt "app"
+msgid "invalid DirectSound GUID"
+msgstr "DirectSound GUID 无效"
+
+#: src/ui/playlist_transforms.cpp:1621
+msgctxt "app"
+msgid "invalid decoded PCM format"
+msgstr "解码后的 PCM 格式无效"
+
+#: src/settings/file_association.cpp:815 src/settings/file_association.cpp:896 src/settings/file_association.cpp:1064 src/settings/file_association.cpp:1147 src/settings/file_association.cpp:1225
+msgctxt "app"
+msgid "invalid extension"
+msgstr "文件扩展名无效"
+
+#: src/settings/file_association.cpp:731
+msgctxt "app"
+msgid "invalid shortcut name"
+msgstr "快捷方式名称无效"
+
+#: src/settings/file_association.cpp:1176
+msgctxt "app"
+msgid "isolated registration cannot launch the live shell"
+msgstr "隔离的关联注册不能启动实际系统界面"
+
+#: src/ui/playlist_transforms.cpp:606
+msgctxt "app"
+msgid "legacy PCM processors require the x86 host"
+msgstr "旧版 PCM 处理器需要 x86 主程序"
+
+#: src/settings/file_association.cpp:508
+msgctxt "app"
+msgid "legacy UserChoice backup belongs to another installation"
+msgstr "旧版 UserChoice 备份属于另一个安装实例"
+
+#: src/ui/player_window_options.cpp:4272
+msgctxt "app"
+msgid "nanling与社区"
+msgstr "nanling与社区"
+
+#: src/ui/playlist_transforms.cpp:642
+msgctxt "app"
+msgid "offline processor could not encode PCM"
+msgstr "离线处理器无法编码 PCM 数据"
+
+#: src/ui/playlist_transforms.cpp:615
+msgctxt "app"
+msgid "offline processor does not support the PCM format"
+msgstr "离线处理器不支持此 PCM 格式"
+
+#: src/settings/file_association.cpp:662
+msgctxt "app"
+msgid "open OpenWithProgids"
+msgstr "打开 OpenWithProgids 注册表项"
+
+#: src/settings/file_association.cpp:1088
+msgctxt "app"
+msgid "open RegisteredApplications"
+msgstr "打开 RegisteredApplications 注册表项"
+
+#: src/settings/file_association.cpp:1076 src/settings/file_association.cpp:1233
+msgctxt "app"
+msgid "open capabilities"
+msgstr "打开功能注册信息"
+
+#: src/settings/file_association.cpp:1176
+msgctxt "app"
+msgid "open default programs"
+msgstr "打开默认程序设置"
+
+#: src/settings/file_association.cpp:853
+msgctxt "app"
+msgid "open extension key"
+msgstr "打开扩展名注册表项"
+
+#: src/settings/file_association.cpp:501
+msgctxt "app"
+msgid "open legacy UserChoice backup"
+msgstr "打开旧版 UserChoice 备份"
+
+#: src/settings/file_association.cpp:1195
+msgctxt "app"
+msgid "open system default programs"
+msgstr "打开系统默认程序设置"
+
+#: src/ui/playlist_transforms.cpp:1684
+msgctxt "app"
+msgid "partial decoded PCM frame"
+msgstr "解码后的 PCM 帧不完整"
+
+#: src/settings/file_association.cpp:721
+msgctxt "app"
+msgid "programs_subdirectory may not contain '..'"
+msgstr "programs_subdirectory 不得包含 '..'"
+
+#: src/settings/file_association.cpp:716
+msgctxt "app"
+msgid "programs_subdirectory must be relative"
+msgstr "programs_subdirectory 必须是相对路径"
+
+#: src/settings/file_association.cpp:666
+msgctxt "app"
+msgid "query OpenWithProgids"
+msgstr "查询 OpenWithProgids 注册表项"
+
+#: src/settings/file_association.cpp:815
+msgctxt "app"
+msgid "query extension"
+msgstr "查询文件扩展名"
+
+#: src/settings/file_association.cpp:1084
+msgctxt "app"
+msgid "read RegisteredApplications"
+msgstr "读取 RegisteredApplications 注册表项"
+
+#: src/settings/file_association.cpp:401
+msgctxt "app"
+msgid "read association backup metadata"
+msgstr "读取关联备份信息"
+
+#: src/settings/file_association.cpp:291 src/settings/file_association.cpp:366
+msgctxt "app"
+msgid "read association owner"
+msgstr "读取关联所属程序"
+
+#: src/settings/file_association.cpp:1072
+msgctxt "app"
+msgid "read capabilities owner"
+msgstr "读取功能注册信息所属程序"
+
+#: src/settings/file_association.cpp:647
+msgctxt "app"
+msgid "read default-program registration"
+msgstr "读取默认程序注册信息"
+
+#: src/settings/file_association.cpp:848
+msgctxt "app"
+msgid "read extension backup"
+msgstr "读取扩展名备份"
+
+#: src/settings/file_association.cpp:935
+msgctxt "app"
+msgid "read later legacy UserChoice"
+msgstr "读取后续的旧版 UserChoice 设置"
+
+#: src/settings/file_association.cpp:485
+msgctxt "app"
+msgid "read legacy UserChoice"
+msgstr "读取旧版 UserChoice 设置"
+
+#: src/settings/file_association.cpp:490
+msgctxt "app"
+msgid "read legacy UserChoice Progid"
+msgstr "读取旧版 UserChoice Progid"
+
+#: src/settings/file_association.cpp:532
+msgctxt "app"
+msgid "read legacy UserChoice backup"
+msgstr "读取旧版 UserChoice 备份"
+
+#: src/settings/file_association.cpp:505
+msgctxt "app"
+msgid "read legacy UserChoice backup owner"
+msgstr "读取旧版 UserChoice 备份所属程序"
+
+#: src/settings/file_association.cpp:1243
+msgctxt "app"
+msgid "read registered formats"
+msgstr "读取已注册的格式"
+
+#: src/settings/file_association.cpp:303 src/settings/file_association.cpp:582
+msgctxt "app"
+msgid "read registry default value"
+msgstr "读取注册表默认值"
+
+#: src/settings/file_association.cpp:1060 src/settings/file_association.cpp:1064
+msgctxt "app"
+msgid "register default program"
+msgstr "注册默认程序"
+
+#: src/settings/file_association.cpp:1086
+msgctxt "app"
+msgid "registered application name already in use"
+msgstr "注册的应用程序名称已被占用"
+
+#: src/settings/file_association.cpp:1287
+msgctxt "app"
+msgid "remove RegisteredApplications entry"
+msgstr "移除 RegisteredApplications 条目"
+
+#: src/settings/file_association.cpp:432
+msgctxt "app"
+msgid "remove association metadata"
+msgstr "移除关联信息"
+
+#: src/settings/file_association.cpp:1291
+msgctxt "app"
+msgid "remove capabilities"
+msgstr "移除功能注册信息"
+
+#: src/settings/file_association.cpp:451
+msgctxt "app"
+msgid "remove empty association key"
+msgstr "移除空的关联注册表项"
+
+#: src/settings/file_association.cpp:560
+msgctxt "app"
+msgid "remove legacy UserChoice backup"
+msgstr "移除旧版 UserChoice 备份"
+
+#: src/settings/file_association.cpp:522
+msgctxt "app"
+msgid "remove legacy UserChoice key"
+msgstr "移除旧版 UserChoice 注册表项"
+
+#: src/settings/file_association.cpp:715 src/settings/file_association.cpp:720
+msgctxt "app"
+msgid "resolve Programs shortcut"
+msgstr "解析开始菜单快捷方式"
+
+#: src/settings/file_association.cpp:731
+msgctxt "app"
+msgid "resolve shortcut path"
+msgstr "解析快捷方式路径"
+
+#: src/settings/file_association.cpp:545
+msgctxt "app"
+msgid "restore legacy UserChoice"
+msgstr "恢复旧版 UserChoice 设置"
+
+#: src/settings/file_association.cpp:421
+msgctxt "app"
+msgid "restore registry default value"
+msgstr "恢复注册表默认值"
+
+#: src/settings/file_association.cpp:329
+msgctxt "app"
+msgid "save association ownership metadata"
+msgstr "保存关联所属程序信息"
+
+#: src/settings/file_association.cpp:516
+msgctxt "app"
+msgid "save legacy UserChoice backup"
+msgstr "保存旧版 UserChoice 备份"
+
+#: src/settings/file_association.cpp:311
+msgctxt "app"
+msgid "save registry default backup"
+msgstr "保存注册表默认值备份"
+
+#: src/settings/file_association.cpp:896 src/settings/file_association.cpp:898 src/settings/file_association.cpp:1147
+msgctxt "app"
+msgid "set extension association"
+msgstr "设置文件扩展名关联"
+
+#: src/settings/file_association.cpp:1028
+msgctxt "app"
+msgid "set icon for an unmanaged association"
+msgstr "为非本程序管理的关联设置图标"
+
+#: src/settings/file_association.cpp:1317
+msgctxt "app"
+msgid "set shell integration"
+msgstr "设置系统集成"
+
+#: src/ui/playlist_transforms.cpp:593
+msgctxt "app"
+msgid "ttpcomm equalizer initialization failed"
+msgstr "ttpcomm 均衡器初始化失败"
+
+#: src/ui/playlist_transforms.cpp:588
+msgctxt "app"
+msgid "ttpcomm equalizer is unavailable"
+msgstr "ttpcomm 均衡器不可用"
+
+#: src/ui/playlist_transforms.cpp:632
+msgctxt "app"
+msgid "ttpcomm equalizer processing failed"
+msgstr "ttpcomm 均衡器处理失败"
+
+#: src/ui/playlist_transforms.cpp:601
+msgctxt "app"
+msgid "ttpcomm surround initialization failed"
+msgstr "ttpcomm 环绕音效初始化失败"
+
+#: src/ui/playlist_transforms.cpp:596
+msgctxt "app"
+msgid "ttpcomm surround is unavailable"
+msgstr "ttpcomm 环绕音效不可用"
+
+#: src/ui/playlist_transforms.cpp:639
+msgctxt "app"
+msgid "ttpcomm surround processing failed"
+msgstr "ttpcomm 环绕音效处理失败"
+
+#: src/ui/playlist_transforms.cpp:1732
+msgctxt "app"
+msgid "unable to commit converted file"
+msgstr "无法完成转换文件的保存"
+
+#: src/ui/playlist_transforms.cpp:1612
+msgctxt "app"
+msgid "unable to create decoded audio source"
+msgstr "无法创建解码后的音频源"
+
+#: src/ui/playlist_transforms.cpp:1656
+msgctxt "app"
+msgid "unable to create output file"
+msgstr "无法创建输出文件"
+
+#: src/settings/file_association.cpp:1225
+msgctxt "app"
+msgid "unregister default program"
+msgstr "注销默认程序"
+
+#: src/ui/output_devices.cpp:835
+msgctxt "app"
+msgid "unsupported output backend"
+msgstr "不支持的输出后端"
+
+#: src/settings/file_association.cpp:672
+msgctxt "app"
+msgid "update OpenWithProgids"
+msgstr "更新 OpenWithProgids 注册表项"
+
+#: src/ui/output_devices.cpp:760
+msgctxt "app"
+msgid "waveOutGetDevCapsW failed"
+msgstr "waveOutGetDevCapsW 调用失败"
+
+#: src/settings/file_association.cpp:651
+msgctxt "app"
+msgid "write default-program registration"
+msgstr "写入默认程序注册信息"
+
+#: src/settings/file_association.cpp:342
+msgctxt "app"
+msgid "write registry default value"
+msgstr "写入注册表默认值"
+
+#: src/integrations/discord_presence.cpp:146
+msgctxt "app"
+msgid "专辑："
+msgstr "专辑："
+
+#: src/lyrics/service_catalog.cpp:240
+msgctxt "app"
+msgid "保存失败，未完成的文件保持原样。"
+msgstr "保存失败，未完成的文件保持原样。"
+
+#: src/lyrics/service_catalog.cpp:239
+msgctxt "app"
+msgid "保存未完成（已成功保存的文件已保留）："
+msgstr "保存未完成（已成功保存的文件已保留）："
+
+#: src/ui/player_window_playlist_search.cpp:823
+msgctxt "app"
+msgid "停止搜索"
+msgstr "停止搜索"
+
+#: src/ui/player_window_playlist_search.cpp:409
+msgctxt "app"
+msgid "公用文档"
+msgstr "公用文档"
+
+#: src/ui/player_window_playlist_search.cpp:410
+msgctxt "app"
+msgid "公用音乐"
+msgstr "公用音乐"
+
+#: src/ui/player_window.cpp:4497
+msgctxt "app"
+msgid "原始文本"
+msgstr "原始文本"
+
+#: src/ui/player_window_options.cpp:4304
+msgctxt "app"
+msgid "向 Discord 发送播放的歌曲信息"
+msgstr "向 Discord 发送播放的歌曲信息"
+
+#: src/ui/player_window_options.cpp:4312
+msgctxt "app"
+msgid "向 Discord 发送歌词"
+msgstr "向 Discord 发送歌词"
+
+#: src/integrations/discord_presence.cpp:123
+msgctxt "app"
+msgid "已收听 "
+msgstr "已收听 "
+
+#: src/integrations/discord_presence.cpp:122
+msgctxt "app"
+msgid "已暂停 · "
+msgstr "已暂停 · "
+
+#: src/ui/player_window_playlist_search.cpp:822
+msgctxt "app"
+msgid "开始搜索"
+msgstr "开始搜索"
+
+#: src/ui/player_window_playlist_search.cpp:408
+msgctxt "app"
+msgid "我的音乐"
+msgstr "我的音乐"
+
+#: src/ui/player_window_playlist_network.cpp:36
+msgctxt "app"
+msgid "报告服务不可用，尚未提交。"
+msgstr "报告服务不可用，尚未提交。"
+
+#: src/ui/project_links.h:28
+msgctxt "app"
+msgid "提交反馈"
+msgstr "提交反馈"
+
+#: src/ui/player_window.cpp:5078
+msgctxt "app"
+msgid "无法保存界面语言设置。"
+msgstr "无法保存界面语言设置。"
+
+#: src/lyrics/service_catalog.cpp:141
+msgctxt "app"
+msgid "无法读取有效的服务器 XML，保留原文件，不允许覆盖。"
+msgstr "无法读取有效的服务器 XML，保留原文件，不允许覆盖。"
+
+#: src/integrations/discord_presence.cpp:133
+msgctxt "app"
+msgid "时长未知"
+msgstr "时长未知"
+
+#: src/integrations/discord_presence.cpp:385 src/integrations/discord_track_presence.cpp:96
+msgctxt "app"
+msgid "未知曲目"
+msgstr "未知曲目"
+
+#: src/ui/player_window_options.cpp:4284
+msgctxt "app"
+msgid "构建日期:"
+msgstr "构建日期:"
+
+#: src/integrations/discord_presence.cpp:147
+msgctxt "app"
+msgid "正在播放"
+msgstr "正在播放"
+
+#: src/integrations/discord_presence.cpp:129
+msgctxt "app"
+msgid "电台"
+msgstr "电台"
+
+#: src/integrations/discord_presence.cpp:129
+msgctxt "app"
+msgid "电台直播"
+msgstr "电台直播"
+
+#: src/ui/player_window.cpp:4504
+msgctxt "app"
+msgid "界面语言"
+msgstr "界面语言"
+
+#: src/ui/player_window.cpp:5074
+msgctxt "app"
+msgid "界面语言将在下次启动播放器时生效。"
+msgstr "界面语言将在下次启动播放器时生效。"
+
+#: src/ui/player_window_options.cpp:4288
+msgctxt "app"
+msgid "社区版"
+msgstr "社区版"
+
+#: src/integrations/discord_presence.cpp:131 src/integrations/discord_track_presence.cpp:91
+msgctxt "app"
+msgid "网络音频"
+msgstr "网络音频"
+
+#: src/integrations/discord_presence.cpp:131
+msgctxt "app"
+msgid "网络音频 · 时长未知"
+msgstr "网络音频 · 时长未知"
+
+#: src/ui/player_window.cpp:4496
+msgctxt "app"
+msgid "自动（系统语言）"
+msgstr "自动（系统语言）"
+
+#: src/ui/player_window_playlist_search.cpp:470
+msgctxt "app"
+msgid "自定义..."
+msgstr "自定义..."
+
+#: src/ui/player_window_playlist_search.cpp:406
+msgctxt "app"
+msgid "计算机"
+msgstr "计算机"
+
+#: src/lyrics/service_catalog.cpp:248
+msgctxt "app"
+msgid "读取歌词服务器列表失败。"
+msgstr "读取歌词服务器列表失败。"
+
+#: src/ui/player_window_playlist_search.cpp:598
+#, c-format
+msgctxt "app/search/count"
+msgid "%u 个"
+msgid_plural "%u 个"
+msgstr[0] "%u 个"
+
+# === 重建版字符串资源 ===
+
+msgctxt "exe/string/4091"
+msgid "屏幕选择"
+msgstr "屏幕选择"
+
+msgctxt "exe/string/4093"
+msgid "显示器"
+msgstr "显示器"
+
+msgctxt "exe/string/4094"
+msgid "主显示器"
+msgstr "主显示器"
+
+msgctxt "exe/string/4095"
+msgid "专辑图片"
+msgstr "专辑图片"
+
+msgctxt "exe/string/4096"
+msgid "专辑图片背景"
+msgstr "专辑图片背景"
+
+msgctxt "exe/string/4097"
+msgid "备用图片:"
+msgstr "备用图片:"
+
+msgctxt "exe/string/4098"
+msgid "浏览…"
+msgstr "浏览…"
+
+msgctxt "exe/string/4099"
+msgid "清除"
+msgstr "清除"
+
+msgctxt "exe/string/4100"
+msgid "透明度:"
+msgstr "透明度:"
+
+msgctxt "exe/string/4101"
+msgid "选择无专辑封面时使用的备用图片"
+msgstr "选择无专辑封面时使用的备用图片"
+
+msgctxt "exe/string/4102"
+msgid "图片文件"
+msgstr "图片文件"
+
+msgctxt "exe/string/4103"
+msgid "允许拖拽歌词"
+msgstr "允许拖拽歌词"
+
+msgctxt "exe/string/4104"
+msgid "放大歌词"
+msgstr "放大歌词"
+
+msgctxt "exe/string/4105"
+msgid "缩小歌词"
+msgstr "缩小歌词"
+
+msgctxt "exe/string/4110"
+msgid "编辑列表"
+msgstr "编辑列表"
+
+msgctxt "exe/string/4111"
+msgid "正在读取歌词服务器列表…"
+msgstr "正在读取歌词服务器列表…"
+
+msgctxt "exe/string/4112"
+msgid "DLL 内置服务器不可修改或删除。新增条目保存到所选 DLL 同名的 INI 文件。"
+msgstr "DLL 内置服务器不可修改或删除。新增条目保存到所选 DLL 同名的 INI 文件。"
+
+msgctxt "exe/string/4113"
+msgid "可编辑 INI 条目；地址须为兼容千千歌词搜索协议的 HTTP 或 HTTPS 服务。"
+msgstr "可编辑 INI 条目；地址须为兼容千千歌词搜索协议的 HTTP 或 HTTPS 服务。"
+
+msgctxt "exe/string/4114"
+msgid "正在保存，请稍候…"
+msgstr "正在保存，请稍候…"
+
+msgctxt "exe/string/4115"
+msgid "列表已保存，下次搜索立即生效。"
+msgstr "列表已保存，下次搜索立即生效。"
+
+msgctxt "exe/string/4116"
+msgid "放弃尚未保存的服务器列表更改？"
+msgstr "放弃尚未保存的服务器列表更改？"
+
+msgctxt "exe/string/4117"
+msgid "名称"
+msgstr "名称"
+
+msgctxt "exe/string/4118"
+msgid "地址"
+msgstr "地址"
+
+msgctxt "exe/string/4119"
+msgid "保存位置（只读）"
+msgstr "保存位置（只读）"
+
+msgctxt "exe/string/4120"
+msgid "新服务器"
+msgstr "新服务器"
+
+msgctxt "exe/string/4121"
+msgid "未加载歌词搜索 DLL，无法添加服务器。"
+msgstr "未加载歌词搜索 DLL，无法添加服务器。"
+
+msgctxt "exe/string/4122"
+msgid "上移"
+msgstr "上移"
+
+msgctxt "exe/string/4123"
+msgid "下移"
+msgstr "下移"
+
+msgctxt "exe/string/4124"
+msgid "新增"
+msgstr "新增"
+
+msgctxt "exe/string/4125"
+msgid "删除"
+msgstr "删除"
+
+msgctxt "exe/string/4126"
+msgid "Win7 以上系统需要手动关联"
+msgstr "Win7 以上系统需要手动关联"
+
+msgctxt "exe/string/4127"
+msgid "已注册可打开的音频格式。默认播放器需要在 Windows 的系统关联界面中由您确认；返回后列表将显示实际关联状态。"
+msgstr "已注册可打开的音频格式。默认播放器需要在 Windows 的系统关联界面中由您确认；返回后列表将显示实际关联状态。"
+
+msgctxt "exe/string/4128"
+msgid "不再提示关联提醒"
+msgstr "不再提示关联提醒"
+
+msgctxt "exe/string/4129"
+msgid "刷新"
+msgstr "刷新"
+
+msgctxt "exe/string/4130"
+msgid "前往系统设置"
+msgstr "前往系统设置"
+
+msgctxt "exe/string/4131"
+msgid "正在打开歌词上传页面…"
+msgstr "正在打开歌词上传页面…"
+
+msgctxt "exe/string/4132"
+msgid "已填入歌曲信息和歌词，请在网页中确认并提交。"
+msgstr "已填入歌曲信息和歌词，请在网页中确认并提交。"
+
+msgctxt "exe/string/4133"
+msgid "上传页面不可用或不兼容，未提交歌词。"
+msgstr "上传页面不可用或不兼容，未提交歌词。"
+
+msgctxt "exe/string/4134"
+msgid "请先在歌词搜索中选择有效的 HTTP 或 HTTPS 服务器。"
+msgstr "请先在歌词搜索中选择有效的 HTTP 或 HTTPS 服务器。"
+
+# === 重建版对话框 ===
+
+msgctxt "exe/dialog/4090/control/1/0"
+msgid "OK"
+msgstr "确定"
+
+msgctxt "exe/dialog/4090/control/2/0"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "exe/dialog/4090/control/4294967295/0"
+msgid "Mode:"
+msgstr "模式:"
+
+msgctxt "exe/dialog/4090/control/4294967295/1"
+msgid "Bitrate (kbps):"
+msgstr "比特率 (kbps):"
+
+msgctxt "exe/dialog/4090/control/4294967295/2"
+msgid "VBR quality (0-9):"
+msgstr "VBR 质量 (0-9):"
+
+msgctxt "exe/dialog/4090/title"
+msgid "LAME MP3"
+msgstr "LAME MP3"
+
+msgctxt "exe/dialog/4200/control/1/0"
+msgid "保存"
+msgstr "保存"
+
+msgctxt "exe/dialog/4200/control/2/0"
+msgid "关闭"
+msgstr "关闭"
+
+msgctxt "exe/dialog/4200/control/4294967295/0"
+msgid "名称:"
+msgstr "名称:"
+
+msgctxt "exe/dialog/4200/control/4294967295/1"
+msgid "地址:"
+msgstr "地址:"
+
+msgctxt "exe/dialog/4200/control/4294967295/2"
+msgid "保存位置:"
+msgstr "保存位置:"
+
+msgctxt "exe/dialog/4200/title"
+msgid "编辑歌词服务器列表"
+msgstr "编辑歌词服务器列表"
+
+# === ttpres 字符串表 ===
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/10000"
+msgid "第一个播放项"
+msgstr "第一个播放项"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1033"
+msgid "垂直滚动|水平滚动"
+msgstr "垂直滚动|水平滚动"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1037"
+msgid "左对齐(上对齐)|居中|右对齐(下对齐)"
+msgstr "左对齐(上对齐)|居中|右对齐(下对齐)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1041"
+msgid "忽略|提问|覆盖"
+msgstr "忽略|提问|覆盖"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1047"
+msgid "不检查|每天|每周|每月"
+msgstr "不检查|每天|每周|每月"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1058"
+msgid "较慢|普通|较快"
+msgstr "较慢|普通|较快"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1100"
+msgid "最高|普通|空闲"
+msgstr "最高|普通|空闲"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/1106"
+msgid "<不显示>|梦幻星空|频谱分析|示波显示|专辑封面"
+msgstr "<不显示>|梦幻星空|频谱分析|示波显示|专辑封面"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/128"
+msgid "千千静听"
+msgstr "千千静听"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/129"
+msgid "    一个集播放、音效、转换、歌词等多种功能于一身的专业音频播放软件。\n\n    拥有自主研发的全新音频引擎，支持DirectSound、内核音频流(Kernel Streaming)和ASIO音频流输出、AddIn插件扩展技术，具有资源占用低、运行效率高、扩展能力强等优点。\n\n    支持MP3/mp3PRO、AAC/AAC+、M4A/MP4、WMA、APE、MPC、OGG、WAVE、CD、FLAC、RM、TTA、AIFF、AU等音频格式以及多种MOD和MIDI音乐，支持CUE音轨索引文件，支持所有格式到WAVE、MP3、APE、WMA等格式的转换，通过基于COM接口的AddIn插件可以支持更多格式的播放和转换。\n\n    支持采样频率转换(SSRC)和多种比特输出方式，支持回放增益，支持10波段均衡器、多级杜比环绕、淡入淡出音效，兼容并可同时激活多个Winamp2的音效插件。\n\n    支持ID3v1/v2、WMA、RM、APE和Vorbis标签，支持批量修改标签和以标签重命名文件。\n\n    支持同步歌词滚动显示和拖动定位播放，并且支持在线歌词搜索和歌词编辑功能。\n\n    支持多播放列表和音频文件搜索，支持多种视觉效果，采用XML格式的ZIP压缩的皮肤，同时具有磁性窗口、半透明/淡入淡出窗口、窗口阴影、任务栏图标、自定义快捷键、信息滚动、菜单功能提示等功能。\n\n    真正免费且无需注册，也不存在任何功能或时间限制。"
+msgstr "    一个集播放、音效、转换、歌词等多种功能于一身的专业音频播放软件。\n\n    拥有自主研发的全新音频引擎，支持DirectSound、内核音频流(Kernel Streaming)和ASIO音频流输出、AddIn插件扩展技术，具有资源占用低、运行效率高、扩展能力强等优点。\n\n    支持MP3/mp3PRO、AAC/AAC+、M4A/MP4、WMA、APE、MPC、OGG、WAVE、CD、FLAC、RM、TTA、AIFF、AU等音频格式以及多种MOD和MIDI音乐，支持CUE音轨索引文件，支持所有格式到WAVE、MP3、APE、WMA等格式的转换，通过基于COM接口的AddIn插件可以支持更多格式的播放和转换。\n\n    支持采样频率转换(SSRC)和多种比特输出方式，支持回放增益，支持10波段均衡器、多级杜比环绕、淡入淡出音效，兼容并可同时激活多个Winamp2的音效插件。\n\n    支持ID3v1/v2、WMA、RM、APE和Vorbis标签，支持批量修改标签和以标签重命名文件。\n\n    支持同步歌词滚动显示和拖动定位播放，并且支持在线歌词搜索和歌词编辑功能。\n\n    支持多播放列表和音频文件搜索，支持多种视觉效果，采用XML格式的ZIP压缩的皮肤，同时具有磁性窗口、半透明/淡入淡出窗口、窗口阴影、任务栏图标、自定义快捷键、信息滚动、菜单功能提示等功能。\n\n    真正免费且无需注册，也不存在任何功能或时间限制。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/132"
+msgid "最新版本"
+msgstr "最新版本"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/133"
+msgid "最新消息"
+msgstr "最新消息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/134"
+msgid "尽听精彩"
+msgstr "尽听精彩"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/135"
+msgid "您现在使用的已经是最新的版本！\n请继续关注和支持“千千静听”！"
+msgstr "您现在使用的已经是最新的版本！\n请继续关注和支持“千千静听”！"
+
+#. Preserve separators, file patterns and format placeholders.
+msgctxt "ttpres/string/136"
+msgid "千千靜聽現在有更新，建議您立即安裝更新，體驗 \n最新版本功能。"
+msgstr "千千静听现在有更新，建议您立即安装更新，体验 \n最新版本功能。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/148"
+msgid "歌词编辑"
+msgstr "歌词编辑"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/200"
+msgid "“千千静听”的简明介绍"
+msgstr "“千千静听”的简明介绍"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2009"
+msgid "显示|添加|播放"
+msgstr "显示|添加|播放"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2043"
+msgid "无噪音形态|三角形频谱|强ATH噪音形态|弱ATH噪音形态"
+msgstr "无噪音形态|三角形频谱|强ATH噪音形态|弱ATH噪音形态"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2100"
+msgid "清除字段\n清除"
+msgstr "清除字段\n清除"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2150"
+msgid "卡拉OK模式|非卡拉OK模式"
+msgstr "卡拉OK模式|非卡拉OK模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2151"
+msgid "歌词背景透明"
+msgstr "歌词背景透明"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2155"
+msgid "内码转换\n内码转换"
+msgstr "内码转换\n内码转换"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2156"
+msgid "简繁体转换\n简繁转换"
+msgstr "简繁体转换\n简繁转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2157"
+msgid "简体 -> 繁体"
+msgstr "简体 -> 繁体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2158"
+msgid "繁体 -> 简体"
+msgstr "繁体 -> 简体"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2165"
+msgid "高级模式\n高级模式\n高级"
+msgstr "高级模式\n高级模式\n高级"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2186"
+msgid "快速线性算法|高级频域算法|高质量频域算法(慢速)"
+msgstr "快速线性算法|高级频域算法|高质量频域算法(慢速)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2196"
+msgid "不保存|提示|自动保存"
+msgstr "不保存|提示|自动保存"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2230"
+msgid "并列|重叠"
+msgstr "并列|重叠"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2232"
+msgid "梦幻星空|频谱分析|示波显示"
+msgstr "梦幻星空|频谱分析|示波显示"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2257"
+msgid "单行显示|双行显示"
+msgstr "单行显示|双行显示"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2258"
+msgid "居中|左对齐|右对齐|左右分离"
+msgstr "居中|左对齐|右对齐|左右分离"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2301"
+msgid "后退"
+msgstr "后退"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2302"
+msgid "前进"
+msgstr "前进"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2303"
+msgid "刷新"
+msgstr "刷新"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2305"
+msgid "音乐窗"
+msgstr "音乐窗"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2306"
+msgid "下载管理窗口"
+msgstr "下载管理窗口"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/2307"
+msgid "下载管理"
+msgstr "下载管理"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/250"
+msgid "常规操作的参数设置"
+msgstr "常规操作的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/251"
+msgid "播放相关的参数设置"
+msgstr "播放相关的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/252"
+msgid "自定义播放器的快捷键"
+msgstr "自定义播放器的快捷键"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/253"
+msgid "视觉效果相关的参数设置"
+msgstr "视觉效果相关的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/254"
+msgid "播放列表相关的参数设置"
+msgstr "播放列表相关的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/256"
+msgid "歌词秀相关的参数设置"
+msgstr "歌词秀相关的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/257"
+msgid "歌词的本地以及在线搜索"
+msgstr "歌词的本地以及在线搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/258"
+msgid "网络连接相关的参数设置"
+msgstr "网络连接相关的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/259"
+msgid "激活及配置音效插件"
+msgstr "激活及配置音效插件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/260"
+msgid "选择及配置音频输出设备"
+msgstr "选择及配置音频输出设备"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/261"
+msgid "选择播放器的皮肤"
+msgstr "选择播放器的皮肤"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/262"
+msgid "关联音频文件以及创建快捷方式"
+msgstr "关联音频文件以及创建快捷方式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/263"
+msgid "全屏显示相关的参数设置"
+msgstr "全屏显示相关的参数设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/3001"
+msgid "更改媒体.."
+msgstr "更改媒体.."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/3002"
+msgid "打开媒体.."
+msgstr "打开媒体.."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/3003"
+msgid "状态: 完毕"
+msgstr "状态: 完毕"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/3004"
+msgid "状态: 就绪"
+msgstr "状态: 就绪"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/31000"
+msgid "播放器皮肤的选项"
+msgstr "播放器皮肤的选项"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32000"
+msgid "播放音频\n播放"
+msgstr "播放音频\n播放"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32001"
+msgid "暂停播放\n暂停"
+msgstr "暂停播放\n暂停"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32002"
+msgid "停止播放\n停止"
+msgstr "停止播放\n停止"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32003"
+msgid "快退5秒\n快退"
+msgstr "快退5秒\n快退"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32004"
+msgid "快进5秒\n快进"
+msgstr "快进5秒\n快进"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32005"
+msgid "播放上一首\n上一首"
+msgstr "播放上一首\n上一首"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32006"
+msgid "播放下一首\n下一首"
+msgstr "播放下一首\n下一首"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32007"
+msgid "音量开关"
+msgstr "音量开关"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32008"
+msgid "播放音频 CD 或 MTV VCD\n播放CD"
+msgstr "播放音频 CD 或 MTV VCD\n播放CD"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32009"
+msgid "打开一个网络URL进行播放\n播放URL"
+msgstr "打开一个网络URL进行播放\n播放URL"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32010"
+msgid "增大音量"
+msgstr "增大音量"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32011"
+msgid "减小音量"
+msgstr "减小音量"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32100"
+msgid "显示或隐藏歌词秀\n歌词秀"
+msgstr "显示或隐藏歌词秀\n歌词秀"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32101"
+msgid "设置均衡器参数\n均衡器"
+msgstr "设置均衡器参数\n均衡器"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32102"
+msgid "查看音频文件播放列表\n播放列表"
+msgstr "查看音频文件播放列表\n播放列表"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32103"
+msgid "编辑音频文件属性\n文件属性"
+msgstr "编辑音频文件属性\n文件属性"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32104"
+msgid "打开或关闭音乐窗口\n音乐窗"
+msgstr "打开或关闭音乐窗口\n音乐窗"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32200"
+msgid "设置窗口透明度"
+msgstr "设置窗口透明度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32210"
+msgid "窗口激活时不透明"
+msgstr "窗口激活时不透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32211"
+msgid "最小化"
+msgstr "最小化"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32212"
+msgid "切换迷你模式和普通模式(需皮肤支持)\n切换迷你模式"
+msgstr "切换迷你模式和普通模式(需皮肤支持)\n切换迷你模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32213"
+msgid "最小化/还原"
+msgstr "最小化/还原"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32214"
+msgid "重新排列主要窗口\n重新排列(&R)"
+msgstr "重新排列主要窗口\n重新排列(&R)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32215"
+msgid "使所有播放器窗口总在最前面\n总在最前(&T)"
+msgstr "使所有播放器窗口总在最前面\n总在最前(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32216"
+msgid "主菜单"
+msgstr "主菜单"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32217"
+msgid "文件属性"
+msgstr "文件属性"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32218"
+msgid "播放进度"
+msgstr "播放进度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32219"
+msgid "音量调节"
+msgstr "音量调节"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32220"
+msgid "视觉效果"
+msgstr "视觉效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32221"
+msgid "播放时间"
+msgstr "播放时间"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32222"
+msgid "窗口阴影效果(需要Windows XP或更高版本)"
+msgstr "窗口阴影效果(需要Windows XP或更高版本)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32230"
+msgid "全屏显示"
+msgstr "全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32231"
+msgid "退出全屏显示(&F)"
+msgstr "退出全屏显示(&F)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32232"
+msgid "全屏显示歌词"
+msgstr "全屏显示歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32233"
+msgid "全屏显示视觉效果"
+msgstr "全屏显示视觉效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32234"
+msgid "全屏时同时显示歌词和视觉效果"
+msgstr "全屏时同时显示歌词和视觉效果"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32250"
+msgid "启用或禁用杜比环绕\n杜比环绕开关"
+msgstr "启用或禁用杜比环绕\n杜比环绕开关"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32300"
+msgid "启用或禁用均衡器\n均衡开关"
+msgstr "启用或禁用均衡器\n均衡开关"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32301"
+msgid "使用推荐的EQ配置\n推荐配置"
+msgstr "使用推荐的EQ配置\n推荐配置"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32302"
+msgid "使用自定义的EQ配置\n自定义"
+msgstr "使用自定义的EQ配置\n自定义"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32400"
+msgid "EQ配置文件"
+msgstr "EQ配置文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32500"
+msgid "无播放曲目"
+msgstr "无播放曲目"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32501"
+msgid "播放选中的文件"
+msgstr "播放选中的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32502"
+msgid "编辑音频文件属性"
+msgstr "编辑音频文件属性"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32503"
+msgid "转换选中的文件为其它格式"
+msgstr "转换选中的文件为其它格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32506"
+msgid "访问freedb.org查询音轨信息"
+msgstr "访问freedb.org查询音轨信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32508"
+msgid "浏览文件所在的文件夹"
+msgstr "浏览文件所在的文件夹"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32509"
+msgid "播放列表的选项"
+msgstr "播放列表的选项"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32510"
+msgid "操作播放列表\n列表"
+msgstr "操作播放列表\n列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32511"
+msgid "加载一个播放列表文件"
+msgstr "加载一个播放列表文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32512"
+msgid "保存播放列表"
+msgstr "保存播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32513"
+msgid "新建一个播放列表"
+msgstr "新建一个播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32514"
+msgid "删除播放列表"
+msgstr "删除播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32515"
+msgid "选择并添加播放列表"
+msgstr "选择并添加播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32516"
+msgid "重命名播放列表"
+msgstr "重命名播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32517"
+msgid "将该列表切换成为当前播放列表"
+msgstr "将该列表切换成为当前播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32518"
+msgid "保存所有列表到一个指定的文件夹"
+msgstr "保存所有列表到一个指定的文件夹"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32520"
+msgid "添加文件\n添加"
+msgstr "添加文件\n添加"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32521"
+msgid "选择并添加音频文件\n添加文件"
+msgstr "选择并添加音频文件\n添加文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32522"
+msgid "选择并添加文件夹中的音频文件\n添加文件夹"
+msgstr "选择并添加文件夹中的音频文件\n添加文件夹"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32523"
+msgid "搜索并添加电脑中的音频文件"
+msgstr "搜索并添加电脑中的音频文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32524"
+msgid "添加网络URL"
+msgstr "添加网络URL"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32525"
+msgid "搜索互联网上的音频文件，请将搜索到的音乐链接拖到播放列表\n搜索网上音乐"
+msgstr "搜索互联网上的音频文件，请将搜索到的音乐链接拖到播放列表\n搜索网上音乐"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32530"
+msgid "删除文件\n删除"
+msgstr "删除文件\n删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32531"
+msgid "删除选中的文件"
+msgstr "删除选中的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32532"
+msgid "删除当前列表的所有文件"
+msgstr "删除当前列表的所有文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32533"
+msgid "删除重复的文件"
+msgstr "删除重复的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32534"
+msgid "删除不支持或者不存在的文件"
+msgstr "删除不支持或者不存在的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32535"
+msgid "从硬盘上删除选中的文件"
+msgstr "从硬盘上删除选中的文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32540"
+msgid "排序列表\n排序"
+msgstr "排序列表\n排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32541"
+msgid "按照当前显示的标题排序"
+msgstr "按照当前显示的标题排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32542"
+msgid "按照文件名排序"
+msgstr "按照文件名排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32543"
+msgid "按照路径名排序"
+msgstr "按照路径名排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32544"
+msgid "按照专辑名排序"
+msgstr "按照专辑名排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32545"
+msgid "按照星级排序"
+msgstr "按照星级排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32546"
+msgid "按照文件时间排序"
+msgstr "按照文件时间排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32547"
+msgid "按照音轨序号排序"
+msgstr "按照音轨序号排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32548"
+msgid "按照播放长度排序"
+msgstr "按照播放长度排序"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32549"
+msgid "随机打乱播放列表的顺序\n随机乱序"
+msgstr "随机打乱播放列表的顺序\n随机乱序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32550"
+msgid "按列表的名称排序"
+msgstr "按列表的名称排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32560"
+msgid "剪切选中的文件到剪贴板"
+msgstr "剪切选中的文件到剪贴板"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32561"
+msgid "复制选中的文件到剪贴板"
+msgstr "复制选中的文件到剪贴板"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32562"
+msgid "插入剪贴板的文件"
+msgstr "插入剪贴板的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32563"
+msgid "移动选中的文件到其它播放列表"
+msgstr "移动选中的文件到其它播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32564"
+msgid "复制选中的文件到其它播放列表"
+msgstr "复制选中的文件到其它播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32565"
+msgid "选中所有的文件项"
+msgstr "选中所有的文件项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32566"
+msgid "不选中所有的文件项"
+msgstr "不选中所有的文件项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32567"
+msgid "反向选中所有文件项"
+msgstr "反向选中所有文件项"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32568"
+msgid "查找\n查找"
+msgstr "查找\n查找"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32569"
+msgid "查找歌曲文件"
+msgstr "查找歌曲文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32570"
+msgid "查找下一个\n查找下一个"
+msgstr "查找下一个\n查找下一个"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32571"
+msgid "快速定位文件"
+msgstr "快速定位文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32580"
+msgid "选择播放模式\n播放模式"
+msgstr "选择播放模式\n播放模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32581"
+msgid "单遍播放当前文件"
+msgstr "单遍播放当前文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32582"
+msgid "循环播放当前文件"
+msgstr "循环播放当前文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32583"
+msgid "按顺序播放当前列表"
+msgstr "按顺序播放当前列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32584"
+msgid "循环播放当前列表"
+msgstr "循环播放当前列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32585"
+msgid "随机播放当前列表"
+msgstr "随机播放当前列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32586"
+msgid "连续播放时当播放完当前列表后自动切换到下一个列表"
+msgstr "连续播放时当播放完当前列表后自动切换到下一个列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32587"
+msgid "将选中歌曲作为下一个播放对象"
+msgstr "将选中歌曲作为下一个播放对象"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32588"
+msgid "切换媒体库模式\n媒体库模式"
+msgstr "切换媒体库模式\n媒体库模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32746"
+msgid "当标题格式中有星级字段时，可以用鼠标左键点击星号评级"
+msgstr "当标题格式中有星级字段时，可以用鼠标左键点击星号评级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32747"
+msgid "到网上搜索并下载该首歌曲"
+msgstr "到网上搜索并下载该首歌曲"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32750"
+msgid "刷新媒体库树"
+msgstr "刷新媒体库树"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32751"
+msgid "媒体库的选项"
+msgstr "媒体库的选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32770"
+msgid "窗口模式"
+msgstr "窗口模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32771"
+msgid "桌面模式"
+msgstr "桌面模式"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32800"
+msgid "返回到歌词显示模式\n返回歌词秀"
+msgstr "返回到歌词显示模式\n返回歌词秀"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32801"
+msgid "打开一个歌词文件进行编辑\n打开"
+msgstr "打开一个歌词文件进行编辑\n打开"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32802"
+msgid "保存当前的歌词文件并且应用到歌词秀\n保存"
+msgstr "保存当前的歌词文件并且应用到歌词秀\n保存"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32803"
+msgid "歌词秀的选项"
+msgstr "歌词秀的选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32804"
+msgid "重新载入歌词"
+msgstr "重新载入歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32805"
+msgid "本句提前0.5秒"
+msgstr "本句提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32806"
+msgid "本句延后0.5秒"
+msgstr "本句延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32807"
+msgid "其后提前0.5秒"
+msgstr "其后提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32808"
+msgid "其后延后0.5秒"
+msgstr "其后延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32809"
+msgid "全部提前0.5秒"
+msgstr "全部提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32810"
+msgid "全部延后0.5秒"
+msgstr "全部延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32811"
+msgid "调整全部歌词"
+msgstr "调整全部歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32812"
+msgid "编辑当前歌词"
+msgstr "编辑当前歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32813"
+msgid "关联歌词文件"
+msgstr "关联歌词文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32814"
+msgid "撤消歌词关联"
+msgstr "撤消歌词关联"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32815"
+msgid "在线搜索并下载当前歌曲的歌词\n下载歌词"
+msgstr "在线搜索并下载当前歌曲的歌词\n下载歌词"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32819"
+msgid "歌词秀窗口总在最前面(不随主窗口最小化)\n总在最前"
+msgstr "歌词秀窗口总在最前面(不随主窗口最小化)\n总在最前"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32820"
+msgid "复制原始歌词到剪贴板\n复制歌词"
+msgstr "复制原始歌词到剪贴板\n复制歌词"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32821"
+msgid "上传歌词到服务器\n上传歌词"
+msgstr "上传歌词到服务器\n上传歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32824"
+msgid "返回窗口模式"
+msgstr "返回窗口模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32825"
+msgid "显示桌面歌词"
+msgstr "显示桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32826"
+msgid "撤销不关联"
+msgstr "撤销不关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32827"
+msgid "点击此处手动搜索歌词"
+msgstr "点击此处手动搜索歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32830"
+msgid "播放曲目"
+msgstr "播放曲目"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32831"
+msgid "预设方案"
+msgstr "预设方案"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32832"
+msgid "锁定桌面歌词"
+msgstr "锁定桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32833"
+msgid "解锁桌面歌词"
+msgstr "解锁桌面歌词"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32834"
+msgid "总在最前\n取消总在最前"
+msgstr "总在最前\n取消总在最前"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32835"
+msgid "在不锁定的情况下可以实现歌词背景鼠标穿透"
+msgstr "在不锁定的情况下可以实现歌词背景鼠标穿透"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32836"
+msgid "切换歌词模式"
+msgstr "切换歌词模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32837"
+msgid "解/锁桌面歌词"
+msgstr "解/锁桌面歌词"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32840"
+msgid "在行首插入当前的时间标签到\n插入时间标签"
+msgstr "在行首插入当前的时间标签到\n插入时间标签"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32841"
+msgid "用当前时间替换本行中最接近当前时间的标签\n替换时间标签"
+msgstr "用当前时间替换本行中最接近当前时间的标签\n替换时间标签"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32842"
+msgid "删除光标处的时间标签\n删除时间标签"
+msgstr "删除光标处的时间标签\n删除时间标签"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32843"
+msgid "将所有时间标签都提前0.5秒"
+msgstr "将所有时间标签都提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32844"
+msgid "将所有时间标签都延后0.5秒"
+msgstr "将所有时间标签都延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32847"
+msgid "插入或替换标签后光标移到下一行"
+msgstr "插入或替换标签后光标移到下一行"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32880"
+msgid "千千静听软件主页\n软件主页"
+msgstr "千千静听软件主页\n软件主页"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32881"
+msgid "千千音乐在线网站\n千千音乐在线"
+msgstr "千千音乐在线网站\n千千音乐在线"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32882"
+msgid "千千静听的官方论坛\n论坛"
+msgstr "千千静听的官方论坛\n论坛"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32883"
+msgid "千千静听的帮助页面\n帮助"
+msgstr "千千静听的帮助页面\n帮助"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32885"
+msgid "还原所有字段内容\n还原"
+msgstr "还原所有字段内容\n还原"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32886"
+msgid "首字母大写\n首字母大写"
+msgstr "首字母大写\n首字母大写"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32887"
+msgid "添加字段\n添加字段"
+msgstr "添加字段\n添加字段"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32888"
+msgid "删除字段\n删除字段"
+msgstr "删除字段\n删除字段"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32889"
+msgid "编辑字段\n编辑字段"
+msgstr "编辑字段\n编辑字段"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32900"
+msgid "视觉效果的选项"
+msgstr "视觉效果的选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32901"
+msgid "不显示任何效果"
+msgstr "不显示任何效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32902"
+msgid "显示梦幻星空效果"
+msgstr "显示梦幻星空效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32903"
+msgid "显示频谱分析效果"
+msgstr "显示频谱分析效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32904"
+msgid "将选中歌曲作为下一个播放对象"
+msgstr "将选中歌曲作为下一个播放对象"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32905"
+msgid "如果有专辑封面，则进行显示"
+msgstr "如果有专辑封面，则进行显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32930"
+msgid "千千物语"
+msgstr "千千物语"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32931"
+msgid "盛夏果实"
+msgstr "盛夏果实"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/32932"
+msgid "桃之夭夭"
+msgstr "桃之夭夭"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33010"
+msgid "使用“千千静听”来播放各种音频文件和数字音频CD。"
+msgstr "使用“千千静听”来播放各种音频文件和数字音频CD。"
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33012"
+msgid "“%s”遇到问题需要关闭，我们对此引起的不便表示抱歉。\n\n单击“确定”，将通过您的电子邮件发送以下信息以帮助开发人员进行错误分析。\n\n"
+msgstr "“%s”遇到问题需要关闭，我们对此引起的不便表示抱歉。\n\n单击“确定”，将通过您的电子邮件发送以下信息以帮助开发人员进行错误分析。\n\n"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33048"
+msgid "压缩文件(zip;rar)"
+msgstr "压缩文件(zip;rar)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33049"
+msgid "TAK 音频文件(*.tak)"
+msgstr "TAK 音频文件(*.tak)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33050"
+msgid "Wave 文件输出"
+msgstr "Wave 文件输出"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33051"
+msgid "Window Media 音频文件(*.wma;*.wmv;*.asf)"
+msgstr "Window Media 音频文件(*.wma;*.wmv;*.asf)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33052"
+msgid "CD 数字音轨(*.cda)"
+msgstr "CD 数字音轨(*.cda)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33053"
+msgid "CUE 索引文件(*.cue)"
+msgstr "CUE 索引文件(*.cue)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33054"
+msgid "MP3 音频文件(*.mp3;*.mp2;*.mp1;*.mpa;*.mp3pro)"
+msgstr "MP3 音频文件(*.mp3;*.mp2;*.mp1;*.mpa;*.mp3pro)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33055"
+msgid "MIDI 音乐文件(*.mid;*.midi;*.rmi)"
+msgstr "MIDI 音乐文件(*.mid;*.midi;*.rmi)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33056"
+msgid "Wave 音频文件(*.wav)"
+msgstr "Wave 音频文件(*.wav)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33057"
+msgid "AIFF 音频文件(*.aif;*.aifc;*.aiff)"
+msgstr "AIFF 音频文件(*.aif;*.aifc;*.aiff)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33058"
+msgid "AU 音频文件(*.au;*.snd)"
+msgstr "AU 音频文件(*.au;*.snd)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33059"
+msgid "所有音频格式"
+msgstr "所有音频格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33060"
+msgid "所有文件(*.*)"
+msgstr "所有文件(*.*)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33061"
+msgid "播放列表文件(*.ttpl;*.ttbl;*.m3u;*.m3u8)"
+msgstr "播放列表文件(*.ttpl;*.ttbl;*.m3u;*.m3u8)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33062"
+msgid "千千播放列表(*.ttpl;*.ttbl)"
+msgstr "千千播放列表(*.ttpl;*.ttbl)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33063"
+msgid "M3U播放列表(*.m3u;*.m3u8)"
+msgstr "M3U播放列表(*.m3u;*.m3u8)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33064"
+msgid "同步歌词文件(lrc;txt)|*.lrc;*.txt||"
+msgstr "同步歌词文件(lrc;txt)|*.lrc;*.txt||"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33065"
+msgid "图标文件|*.ico;*.exe;*.dll|所有文件|*.*||"
+msgstr "图标文件|*.ico;*.exe;*.dll|所有文件|*.*||"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33066"
+msgid "驱动版本|音量调节|音量平衡|精确采样率"
+msgstr "驱动版本|音量调节|音量平衡|精确采样率"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33067"
+msgid "设备鉴定|驱动程序|支持采样率|硬件混音"
+msgstr "设备鉴定|驱动程序|支持采样率|硬件混音"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33068"
+msgid "最大声道数|支持采样率|输出比特|音量调节"
+msgstr "最大声道数|支持采样率|输出比特|音量调节"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33069"
+msgid "最大声道数|支持采样率|输出比特|缓冲大小"
+msgstr "最大声道数|支持采样率|输出比特|缓冲大小"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33080"
+msgid "<歌词下载文件夹>"
+msgstr "<歌词下载文件夹>"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33081"
+msgid "<歌曲所在文件夹>"
+msgstr "<歌曲所在文件夹>"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33082"
+msgid "[默认]"
+msgstr "[默认]"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33083"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33084"
+msgid "设备类型"
+msgstr "设备类型"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33085"
+msgid "%d 帧/秒"
+msgstr "%d 帧/秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33086"
+msgid "不使用"
+msgstr "不使用"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33087"
+msgid "1/%d 高度(宽度)"
+msgstr "1/%d 高度(宽度)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33088"
+msgid "全部重置"
+msgstr "全部重置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33089"
+msgid "全部保存"
+msgstr "全部保存"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33090"
+msgid "相关链接:"
+msgstr "相关链接:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33091"
+msgid "所有的设置都将重置为默认值，要继续吗？"
+msgstr "所有的设置都将重置为默认值，要继续吗？"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33092"
+msgid "支持|不支持"
+msgstr "支持|不支持"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33093"
+msgid "输入错误"
+msgstr "输入错误"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33094"
+msgid "文件名不能包含下列字符:"
+msgstr "文件名不能包含下列字符:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33095"
+msgid "请输入一个网络URL添加到当前播放列表:"
+msgstr "请输入一个网络URL添加到当前播放列表:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33096"
+msgid "每周推荐"
+msgstr "每周推荐"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33099"
+msgid "自定义..."
+msgstr "自定义..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33100"
+msgid "默认"
+msgstr "默认"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33101"
+msgid "目标文件 %s 已存在，是否覆盖？"
+msgstr "目标文件 %s 已存在，是否覆盖？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33102"
+msgid "保存文件失败！"
+msgstr "保存文件失败！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33103"
+msgid "该文件为“只读”属性，无法保存标签，尝试去掉“只读”属性后再保存文件？"
+msgstr "该文件为“只读”属性，无法保存标签，尝试去掉“只读”属性后再保存文件？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33104"
+msgid "请输入要一个文件名！"
+msgstr "请输入要一个文件名！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33105"
+msgid "原始比特"
+msgstr "原始比特"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33106"
+msgid "请选择一个文件夹:"
+msgstr "请选择一个文件夹:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33107"
+msgid "包括子目录"
+msgstr "包括子目录"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33108"
+msgid "单声道|立体声|三声道|四声道|五声道|5.1声道|6.1声道|7.1声道|未知声道"
+msgstr "单声道|立体声|三声道|四声道|五声道|5.1声道|6.1声道|7.1声道|未知声道"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33109"
+msgid "标题|状态|源文件|目标文件"
+msgstr "标题|状态|源文件|目标文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33110"
+msgid "属性|值"
+msgstr "属性|值"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33111"
+msgid "歌手|歌名"
+msgstr "歌手|歌名"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33112"
+msgid "文件名|所在位置"
+msgstr "文件名|所在位置"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33113"
+msgid "歌曲文件|歌词文件"
+msgstr "歌曲文件|歌词文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33114"
+msgid "命令|快捷键|全局键"
+msgstr "命令|快捷键|全局键"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33115"
+msgid "描述|文件名"
+msgstr "描述|文件名"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33116"
+msgid "标题|艺术家|专辑|格式|文件名"
+msgstr "标题|艺术家|专辑|格式|文件名"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33117"
+msgid "waveOut(Windows 波型输出)|DirectSound|Kernel Streaming(内核音频流)|ASIO(Steinberg Audio Stream I/O API)"
+msgstr "waveOut(Windows 波型输出)|DirectSound|Kernel Streaming(内核音频流)|ASIO(Steinberg Audio Stream I/O API)"
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33118"
+msgid "\"该内核音频输出设备只支持 %dHz 这一种采样频率，如果遇到别的采样频率的文件将无法播放！\n启用采样频率转换可以解决这个问题，是否启用采样频率转换？"
+msgstr "\"该内核音频输出设备只支持 %dHz 这一种采样频率，如果遇到别的采样频率的文件将无法播放！\n启用采样频率转换可以解决这个问题，是否启用采样频率转换？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33119"
+msgid "读取音频设备信息失败！"
+msgstr "读取音频设备信息失败！"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33120"
+msgid "已完成|已跳过|出错"
+msgstr "已完成|已跳过|出错"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33121"
+msgid "正在转换第 %d 个文件, 共 %d 个"
+msgstr "正在转换第 %d 个文件, 共 %d 个"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33122"
+msgid "正在扫描第 %d 个文件, 共 %d 个"
+msgstr "正在扫描第 %d 个文件, 共 %d 个"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33123"
+msgid "正在删除增益信息...|要终止吗？"
+msgstr "正在删除增益信息...|要终止吗？"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33124"
+msgid "专辑|流派|年代|----"
+msgstr "专辑|流派|年代|----"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33125"
+msgid "查询CDDB失败: 无法从服务器读取信息！"
+msgstr "查询CDDB失败: 无法从服务器读取信息！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33126"
+msgid "保存音轨信息失败: %s！"
+msgstr "保存音轨信息失败: %s！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33127"
+msgid "未能从freedb网站上取得当前CD信息！"
+msgstr "未能从freedb网站上取得当前CD信息！"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33128"
+msgid "查询CDDB失败:\n"
+msgstr "查询CDDB失败:\n"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33130"
+msgid "(不同的值)"
+msgstr "(不同的值)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33131"
+msgid "正在检查文件更新...|要终止读取吗？"
+msgstr "正在检查文件更新...|要终止读取吗？"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33132"
+msgid "正在保存文件属性...|要终止保存吗？"
+msgstr "正在保存文件属性...|要终止保存吗？"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33133"
+msgid "文件属性(%d个文件)"
+msgstr "文件属性(%d个文件)"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33134"
+msgid "文件属性(%d/%d)"
+msgstr "文件属性(%d/%d)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33135"
+msgid "文件属性(正在播放)"
+msgstr "文件属性(正在播放)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33136"
+msgid "很多软件(例如Winamp)不支持基于UTF-8编码的ID3v2标签，是否继续？"
+msgstr "很多软件(例如Winamp)不支持基于UTF-8编码的ID3v2标签，是否继续？"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33137"
+msgid "简体中文|繁体中文|韩文|日文(Shift-JIS)"
+msgstr "简体中文|繁体中文|韩文|日文(Shift-JIS)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33140"
+msgid "推荐配置|流行音乐|摇滚|金属乐|舞曲|电子乐|乡村音乐|爵士乐|古典乐|布鲁斯|怀旧音乐|歌剧|语音"
+msgstr "推荐配置|流行音乐|摇滚|金属乐|舞曲|电子乐|乡村音乐|爵士乐|古典乐|布鲁斯|怀旧音乐|歌剧|语音"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33141"
+msgid "配置文件"
+msgstr "配置文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33142"
+msgid "重设均衡器"
+msgstr "重设均衡器"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33143"
+msgid "均衡: %d db"
+msgstr "均衡: %d db"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33144"
+msgid "已取消歌词下载"
+msgstr "已取消歌词下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33145"
+msgid "正在下载歌词..."
+msgstr "正在下载歌词..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33146"
+msgid "正在服务器上搜索歌词..."
+msgstr "正在服务器上搜索歌词..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33147"
+msgid "在线搜索歌词失败！"
+msgstr "在线搜索歌词失败！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33148"
+msgid "音频文件中的歌词已修改，是否保存？"
+msgstr "音频文件中的歌词已修改，是否保存？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33149"
+msgid "歌词文件已修改，是否保存？"
+msgstr "歌词文件已修改，是否保存？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33150"
+msgid "该音频文件的标签中未包含歌词！"
+msgstr "该音频文件的标签中未包含歌词！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33151"
+msgid "该音频文件不支持文件属性标签！"
+msgstr "该音频文件不支持文件属性标签！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33152"
+msgid "该音频文件无法写入歌词标签！"
+msgstr "该音频文件无法写入歌词标签！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33153"
+msgid "打开歌词文件 %s 失败！"
+msgstr "打开歌词文件 %s 失败！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33154"
+msgid "保存歌词文件 %s 失败！"
+msgstr "保存歌词文件 %s 失败！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33155"
+msgid "上传歌词"
+msgstr "上传歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33156"
+msgid "选择歌词文件进行下载"
+msgstr "选择歌词文件进行下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33157"
+msgid "下载歌词失败！"
+msgstr "下载歌词失败！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33158"
+msgid "下载歌词成功！"
+msgstr "下载歌词成功！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33159"
+msgid "重命名歌词文件失败！"
+msgstr "重命名歌词文件失败！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33170"
+msgid "新列表%d"
+msgstr "新列表%d"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33171"
+msgid "未找到任何相匹配的文件！"
+msgstr "未找到任何相匹配的文件！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33172"
+msgid "打开播放列表 %s 失败！"
+msgstr "打开播放列表 %s 失败！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33173"
+msgid "保存播放列表 %s 失败！"
+msgstr "保存播放列表 %s 失败！"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33174"
+msgid "文件夹 %s 下的已经存在的同名播放列表将被覆盖，要继续吗？"
+msgstr "文件夹 %s 下的已经存在的同名播放列表将被覆盖，要继续吗？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33175"
+msgid "未选中任何文件！"
+msgstr "未选中任何文件！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33176"
+msgid "正在查找文件..."
+msgstr "正在查找文件..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33177"
+msgid "无法移动或复制到同一个播放列表！"
+msgstr "无法移动或复制到同一个播放列表！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33178"
+msgid "是否同时删除已关联的歌词文件？"
+msgstr "是否同时删除已关联的歌词文件？"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33180"
+msgid "是否同时发送相应的歌词文件到 %s ？"
+msgstr "是否同时发送相应的歌词文件到 %s ？"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33181"
+msgid "正在搜索本地的歌词文件...|要终止吗？"
+msgstr "正在搜索本地的歌词文件...|要终止吗？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33190"
+msgid "<默认皮肤>"
+msgstr "<默认皮肤>"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33191"
+msgid "确实要删除\"%s\"皮肤吗？"
+msgstr "确实要删除\"%s\"皮肤吗？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33192"
+msgid "千千播放(&T)"
+msgstr "千千播放(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33193"
+msgid "千千播放列表(&L)"
+msgstr "千千播放列表(&L)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33194"
+msgid "未选中任何图标"
+msgstr "未选中任何图标"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33195"
+msgid "选中了第 %d 个图标"
+msgstr "选中了第 %d 个图标"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33196"
+msgid "搜索音频文件"
+msgstr "搜索音频文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33197"
+msgid "请选择一个包括图标文件(例如:mp3.ico和wma.ico)的文件夹,将根据扩展名进行关联:"
+msgstr "请选择一个包括图标文件(例如:mp3.ico和wma.ico)的文件夹,将根据扩展名进行关联:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33204"
+msgid "未选中文件"
+msgstr "未选中文件"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33205"
+msgid "选中了%d个文件"
+msgstr "选中了%d个文件"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33206"
+msgid "距离自动关机还剩 %d 秒..."
+msgstr "距离自动关机还剩 %d 秒..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33207"
+msgid "声道"
+msgstr "声道"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33208"
+msgid "静音"
+msgstr "静音"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33209"
+msgid "状态: 播放"
+msgstr "状态: 播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33210"
+msgid "状态: 暂停"
+msgstr "状态: 暂停"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33211"
+msgid "状态: 停止"
+msgstr "状态: 停止"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33212"
+msgid "音量: %d%%"
+msgstr "音量: %d%%"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33213"
+msgid "平衡: 居中"
+msgstr "平衡: 居中"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33214"
+msgid "偏左: %d%%"
+msgstr "偏左: %d%%"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33215"
+msgid "偏右: %d%%"
+msgstr "偏右: %d%%"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33216"
+msgid "环绕: 关闭"
+msgstr "环绕: 关闭"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33217"
+msgid "环绕: %d"
+msgstr "环绕: %d"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33218"
+msgid "普通模式|迷你模式"
+msgstr "普通模式|迷你模式"
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33219"
+msgid "作者: %s\n主页: %s\n邮箱: %s"
+msgstr "作者: %s\n主页: %s\n邮箱: %s"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33220"
+msgid "(请到选项的\"播放列表\"页中启用或禁用本功能)"
+msgstr "(请到选项的\"播放列表\"页中启用或禁用本功能)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33221"
+msgid "现在播放:"
+msgstr "现在播放:"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33223"
+msgid "%d%% 透明"
+msgstr "%d%% 透明"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33224"
+msgid "(未知%s)"
+msgstr "(未知%s)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33225"
+msgid "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)|文件名: %(Filename)"
+msgstr "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)|文件名: %(Filename)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33226"
+msgid "标题: %(Title)|艺术家: %(Artist)|专辑: %(Album)|格式: %(Format)|长度: %(Duration)"
+msgstr "标题: %(Title)|艺术家: %(Artist)|专辑: %(Album)|格式: %(Format)|长度: %(Duration)"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33227"
+msgid "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)"
+msgstr "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)"
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33228"
+msgid "我的音乐|艺术家|专辑|流派|年代|评级|%d 星级"
+msgstr "我的音乐|艺术家|专辑|流派|年代|评级|%d 星级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33229"
+msgid "必须先启用才能媒体库切换，现在要启用媒体库吗？"
+msgstr "必须先启用才能媒体库切换，现在要启用媒体库吗？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33230"
+msgid "[媒体库]"
+msgstr "[媒体库]"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33231"
+msgid "%d 星级"
+msgstr "%d 星级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33250"
+msgid "下载管理"
+msgstr "下载管理"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33251"
+msgid "歌曲名"
+msgstr "歌曲名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33252"
+msgid "歌手名"
+msgstr "歌手名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33253"
+msgid "格式"
+msgstr "格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33254"
+msgid "大小"
+msgstr "大小"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33255"
+msgid "进度"
+msgstr "进度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33256"
+msgid "速度"
+msgstr "速度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33257"
+msgid "下载时间"
+msgstr "下载时间"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33258"
+msgid "码率Kbps"
+msgstr "码率Kbps"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33259"
+msgid " 下载中(%u)"
+msgstr " 下载中(%u)"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33260"
+msgid " 已下载(%u)"
+msgstr " 已下载(%u)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33261"
+msgid "未知"
+msgstr "未知"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33262"
+msgid "在线试听"
+msgstr "在线试听"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33263"
+msgid "歌曲下载"
+msgstr "歌曲下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33264"
+msgid "下载路径\\TEMP"
+msgstr "下载路径\\TEMP"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33265"
+msgid "错误"
+msgstr "错误"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33266"
+msgid "下载目录不存在，请更换下载目录"
+msgstr "下载目录不存在，请更换下载目录"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33267"
+msgid "下载拷贝失败，请检查磁盘空间或确保没有同名文件被使用"
+msgstr "下载拷贝失败，请检查磁盘空间或确保没有同名文件被使用"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33268"
+msgid "信息"
+msgstr "信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33269"
+msgid "对不起，您没有安装音乐窗，不支持音乐窗及下载管理功能"
+msgstr "对不起，您没有安装音乐窗，不支持音乐窗及下载管理功能"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33270"
+msgid "对不起，对应的歌曲文件不存在"
+msgstr "对不起，对应的歌曲文件不存在"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33300"
+msgid "%d %% 高度"
+msgstr "%d %% 高度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33302"
+msgid "暂不支持该媒体格式的封面显示"
+msgstr "暂不支持该媒体格式的封面显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33303"
+msgid "上一首"
+msgstr "上一首"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33304"
+msgid "下一首"
+msgstr "下一首"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33305"
+msgid "%d个文件中含有专辑封面信息"
+msgstr "%d个文件中含有专辑封面信息"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33306"
+msgid "请将图片大小限制在 %d 个字节以内"
+msgstr "请将图片大小限制在 %d 个字节以内"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33307"
+msgid "添加专辑封面"
+msgstr "添加专辑封面"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33308"
+msgid "保存到文件"
+msgstr "保存到文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33309"
+msgid "重新读取文件"
+msgstr "重新读取文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33320"
+msgid "个人版"
+msgstr "个人版"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33321"
+msgid "千千音乐每周推荐"
+msgstr "千千音乐每周推荐"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33401"
+msgid "启动时自动显示"
+msgstr "启动时自动显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33402"
+msgid "千千静听使用技巧"
+msgstr "千千静听使用技巧"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33403"
+msgid "对不起，您没有安装千千音乐窗模块。请重新安装千千静听并选择千千音乐窗。"
+msgstr "对不起，您没有安装千千音乐窗模块。请重新安装千千静听并选择千千音乐窗。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33405"
+msgid "点击这里打开“千千音乐窗”！"
+msgstr "点击这里打开“千千音乐窗”！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33406"
+msgid "正在打开网页..."
+msgstr "正在打开网页..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33407"
+msgid "歌曲已成功添加到下载界面，点击此处可查看"
+msgstr "歌曲已成功添加到下载界面，点击此处可查看"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33408"
+msgid "提示"
+msgstr "提示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33409"
+msgid "可在右键菜单选择“解锁桌面歌词”"
+msgstr "可在右键菜单选择“解锁桌面歌词”"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33411"
+msgid "状态: 连接"
+msgstr "状态: 连接"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33412"
+msgid "状态: 缓冲"
+msgstr "状态: 缓冲"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33413"
+msgid "状态: 无效"
+msgstr "状态: 无效"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33421"
+msgid "了解更多歌曲信息"
+msgstr "了解更多歌曲信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33422"
+msgid "无法打开 - 文件无效或不存在"
+msgstr "无法打开 - 文件无效或不存在"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33423"
+msgid "无法连接到网络媒体"
+msgstr "无法连接到网络媒体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33424"
+msgid "无法获得网络资源"
+msgstr "无法获得网络资源"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33425"
+msgid "无法打开网络媒体"
+msgstr "无法打开网络媒体"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33430"
+msgid "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)|歌曲出处: %(Filename)"
+msgstr "标  题: %(Title)|艺术家: %(Artist)|专  辑: %(Album)|格  式: %(Format)|长  度: %(Duration)|歌曲出处: %(Filename)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33431"
+msgid "网络音乐"
+msgstr "网络音乐"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33433"
+msgid "5.7 正式版"
+msgstr "5.7 正式版"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33441"
+msgid "升级新版本失败！\r\n\r\n请到千千静听网站(http://ttplayer.qianqian.com)下载新版本。\r\n感谢使用千千静听！"
+msgstr "升级新版本失败！\r\n\r\n请到千千静听网站(http://ttplayer.qianqian.com)下载新版本。\r\n感谢使用千千静听！"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33442"
+msgid "升级失败"
+msgstr "升级失败"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33443"
+msgid "下载完成！单击“安装”开始安装新版本！\r\n\r\n（如果程序正在运行，将被自动关闭）"
+msgstr "下载完成！单击“安装”开始安装新版本！\r\n\r\n（如果程序正在运行，将被自动关闭）"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/33444"
+msgid "千千静听在线升级"
+msgstr "千千静听在线升级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/34000"
+msgid "感谢您对歌曲的举报，我们会尽快纠正"
+msgstr "感谢您对歌曲的举报，我们会尽快纠正"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/34001"
+msgid "举报歌曲"
+msgstr "举报歌曲"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/34002"
+msgid "歌曲："
+msgstr "歌曲："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/34003"
+msgid "已经存在于下载管理列表"
+msgstr "已经存在于下载管理列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/35000"
+msgid "正在下载"
+msgstr "正在下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/35001"
+msgid "暂停下载"
+msgstr "暂停下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/35002"
+msgid "等待下载"
+msgstr "等待下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/35003"
+msgid "下载失败或存储目录不存在"
+msgstr "下载失败或存储目录不存在"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/36000"
+msgid "友情提示"
+msgstr "友情提示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/36001"
+msgid "对不起，文件已被移动或删除"
+msgstr "对不起，文件已被移动或删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/36002"
+msgid "播放歌曲"
+msgstr "播放歌曲"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/36003"
+msgid "歌曲名: %(Title)|歌手名: %(Artist)|格  式: %(Format)|长  度: %(Duration)"
+msgstr "歌曲名: %(Title)|歌手名: %(Artist)|格  式: %(Format)|长  度: %(Duration)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/36004"
+msgid "网络歌曲"
+msgstr "网络歌曲"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/36005"
+msgid "本地歌曲"
+msgstr "本地歌曲"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57601"
+msgid "打开一个音频文件进行播放\n播放文件"
+msgstr "打开一个音频文件进行播放\n播放文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57602"
+msgid "关闭文件"
+msgstr "关闭文件"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57634"
+msgid "复制选定内容并将其放到剪贴板上\n复制"
+msgstr "复制选定内容并将其放到剪贴板上\n复制"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57635"
+msgid "剪切选定内容并将其放到剪贴板上\n剪切"
+msgstr "剪切选定内容并将其放到剪贴板上\n剪切"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57636"
+msgid "查找指定的文字\n查找"
+msgstr "查找指定的文字\n查找"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57637"
+msgid "插入剪贴板内容\n粘贴"
+msgstr "插入剪贴板内容\n粘贴"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57641"
+msgid "替换并指定的文字\n替换"
+msgstr "替换并指定的文字\n替换"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57642"
+msgid "选中全部的内容\n全选"
+msgstr "选中全部的内容\n全选"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57643"
+msgid "撤消上次的操作\n撤消"
+msgstr "撤消上次的操作\n撤消"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57644"
+msgid "重做上次撤消的动作\n重做"
+msgstr "重做上次撤消的动作\n重做"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57664"
+msgid "“千千静听”的参数选项\n千千选项"
+msgstr "“千千静听”的参数选项\n千千选项"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/57665"
+msgid "退出“千千静听”\n退出"
+msgstr "退出“千千静听”\n退出"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/6"
+msgid "是"
+msgstr "是"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/7"
+msgid "否"
+msgstr "否"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/string/8"
+msgid "关闭"
+msgstr "关闭"
+
+# === ttpres 菜单 ===
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/130/item/0"
+msgid "DOWNLOADING"
+msgstr "DOWNLOADING"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/130/item/0.0"
+msgid "开始下载(&S)"
+msgstr "开始下载(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/130/item/0.1"
+msgid "暂停下载(&P)"
+msgstr "暂停下载(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/130/item/0.2"
+msgid "删除任务(&E)"
+msgstr "删除任务(&E)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/130/item/0.3"
+msgid "全部选中(&A)"
+msgstr "全部选中(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0"
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.0"
+msgid "千千选项..."
+msgstr "千千选项..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.1"
+msgid "相关链接"
+msgstr "相关链接"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.10"
+msgid "歌词编辑"
+msgstr "歌词编辑"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.11"
+msgid "均衡器"
+msgstr "均衡器"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.13"
+msgid "皮肤"
+msgstr "皮肤"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.14"
+msgid "透明"
+msgstr "透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.15"
+msgid "查看"
+msgstr "查看"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.17"
+msgid "显示桌面歌词"
+msgstr "显示桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.19"
+msgid "最小化"
+msgstr "最小化"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.20"
+msgid "全屏显示"
+msgstr "全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.21"
+msgid "退出(&X)"
+msgstr "退出(&X)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.3"
+msgid "播放控制"
+msgstr "播放控制"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.4"
+msgid "音量控制"
+msgstr "音量控制"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.5"
+msgid "播放模式"
+msgstr "播放模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.6"
+msgid "播放曲目"
+msgstr "播放曲目"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.8"
+msgid "视觉效果"
+msgstr "视觉效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/138/item/0.9"
+msgid "歌词秀"
+msgstr "歌词秀"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/0"
+msgid "添加"
+msgstr "添加"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/0.0"
+msgid "文件(&F)..."
+msgstr "文件(&F)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/0.1"
+msgid "文件夹(&P)..."
+msgstr "文件夹(&P)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/0.2"
+msgid "本地搜索(&S)..."
+msgstr "本地搜索(&S)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/0.3"
+msgid "网上搜索(&O)..."
+msgstr "网上搜索(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/0.5"
+msgid "添加 &URL..."
+msgstr "添加 &URL..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/1"
+msgid "删除"
+msgstr "删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/1.0"
+msgid "选中的文件(&S)"
+msgstr "选中的文件(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/1.1"
+msgid "重复的文件(&D)"
+msgstr "重复的文件(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/1.2"
+msgid "错误的文件(&I)"
+msgstr "错误的文件(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/1.4"
+msgid "全部删除(&A)"
+msgstr "全部删除(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/1.6"
+msgid "物理删除(&P)"
+msgstr "物理删除(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2"
+msgid "列表"
+msgstr "列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.0"
+msgid "新建列表(&N)"
+msgstr "新建列表(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.1"
+msgid "添加列表(&A)..."
+msgstr "添加列表(&A)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.2"
+msgid "打开列表(&O)..."
+msgstr "打开列表(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.3"
+msgid "保存列表(&S)..."
+msgstr "保存列表(&S)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.4"
+msgid "删除列表(&D)"
+msgstr "删除列表(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.6"
+msgid "保存所有列表..."
+msgstr "保存所有列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/2.8"
+msgid "媒体库模式"
+msgstr "媒体库模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3"
+msgid "排序"
+msgstr "排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.0"
+msgid "按显示标题(&T)"
+msgstr "按显示标题(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.1"
+msgid "按文件名(&N)"
+msgstr "按文件名(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.2"
+msgid "按路径名(&P)"
+msgstr "按路径名(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.3"
+msgid "按专辑名(&A)"
+msgstr "按专辑名(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.4"
+msgid "按星级(&R)"
+msgstr "按星级(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.5"
+msgid "按文件时间(&T)"
+msgstr "按文件时间(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.6"
+msgid "按音轨序号(&I)"
+msgstr "按音轨序号(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.7"
+msgid "按播放长度(&D)"
+msgstr "按播放长度(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/3.9"
+msgid "随机乱序(&S)"
+msgstr "随机乱序(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/4"
+msgid "查找"
+msgstr "查找"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/4.0"
+msgid "快速定位(&J)"
+msgstr "快速定位(&J)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/4.2"
+msgid "查找歌曲(&F)..."
+msgstr "查找歌曲(&F)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/4.3"
+msgid "查找下一个(&N)"
+msgstr "查找下一个(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5"
+msgid "编辑"
+msgstr "编辑"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.0"
+msgid "剪切(&T)"
+msgstr "剪切(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.1"
+msgid "复制(&C)"
+msgstr "复制(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.2"
+msgid "粘贴(&P)"
+msgstr "粘贴(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.4"
+msgid "移动到列表..."
+msgstr "移动到列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.5"
+msgid "复制到列表..."
+msgstr "复制到列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.7"
+msgid "全部选中(&A)"
+msgstr "全部选中(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.8"
+msgid "全部不选(&N)"
+msgstr "全部不选(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/5.9"
+msgid "反向选中(&I)"
+msgstr "反向选中(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6"
+msgid "模式"
+msgstr "模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.0"
+msgid "单曲播放(&S)"
+msgstr "单曲播放(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.1"
+msgid "单曲循环(&I)"
+msgstr "单曲循环(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.2"
+msgid "顺序播放(&N)"
+msgstr "顺序播放(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.3"
+msgid "循环播放(&C)"
+msgstr "循环播放(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.4"
+msgid "随机播放(&R)"
+msgstr "随机播放(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.6"
+msgid "播放跟随光标(&F)"
+msgstr "播放跟随光标(&F)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/139/item/6.7"
+msgid "自动切换列表(&A)"
+msgstr "自动切换列表(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0"
+msgid "Player"
+msgstr "Player"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.0"
+msgid "播放(&P)"
+msgstr "播放(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.1"
+msgid "暂停(&P)"
+msgstr "暂停(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.10"
+msgid "播放文件(&O)..."
+msgstr "播放文件(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.11"
+msgid "播放 C&D/VCD"
+msgstr "播放 C&D/VCD"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.12"
+msgid "播放 &URL"
+msgstr "播放 &URL"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.14"
+msgid "关闭文件(&C)"
+msgstr "关闭文件(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.2"
+msgid "停止(&S)"
+msgstr "停止(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.4"
+msgid "快退5秒(&B)"
+msgstr "快退5秒(&B)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.5"
+msgid "快进5秒(&F)"
+msgstr "快进5秒(&F)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.7"
+msgid "上一首(&R)"
+msgstr "上一首(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/141/item/0.8"
+msgid "下一首(&N)"
+msgstr "下一首(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/142/item/0"
+msgid "Volume"
+msgstr "Volume"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/142/item/0.0"
+msgid "增大(&U)"
+msgstr "增大(&U)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/142/item/0.1"
+msgid "减小(&D)"
+msgstr "减小(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/142/item/0.3"
+msgid "静音(&M)"
+msgstr "静音(&M)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0"
+msgid "Lyric"
+msgstr "Lyric"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0"
+msgid "调整歌词"
+msgstr "调整歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.0"
+msgid "本句提前0.5秒"
+msgstr "本句提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.1"
+msgid "本句延后0.5秒"
+msgstr "本句延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.2"
+msgid "其后提前0.5秒"
+msgstr "其后提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.3"
+msgid "其后延后0.5秒"
+msgstr "其后延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.4"
+msgid "全部提前0.5秒"
+msgstr "全部提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.5"
+msgid "全部延后0.5秒"
+msgstr "全部延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.7"
+msgid "全部调整..."
+msgstr "全部调整..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.0.9"
+msgid "鼠标滚轮调整"
+msgstr "鼠标滚轮调整"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.10"
+msgid "上传歌词(U)..."
+msgstr "上传歌词(U)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.11"
+msgid "内嵌歌词"
+msgstr "内嵌歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.11.0"
+msgid "嵌入到音频文件"
+msgstr "嵌入到音频文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.11.1"
+msgid "从音频文件中读取"
+msgstr "从音频文件中读取"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.11.2"
+msgid "从音频文件中删除"
+msgstr "从音频文件中删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.13"
+msgid "显示方式"
+msgstr "显示方式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.13.0"
+msgid "水平滚动(&M)"
+msgstr "水平滚动(&M)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.13.2"
+msgid "卡拉OK方式"
+msgstr "卡拉OK方式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.13.3"
+msgid "以背景色透明"
+msgstr "以背景色透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.13.4"
+msgid "淡入淡出当前行"
+msgstr "淡入淡出当前行"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.14"
+msgid "简繁转换"
+msgstr "简繁转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.14.0"
+msgid "简体 -> 繁体"
+msgstr "简体 -> 繁体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.14.1"
+msgid "繁体 -> 简体"
+msgstr "繁体 -> 简体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.15"
+msgid "字符编码"
+msgstr "字符编码"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.15.0"
+msgid "系统默认"
+msgstr "系统默认"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.16"
+msgid "总在最前(&T)"
+msgstr "总在最前(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.17"
+msgid "显示桌面歌词"
+msgstr "显示桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.18"
+msgid "全屏显示"
+msgstr "全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.2"
+msgid "在线搜索(&D)..."
+msgstr "在线搜索(&D)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.20"
+msgid "退出全屏(&F)"
+msgstr "退出全屏(&F)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.22"
+msgid "选项(&P)..."
+msgstr "选项(&P)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.3"
+msgid "关联歌词(&L)..."
+msgstr "关联歌词(&L)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.4"
+msgid "编辑歌词(&E)"
+msgstr "编辑歌词(&E)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.6"
+msgid "复制歌词(&C)"
+msgstr "复制歌词(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.7"
+msgid "撤消歌词(&U)"
+msgstr "撤消歌词(&U)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/143/item/0.8"
+msgid "重新载入(&R)"
+msgstr "重新载入(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0"
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.0"
+msgid "推荐配置"
+msgstr "推荐配置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.1"
+msgid "自定义"
+msgstr "自定义"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.2"
+msgid "可选类别"
+msgstr "可选类别"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.2.0"
+msgid "<>"
+msgstr "<>"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.2.2"
+msgid "从文件加载..."
+msgstr "从文件加载..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.2.3"
+msgid "保存到文件..."
+msgstr "保存到文件..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.4"
+msgid "启用均衡器"
+msgstr "启用均衡器"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/144/item/0.5"
+msgid "启用杜比环绕"
+msgstr "启用杜比环绕"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0"
+msgid "Visual"
+msgstr "Visual"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.0"
+msgid "梦幻星空(&G)"
+msgstr "梦幻星空(&G)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.1"
+msgid "频谱分析(&S)"
+msgstr "频谱分析(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.11"
+msgid "选项(&P)..."
+msgstr "选项(&P)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.2"
+msgid "示波显示(&O)"
+msgstr "示波显示(&O)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.4"
+msgid "专辑封面(&T)"
+msgstr "专辑封面(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.5"
+msgid "不显示(&N)"
+msgstr "不显示(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.7"
+msgid "全屏显示"
+msgstr "全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/145/item/0.9"
+msgid "退出全屏(&F)"
+msgstr "退出全屏(&F)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0"
+msgid "Windows"
+msgstr "Windows"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.0"
+msgid "歌词秀(&L)\tF2 "
+msgstr "歌词秀(&L)\tF2 "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.1"
+msgid "均衡器(&E)\tF3 "
+msgstr "均衡器(&E)\tF3 "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.10"
+msgid "重新排列(&R)"
+msgstr "重新排列(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.11"
+msgid "总在最前(&T)"
+msgstr "总在最前(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.2"
+msgid "播放列表(&P)\tF4 "
+msgstr "播放列表(&P)\tF4 "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.3"
+msgid "音乐窗口(&B)\tF11"
+msgstr "音乐窗口(&B)\tF11"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.5"
+msgid "文件属性(&I)"
+msgstr "文件属性(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.7"
+msgid "媒体库模式"
+msgstr "媒体库模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/146/item/0.9"
+msgid "迷你模式(&M)"
+msgstr "迷你模式(&M)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/147/item/0"
+msgid "Alpha"
+msgstr "Alpha"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/147/item/0.0"
+msgid "不透明"
+msgstr "不透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/147/item/0.1"
+msgid "激活时不透明"
+msgstr "激活时不透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/147/item/0.3"
+msgid "窗口阴影"
+msgstr "窗口阴影"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0"
+msgid "Lyric Edit"
+msgstr "Lyric Edit"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.0"
+msgid "插入标签(&I)"
+msgstr "插入标签(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.1"
+msgid "替换标签(&R)"
+msgstr "替换标签(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.11"
+msgid "调整时间"
+msgstr "调整时间"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.11.0"
+msgid "全部提前0.5秒"
+msgstr "全部提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.11.1"
+msgid "全部延后0.5秒"
+msgstr "全部延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.11.3"
+msgid "全部调整..."
+msgstr "全部调整..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.13"
+msgid "排列方式"
+msgstr "排列方式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.13.0"
+msgid "全部展开(&E)"
+msgstr "全部展开(&E)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.13.1"
+msgid "全部压缩(&C)"
+msgstr "全部压缩(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.15"
+msgid "内嵌歌词"
+msgstr "内嵌歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.15.0"
+msgid "嵌入到音频文件"
+msgstr "嵌入到音频文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.15.1"
+msgid "从音频文件中读取"
+msgstr "从音频文件中读取"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.15.2"
+msgid "从音频文件中删除"
+msgstr "从音频文件中删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.17"
+msgid "返回显示(&B)"
+msgstr "返回显示(&B)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.2"
+msgid "删除标签(&D)"
+msgstr "删除标签(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.3"
+msgid "修改标签后换行"
+msgstr "修改标签后换行"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.5"
+msgid "剪切(&T)"
+msgstr "剪切(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.6"
+msgid "复制(&C)"
+msgstr "复制(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.7"
+msgid "粘贴(&P)"
+msgstr "粘贴(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.8"
+msgid "全选(&A)"
+msgstr "全选(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.9"
+msgid "简繁转换"
+msgstr "简繁转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.9.0"
+msgid "简体 -> 繁体"
+msgstr "简体 -> 繁体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/148/item/0.9.1"
+msgid "繁体 -> 简体"
+msgstr "繁体 -> 简体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0"
+msgid "Play Mode"
+msgstr "Play Mode"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.0"
+msgid "单曲播放(&S)"
+msgstr "单曲播放(&S)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.1"
+msgid "单曲循环(&I)"
+msgstr "单曲循环(&I)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.2"
+msgid "顺序播放(&N)"
+msgstr "顺序播放(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.3"
+msgid "循环播放(&C)"
+msgstr "循环播放(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.4"
+msgid "随机播放(&R)"
+msgstr "随机播放(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.6"
+msgid "播放跟随光标(&F)"
+msgstr "播放跟随光标(&F)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/150/item/0.7"
+msgid "自动切换列表(&A)"
+msgstr "自动切换列表(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/151/item/0"
+msgid "PlayList"
+msgstr "PlayList"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/151/item/0.0"
+msgid "空"
+msgstr "空"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0"
+msgid "PlayList Item"
+msgstr "PlayList Item"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.0"
+msgid "播放(&P)"
+msgstr "播放(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.11"
+msgid "转换格式(&C)..."
+msgstr "转换格式(&C)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.12"
+msgid "回放增益"
+msgstr "回放增益"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.12.0"
+msgid "扫描增益信息"
+msgstr "扫描增益信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.12.1"
+msgid "删除增益信息"
+msgstr "删除增益信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.14"
+msgid "重命名文件"
+msgstr "重命名文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.14.0"
+msgid "歌曲名.扩展名"
+msgstr "歌曲名.扩展名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.14.1"
+msgid "歌手 - 歌曲名.扩展名"
+msgstr "歌手 - 歌曲名.扩展名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.14.2"
+msgid "歌曲名 - 歌手.扩展名"
+msgstr "歌曲名 - 歌手.扩展名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.14.4"
+msgid "自定义格式..."
+msgstr "自定义格式..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.15"
+msgid "发送到"
+msgstr "发送到"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.15.0"
+msgid "文件夹(&F)..."
+msgstr "文件夹(&F)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.16"
+msgid "下载歌曲(&D)"
+msgstr "下载歌曲(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.17"
+msgid "网上搜索(&O)..."
+msgstr "网上搜索(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.18"
+msgid "浏览文件(&F)..."
+msgstr "浏览文件(&F)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.2"
+msgid "文件属性(&I)..."
+msgstr "文件属性(&I)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.20"
+msgid "网络歌曲举报(&R)..."
+msgstr "网络歌曲举报(&R)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.22"
+msgid "选项(&O)..."
+msgstr "选项(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.3"
+msgid "freedb 查询..."
+msgstr "freedb 查询..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5"
+msgid "评级"
+msgstr "评级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5.0"
+msgid "1 星级(&1)"
+msgstr "1 星级(&1)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5.1"
+msgid "2 星级(&2)"
+msgstr "2 星级(&2)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5.2"
+msgid "3 星级(&3)"
+msgstr "3 星级(&3)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5.3"
+msgid "4 星级(&4)"
+msgstr "4 星级(&4)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5.4"
+msgid "5 星级(&5)"
+msgstr "5 星级(&5)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.5.6"
+msgid "允许鼠标左键评级"
+msgstr "允许鼠标左键评级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.7"
+msgid "删除(&E)"
+msgstr "删除(&E)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.8"
+msgid "物理删除(&P)"
+msgstr "物理删除(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.9"
+msgid "编辑列表"
+msgstr "编辑列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.9.0"
+msgid "剪切(&T)"
+msgstr "剪切(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.9.1"
+msgid "复制(&C)"
+msgstr "复制(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.9.2"
+msgid "粘贴(&P)"
+msgstr "粘贴(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.9.4"
+msgid "移动到列表..."
+msgstr "移动到列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/152/item/0.9.5"
+msgid "复制到列表..."
+msgstr "复制到列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0"
+msgid "PlayList Items"
+msgstr "PlayList Items"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.0"
+msgid "批量文件属性(&I)..."
+msgstr "批量文件属性(&I)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.11"
+msgid "重命名文件"
+msgstr "重命名文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.11.0"
+msgid "歌曲名.扩展名"
+msgstr "歌曲名.扩展名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.11.1"
+msgid "歌手 - 歌曲名.扩展名"
+msgstr "歌手 - 歌曲名.扩展名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.11.2"
+msgid "歌曲名 - 歌手.扩展名"
+msgstr "歌曲名 - 歌手.扩展名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.11.4"
+msgid "自定义格式..."
+msgstr "自定义格式..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.12"
+msgid "发送到"
+msgstr "发送到"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.12.0"
+msgid "文件夹(&F)..."
+msgstr "文件夹(&F)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.14"
+msgid "选项(&O)..."
+msgstr "选项(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.2"
+msgid "批量评级"
+msgstr "批量评级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.2.0"
+msgid "1 星级(&1)"
+msgstr "1 星级(&1)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.2.1"
+msgid "2 星级(&2)"
+msgstr "2 星级(&2)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.2.2"
+msgid "3 星级(&3)"
+msgstr "3 星级(&3)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.2.3"
+msgid "4 星级(&4)"
+msgstr "4 星级(&4)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.2.4"
+msgid "5 星级(&5)"
+msgstr "5 星级(&5)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.4"
+msgid "删除(&E)"
+msgstr "删除(&E)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.5"
+msgid "物理删除(&P)"
+msgstr "物理删除(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.6"
+msgid "编辑列表"
+msgstr "编辑列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.6.0"
+msgid "剪切(&T)"
+msgstr "剪切(&T)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.6.1"
+msgid "复制(&C)"
+msgstr "复制(&C)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.6.2"
+msgid "粘贴(&P)"
+msgstr "粘贴(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.6.4"
+msgid "移动到列表..."
+msgstr "移动到列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.6.5"
+msgid "复制到列表..."
+msgstr "复制到列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.8"
+msgid "转换格式(&C)..."
+msgstr "转换格式(&C)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.9"
+msgid "回放增益"
+msgstr "回放增益"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.9.0"
+msgid "扫描增益信息"
+msgstr "扫描增益信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/153/item/0.9.1"
+msgid "删除增益信息"
+msgstr "删除增益信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/154/item/0"
+msgid "App Icon"
+msgstr "App Icon"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/154/item/0.0"
+msgid "默认或皮肤图标(&D)"
+msgstr "默认或皮肤图标(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/154/item/0.1"
+msgid "自定义图标(&C)..."
+msgstr "自定义图标(&C)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/155/item/0"
+msgid "Skin"
+msgstr "Skin"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/155/item/0.0"
+msgid "<默认皮肤>"
+msgstr "<默认皮肤>"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/155/item/0.3"
+msgid "选项(&O)..."
+msgstr "选项(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0"
+msgid "Playlists"
+msgstr "Playlists"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.0"
+msgid "切换列表(&W)"
+msgstr "切换列表(&W)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.11"
+msgid "按名称排序"
+msgstr "按名称排序"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.2"
+msgid "新建列表(&N)"
+msgstr "新建列表(&N)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.3"
+msgid "添加列表(&A)..."
+msgstr "添加列表(&A)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.4"
+msgid "保存列表(&S)..."
+msgstr "保存列表(&S)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.5"
+msgid "删除列表(&D)"
+msgstr "删除列表(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.7"
+msgid "保存所有列表..."
+msgstr "保存所有列表..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/156/item/0.9"
+msgid "重命名(&R)"
+msgstr "重命名(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/157/item/0"
+msgid "Web"
+msgstr "Web"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/157/item/0.0"
+msgid "<>"
+msgstr "<>"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/158/item/0"
+msgid "profile"
+msgstr "profile"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/158/item/0.0"
+msgid "从文件加载..."
+msgstr "从文件加载..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/158/item/0.1"
+msgid "保存到文件..."
+msgstr "保存到文件..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0"
+msgid "Library"
+msgstr "Library"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0.0"
+msgid "文件属性(&I)..."
+msgstr "文件属性(&I)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0.1"
+msgid "保存列表(&S)..."
+msgstr "保存列表(&S)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0.3"
+msgid "全部选中(&A)"
+msgstr "全部选中(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0.4"
+msgid "删除(&D)"
+msgstr "删除(&D)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0.6"
+msgid "刷新(&R)"
+msgstr "刷新(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/159/item/0.8"
+msgid "选项(&O)..."
+msgstr "选项(&O)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/388/item/0"
+msgid "PROFILE"
+msgstr "PROFILE"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/388/item/0.0"
+msgid "方案一"
+msgstr "方案一"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/388/item/0.2"
+msgid "修改预设方案"
+msgstr "修改预设方案"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/388/item/0.2.0"
+msgid "修改方案一"
+msgstr "修改方案一"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/388/item/0.3"
+msgid "选项(&P)..."
+msgstr "选项(&P)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0"
+msgid "桌面歌词"
+msgstr "桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.0"
+msgid "预设方案"
+msgstr "预设方案"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.1"
+msgid "显示方式"
+msgstr "显示方式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.1.0"
+msgid "单行显示"
+msgstr "单行显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.1.1"
+msgid "双行显示"
+msgstr "双行显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.10"
+msgid "锁定桌面歌词"
+msgstr "锁定桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.11"
+msgid "返回窗口模式"
+msgstr "返回窗口模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.13"
+msgid "选项(&P)..."
+msgstr "选项(&P)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.2"
+msgid "简繁转换"
+msgstr "简繁转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.2.0"
+msgid "简体 -> 繁体"
+msgstr "简体 -> 繁体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.2.1"
+msgid "繁体 -> 简体"
+msgstr "繁体 -> 简体"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.3"
+msgid "总在最前"
+msgstr "总在最前"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5"
+msgid "调整歌词"
+msgstr "调整歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.0"
+msgid "本句提前0.5秒"
+msgstr "本句提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.1"
+msgid "本句延后0.5秒"
+msgstr "本句延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.2"
+msgid "其后提前0.5秒"
+msgstr "其后提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.3"
+msgid "其后延后0.5秒"
+msgstr "其后延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.4"
+msgid "全部提前0.5秒"
+msgstr "全部提前0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.5"
+msgid "全部延后0.5秒"
+msgstr "全部延后0.5秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.5.7"
+msgid "全部调整..."
+msgstr "全部调整..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.7"
+msgid "在线搜索(&D)..."
+msgstr "在线搜索(&D)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/389/item/0.9"
+msgid "歌词背景穿透"
+msgstr "歌词背景穿透"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/390/item/0"
+msgid "全屏显示"
+msgstr "全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/390/item/0.0"
+msgid "歌词全屏"
+msgstr "歌词全屏"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/390/item/0.1"
+msgid "视觉全屏"
+msgstr "视觉全屏"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/390/item/0.3"
+msgid "歌词视觉同屏"
+msgstr "歌词视觉同屏"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0"
+msgid "DOWNLOADED"
+msgstr "DOWNLOADED"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.0"
+msgid "播放歌曲(&P)"
+msgstr "播放歌曲(&P)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.1"
+msgid "添加到列表(&D)..."
+msgstr "添加到列表(&D)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.3"
+msgid "删除记录(&E)"
+msgstr "删除记录(&E)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.4"
+msgid "删除文件(&L)"
+msgstr "删除文件(&L)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.5"
+msgid "重新下载(&R)"
+msgstr "重新下载(&R)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.7"
+msgid "全部选中(&A)"
+msgstr "全部选中(&A)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.8"
+msgid "浏览文件(&F)..."
+msgstr "浏览文件(&F)..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.9"
+msgid "发送到"
+msgstr "发送到"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/menu/394/item/0.9.0"
+msgid "文件夹(&F)..."
+msgstr "文件夹(&F)..."
+
+# === ttpres 对话框 ===
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/1005/0"
+msgid "nanling"
+msgstr "nanling"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/1009/0"
+msgid "千千静听"
+msgstr "千千静听"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/1011/0"
+msgid "0.0"
+msgstr "0.0"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/1020/0"
+msgid "XXX 个人版"
+msgstr "XXX 个人版"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/1040/0"
+msgid "0000"
+msgstr "0000"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/4294967295/0"
+msgid "2003-2011"
+msgstr "2003-2011"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/4294967295/1"
+msgid "作者: "
+msgstr "作者: "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/4294967295/2"
+msgid "版本:"
+msgstr "版本:"
+
+#: src/ui/player_window_options.cpp:4282
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/4294967295/3"
+msgid "完成日期:"
+msgstr "完成日期:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/4294967295/4"
+msgid "简介"
+msgstr "简介"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/control/4294967295/5"
+msgid "版权所有: "
+msgstr "版权所有: "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/200/title"
+msgid "关于"
+msgstr "关于"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1002/0"
+msgid "查找下一个"
+msgstr "查找下一个"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1004/0"
+msgid "替换"
+msgstr "替换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1008/0"
+msgid "替换为:"
+msgstr "替换为:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1010/0"
+msgid "大小写匹配"
+msgstr "大小写匹配"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1012/0"
+msgid "全字匹配"
+msgstr "全字匹配"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1014/0"
+msgid "向上搜索"
+msgstr "向上搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1016/0"
+msgid "整个文档"
+msgstr "整个文档"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1017/0"
+msgid "仅限选定内容"
+msgstr "仅限选定内容"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1019/0"
+msgid "全部替换"
+msgstr "全部替换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1022/0"
+msgid "搜索"
+msgstr "搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/1024/0"
+msgid "查找内容:"
+msgstr "查找内容:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/control/2/0"
+msgid "关闭"
+msgstr "关闭"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/202/title"
+msgid "查找"
+msgstr "查找"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/1002/0"
+msgid "查找下一个"
+msgstr "查找下一个"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/1052/0"
+msgid "提示: 在播放列表中输入汉字拼音的首字母即可快速定位"
+msgstr "提示: 在播放列表中输入汉字拼音的首字母即可快速定位"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/1102/0"
+msgid "反方向查找"
+msgstr "反方向查找"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/1103/0"
+msgid "大小写匹配"
+msgstr "大小写匹配"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/1104/0"
+msgid "全字符匹配"
+msgstr "全字符匹配"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/1107/0"
+msgid "标记全部"
+msgstr "标记全部"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/2/0"
+msgid "关闭"
+msgstr "关闭"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/4294967295/0"
+msgid "标  题:"
+msgstr "标  题:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/4294967295/1"
+msgid "艺术家:"
+msgstr "艺术家:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/control/4294967295/2"
+msgid "专  辑:"
+msgstr "专  辑:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/203/title"
+msgid "查找文件"
+msgstr "查找文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/204/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/204/control/1023/0"
+msgid "浏览..."
+msgstr "浏览..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/204/control/1052/0"
+msgid "请输入一个网络URL进行播放(例如:http://129.168.0.1/1.mp3):"
+msgstr "请输入一个网络URL进行播放(例如:http://129.168.0.1/1.mp3):"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/204/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/204/title"
+msgid "播放 URL"
+msgstr "播放 URL"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/205/control/1/0"
+msgid "关闭"
+msgstr "关闭"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/205/control/2132/0"
+msgid "删除错误关联"
+msgstr "删除错误关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/205/control/32813/0"
+msgid "重新关联"
+msgstr "重新关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/205/control/32814/0"
+msgid "撤消关联"
+msgstr "撤消关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/205/title"
+msgid "歌词关联"
+msgstr "歌词关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/1023/0"
+msgid "浏览..."
+msgstr "浏览..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/1046/0"
+msgid "本地搜索"
+msgstr "本地搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2087/0"
+msgid "查看所有关联"
+msgstr "查看所有关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2115/0"
+msgid "关联"
+msgstr "关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2116/0"
+msgid "撤消关联"
+msgstr "撤消关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2117/0"
+msgid "重命名"
+msgstr "重命名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2118/0"
+msgid "删除文件"
+msgstr "删除文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2119/0"
+msgid "部分匹配"
+msgstr "部分匹配"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/2120/0"
+msgid "不关联歌词"
+msgstr "不关联歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/4294967295/0"
+msgid "歌词标题:"
+msgstr "歌词标题:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/control/4294967295/1"
+msgid "从以下列文件中选择一个进行关联:"
+msgstr "从以下列文件中选择一个进行关联:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/206/title"
+msgid "指定歌词文件"
+msgstr "指定歌词文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/207/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/207/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/207/control/4294967295/0"
+msgid "请输入要调整歌词的偏移时间:"
+msgstr "请输入要调整歌词的偏移时间:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/207/control/4294967295/1"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/207/control/4294967295/2"
+msgid "提示:负数表示提前,正数表示延后"
+msgstr "提示:负数表示提前,正数表示延后"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/207/title"
+msgid "调整全部歌词时间"
+msgstr "调整全部歌词时间"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/1/0"
+msgid "下载"
+msgstr "下载"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/1052/0"
+msgid "(将在 %d 秒后自动下载选中的文件)"
+msgstr "(将在 %d 秒后自动下载选中的文件)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/2064/0"
+msgid "下载后自动与歌曲进行关联"
+msgstr "下载后自动与歌曲进行关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/2067/0"
+msgid "以后请选择最佳匹配后自动下载"
+msgstr "以后请选择最佳匹配后自动下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/4294967295/0"
+msgid "选择歌词文件进行下载:"
+msgstr "选择歌词文件进行下载:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/control/4294967295/1"
+msgid "保存文件名:"
+msgstr "保存文件名:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/208/title"
+msgid "下载歌词"
+msgstr "下载歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/1/0"
+msgid "下载"
+msgstr "下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/1046/0"
+msgid "搜索"
+msgstr "搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/1052/0"
+msgid "选择搜索到的歌词文件进行下载:"
+msgstr "选择搜索到的歌词文件进行下载:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/2/0"
+msgid "关闭"
+msgstr "关闭"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/2064/0"
+msgid "下载后与歌曲文件进行关联"
+msgstr "下载后与歌曲文件进行关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/2185/0"
+msgid "代理设置"
+msgstr "代理设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/2269/0"
+msgid "点击此处帮你找到歌词"
+msgstr "点击此处帮你找到歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/4294967295/0"
+msgid "保存为:"
+msgstr "保存为:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/4294967295/1"
+msgid "歌词服务器:"
+msgstr "歌词服务器:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/4294967295/2"
+msgid "歌名:"
+msgstr "歌名:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/control/4294967295/3"
+msgid "歌手:"
+msgstr "歌手:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/209/title"
+msgid "在线搜索并下载歌词"
+msgstr "在线搜索并下载歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/210/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/210/control/1023/0"
+msgid "浏览..."
+msgstr "浏览..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/210/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/210/control/4294967295/0"
+msgid "在这个文件中查找图标(&L):"
+msgstr "在这个文件中查找图标(&L):"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/210/control/4294967295/1"
+msgid "从以下列表选择一个图标(&S):"
+msgstr "从以下列表选择一个图标(&S):"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/210/title"
+msgid "选择图标"
+msgstr "选择图标"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/1/0"
+msgid "立即转换"
+msgstr "立即转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/1015/0"
+msgid "配置"
+msgstr "配置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2017/0"
+msgid "转换完成后添加到播放列表"
+msgstr "转换完成后添加到播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2036/0"
+msgid "转换采样频率"
+msgstr "转换采样频率"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2060/0"
+msgid "启用当前均衡器设置"
+msgstr "启用当前均衡器设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2061/0"
+msgid "启用当前杜比环绕设置"
+msgstr "启用当前杜比环绕设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2129/0"
+msgid "启用回放增益"
+msgstr "启用回放增益"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/2207/0"
+msgid "自动为目标文件添加序号"
+msgstr "自动为目标文件添加序号"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/0"
+msgid "编码格式"
+msgstr "编码格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/1"
+msgid "目标文件夹:"
+msgstr "目标文件夹:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/10"
+msgid "目标文件存在时:"
+msgstr "目标文件存在时:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/2"
+msgid "任务优先级:"
+msgstr "任务优先级:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/3"
+msgid "提示: 1.如果不指定目标文件夹，将把目标文件生成在源文件夹内             2.由于CD播放是独占方式，如果正在播放CD，请先停止播放"
+msgstr "提示: 1.如果不指定目标文件夹，将把目标文件生成在源文件夹内             2.由于CD播放是独占方式，如果正在播放CD，请先停止播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/4"
+msgid "输出比特:"
+msgstr "输出比特:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/5"
+msgid "输出格式:"
+msgstr "输出格式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/6"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/7"
+msgid "(只对 Wave 输出格式有效)"
+msgstr "(只对 Wave 输出格式有效)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/8"
+msgid "音效处理"
+msgstr "音效处理"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/control/4294967295/9"
+msgid "(编码器不一定支持所有频率)"
+msgstr "(编码器不一定支持所有频率)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/220/title"
+msgid "转换格式"
+msgstr "转换格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/221/control/1052/0"
+msgid "0"
+msgstr "0"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/221/control/2/0"
+msgid "终止转换"
+msgstr "终止转换"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/221/control/2187/0"
+msgid "暂停转换|继续转换"
+msgstr "暂停转换|继续转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/221/title"
+msgid "正在转换格式..."
+msgstr "正在转换格式..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/222/control/1052/0"
+msgid "0"
+msgstr "0"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/222/control/2/0"
+msgid "终止扫描"
+msgstr "终止扫描"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/222/control/2187/0"
+msgid "暂停扫描|继续扫描"
+msgstr "暂停扫描|继续扫描"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/222/title"
+msgid "正在扫描增益信息..."
+msgstr "正在扫描增益信息..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/223/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/223/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/223/control/32513/0"
+msgid "新列表"
+msgstr "新列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/223/control/4294967295/0"
+msgid "选择目标播放列表:"
+msgstr "选择目标播放列表:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/223/title"
+msgid "选择播放列表"
+msgstr "选择播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/224/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/224/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/224/control/4294967295/0"
+msgid "请输入歌曲文件名的样式:"
+msgstr "请输入歌曲文件名的样式:"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/224/control/4294967295/1"
+msgid "%(Artist): 艺术家\t%(Title): 歌曲标题\n%(Album): 专辑标题\t%(Tracknumber): 音轨号\n%(Genre): 流派\t\t%(Date): 年代"
+msgstr "%(Artist): 艺术家\t%(Title): 歌曲标题\n%(Album): 专辑标题\t%(Tracknumber): 音轨号\n%(Genre): 流派\t\t%(Date): 年代"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/224/title"
+msgid "文件名格式"
+msgstr "文件名格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/225/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/225/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/225/control/4294967295/0"
+msgid "字段名:"
+msgstr "字段名:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/225/control/4294967295/1"
+msgid "字段值:"
+msgstr "字段值:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/225/title"
+msgid "文件标签"
+msgstr "文件标签"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/226/control/1/0"
+msgid "保存"
+msgstr "保存"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/226/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/226/control/2172/0"
+msgid "查询音轨信息"
+msgstr "查询音轨信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/226/control/4294967295/0"
+msgid "从freedb网站上查询到的结果:"
+msgstr "从freedb网站上查询到的结果:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/226/control/4294967295/1"
+msgid "音轨信息(选择字符集): "
+msgstr "音轨信息(选择字符集): "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/226/title"
+msgid "freedb 标签"
+msgstr "freedb 标签"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/227/control/1/0"
+msgid "立即关机"
+msgstr "立即关机"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/227/control/2/0"
+msgid "取消关机"
+msgstr "取消关机"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/227/title"
+msgid "千千静听 - 自动关机"
+msgstr "千千静听 - 自动关机"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/1/0"
+msgid "完成"
+msgstr "完成"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/1027/0"
+msgid "添加已选结果"
+msgstr "添加已选结果"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/1046/0"
+msgid "开始搜索|停止搜索"
+msgstr "开始搜索|停止搜索"
+
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/1052/0"
+msgid "已搜索到 %d 个, 正在搜索 %s"
+msgstr "已搜索到 %d 个, 正在搜索 %s"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/2201/0"
+msgid "全选"
+msgstr "全选"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/2202/0"
+msgid "全不选"
+msgstr "全不选"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/2204/0"
+msgid "不包含少于"
+msgstr "不包含少于"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/4294967295/0"
+msgid "搜索到的结果:"
+msgstr "搜索到的结果:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/4294967295/1"
+msgid "搜索位置:"
+msgstr "搜索位置:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/4294967295/2"
+msgid "搜索类型:"
+msgstr "搜索类型:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/4294967295/3"
+msgid "高级选项:"
+msgstr "高级选项:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/control/4294967295/4"
+msgid "秒的文件"
+msgstr "秒的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/228/title"
+msgid "搜索计算机上的音乐"
+msgstr "搜索计算机上的音乐"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/229/control/1/0"
+msgid "播放"
+msgstr "播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/229/control/1052/0"
+msgid "请选择 CD 驱动器:"
+msgstr "请选择 CD 驱动器:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/229/control/2017/0"
+msgid "添加到播放列表"
+msgstr "添加到播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/229/title"
+msgid "播放音频 CD"
+msgstr "播放音频 CD"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/1075/0"
+msgid "淡入淡出效果显示主要窗口(需要Windows 2000或更高)"
+msgstr "淡入淡出效果显示主要窗口(需要Windows 2000或更高)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/1076/0"
+msgid "当窗口靠近时自动粘合"
+msgstr "当窗口靠近时自动粘合"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/1079/0"
+msgid "在菜单上显示命令提示"
+msgstr "在菜单上显示命令提示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/1083/0"
+msgid "标题栏自动切换歌曲信息,滚动延时间隔"
+msgstr "标题栏自动切换歌曲信息,滚动延时间隔"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2085/0"
+msgid "在系统栏显示程序图标"
+msgstr "在系统栏显示程序图标"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2086/0"
+msgid "在屏幕右下角弹出播放提示"
+msgstr "在屏幕右下角弹出播放提示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2088/0"
+msgid "启动播放器后最小化"
+msgstr "启动播放器后最小化"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2127/0"
+msgid "在工具提示中显示快捷键"
+msgstr "在工具提示中显示快捷键"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2137/0"
+msgid "从命令行方式操作时总是针对这个列表:"
+msgstr "从命令行方式操作时总是针对这个列表:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2139/0"
+msgid "从命令行方式打开文件时先清除当前播放列表"
+msgstr "从命令行方式打开文件时先清除当前播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2153/0"
+msgid "分多列显示播放曲目菜单"
+msgstr "分多列显示播放曲目菜单"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2182/0"
+msgid "自动关闭计算机"
+msgstr "自动关闭计算机"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2188/0"
+msgid "向MSN和百度Hi发送播放的歌曲信息"
+msgstr "向MSN和百度Hi发送播放的歌曲信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2189/0"
+msgid "在任务栏滚动歌曲标题"
+msgstr "在任务栏滚动歌曲标题"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/2197/0"
+msgid "立即检查"
+msgstr "立即检查"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/4294967295/0"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/4294967295/1"
+msgid "像素"
+msgstr "像素"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/4294967295/2"
+msgid "秒"
+msgstr "秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/4294967295/3"
+msgid "自动检查软件新版本:"
+msgstr "自动检查软件新版本:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/4294967295/4"
+msgid "命令行方式(从外部打开或添加文件)"
+msgstr "命令行方式(从外部打开或添加文件)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/control/4294967295/5"
+msgid "软件更新"
+msgstr "软件更新"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/250/title"
+msgid "常规"
+msgstr "常规"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/1070/0"
+msgid "程序启动时自动播放"
+msgstr "程序启动时自动播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2070/0"
+msgid "播放时"
+msgstr "播放时"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2071/0"
+msgid "暂停时"
+msgstr "暂停时"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2072/0"
+msgid "交叉定位"
+msgstr "交叉定位"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2073/0"
+msgid "停止时"
+msgstr "停止时"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2074/0"
+msgid "歌曲自动切换时"
+msgstr "歌曲自动切换时"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2092/0"
+msgid "继续上一次的播放进度"
+msgstr "继续上一次的播放进度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2093/0"
+msgid "出现错误时不再连续播放"
+msgstr "出现错误时不再连续播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2129/0"
+msgid "启用回放增益(使用增益信息将不同文件的音量调节到相同水平)"
+msgstr "启用回放增益(使用增益信息将不同文件的音量调节到相同水平)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2130/0"
+msgid "自动扫描(在播放未包含增益信息的文件时自动扫描增益信息)"
+msgstr "自动扫描(在播放未包含增益信息的文件时自动扫描增益信息)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/2131/0"
+msgid "扫描增益信息时跳过已包含增益信息的文件"
+msgstr "扫描增益信息时跳过已包含增益信息的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/0"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/1"
+msgid "连续播放文件时间隔:"
+msgstr "连续播放文件时间隔:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/10"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/11"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/12"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/13"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/2"
+msgid "播放优先级:"
+msgstr "播放优先级:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/3"
+msgid "秒"
+msgstr "秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/4"
+msgid "全文件缓冲:"
+msgstr "全文件缓冲:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/5"
+msgid "KB"
+msgstr "KB"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/6"
+msgid "播放"
+msgstr "播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/7"
+msgid "声音淡入淡出(仅支持DirectSound输出方式)"
+msgstr "声音淡入淡出(仅支持DirectSound输出方式)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/8"
+msgid "回放增益(自动音量)"
+msgstr "回放增益(自动音量)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/control/4294967295/9"
+msgid "提示: \"自动增益信息\"是通过对音频文件的扫描分析检测到的一个最佳的增益值, 在以后的播放中如果使用这个增益值就可以把音频文件的音量调整到最佳的水平,从而减少甚至避免不同音频文件之间的音量差异. "
+msgstr "提示: \"自动增益信息\"是通过对音频文件的扫描分析检测到的一个最佳的增益值, 在以后的播放中如果使用这个增益值就可以把音频文件的音量调整到最佳的水平,从而减少甚至避免不同音频文件之间的音量差异. "
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/251/title"
+msgid "播放"
+msgstr "播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/252/control/1098/0"
+msgid "设置"
+msgstr "设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/252/control/2053/0"
+msgid "启用全局快捷键(播放器后台时也能响应)"
+msgstr "启用全局快捷键(播放器后台时也能响应)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/252/control/4294967295/0"
+msgid "快捷键:"
+msgstr "快捷键:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/252/control/4294967295/1"
+msgid "全局键:"
+msgstr "全局键:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/252/title"
+msgid "快捷键"
+msgstr "快捷键"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1036/0"
+msgid "选择"
+msgstr "选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1101/0"
+msgid "波形逐渐消逝"
+msgstr "波形逐渐消逝"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1150/0"
+msgid "高峰"
+msgstr "高峰"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1151/0"
+msgid "顶端"
+msgstr "顶端"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1152/0"
+msgid "中端"
+msgstr "中端"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1153/0"
+msgid "底端"
+msgstr "底端"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1154/0"
+msgid "波形"
+msgstr "波形"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/1155/0"
+msgid "文字"
+msgstr "文字"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/2035/0"
+msgid "0  帧/秒"
+msgstr "0  帧/秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/2121/0"
+msgid "显示粗的频带(柱状)"
+msgstr "显示粗的频带(柱状)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/2154/0"
+msgid "配置文件"
+msgstr "配置文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/0"
+msgid "频谱分析"
+msgstr "频谱分析"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/1"
+msgid "配色方案:"
+msgstr "配色方案:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/10"
+msgid "文字显示"
+msgstr "文字显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/11"
+msgid "字体:"
+msgstr "字体:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/12"
+msgid "颜色:"
+msgstr "颜色:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/2"
+msgid "视觉效果类型:"
+msgstr "视觉效果类型:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/3"
+msgid "分析显示速度:"
+msgstr "分析显示速度:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/4"
+msgid "示波显示"
+msgstr "示波显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/5"
+msgid "配色方案:"
+msgstr "配色方案:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/6"
+msgid "消逝速度:"
+msgstr "消逝速度:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/7"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/8"
+msgid "10"
+msgstr "10"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/control/4294967295/9"
+msgid "40"
+msgstr "40"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/253/title"
+msgid "视觉效果"
+msgstr "视觉效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1036/0"
+msgid "选择"
+msgstr "选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1086/0"
+msgid "在歌曲标题前显示序号"
+msgstr "在歌曲标题前显示序号"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1099/0"
+msgid "有标签时的格式:"
+msgstr "有标签时的格式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1155/0"
+msgid "标题"
+msgstr "标题"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1156/0"
+msgid "加亮"
+msgstr "加亮"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1158/0"
+msgid "背景"
+msgstr "背景"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1159/0"
+msgid "序号"
+msgstr "序号"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1160/0"
+msgid "长度"
+msgstr "长度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1161/0"
+msgid "选择"
+msgstr "选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/1162/0"
+msgid "背景2"
+msgstr "背景2"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2008/0"
+msgid "在每个曲目上提示文件信息"
+msgstr "在每个曲目上提示文件信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2010/0"
+msgid "允许在播放列表上进行拖放操作"
+msgstr "允许在播放列表上进行拖放操作"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2045/0"
+msgid "加载列表时忽略不存在的文件"
+msgstr "加载列表时忽略不存在的文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2125/0"
+msgid "使用相对路径保存歌曲的文件名"
+msgstr "使用相对路径保存歌曲的文件名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2128/0"
+msgid "禁用物理文件删除功能"
+msgstr "禁用物理文件删除功能"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2148/0"
+msgid "缓存已读取的文件信息到播放列表中,避免以后加载列表时重新读取\n(这样会增加列表文件的大小和内存的使用)"
+msgstr "缓存已读取的文件信息到播放列表中,避免以后加载列表时重新读取\n(这样会增加列表文件的大小和内存的使用)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/2154/0"
+msgid "配置文件"
+msgstr "配置文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/0"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/1"
+msgid "默认格式:"
+msgstr "默认格式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/2"
+msgid "标题格式"
+msgstr "标题格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/3"
+msgid "颜色:"
+msgstr "颜色:"
+
+#. Preserve separators, file patterns and format placeholders.
+#, c-format
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/4"
+msgid "%F:文件名   %E:扩展名    %P:上级路径  %C:编码      %B:码率\n%A:艺术家   %T:标题      %L:专辑      %G:流派      %I:音轨号\n%Y:年代     %D:备注      %R:星级      %(字段名):其它标签字段"
+msgstr "%F:文件名   %E:扩展名    %P:上级路径  %C:编码      %B:码率\n%A:艺术家   %T:标题      %L:专辑      %G:流派      %I:音轨号\n%Y:年代     %D:备注      %R:星级      %(字段名):其它标签字段"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/5"
+msgid "显示"
+msgstr "显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/6"
+msgid "字体:"
+msgstr "字体:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/7"
+msgid "时读取文件信息"
+msgstr "时读取文件信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/control/4294967295/8"
+msgid "当"
+msgstr "当"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/254/title"
+msgid "播放列表"
+msgstr "播放列表"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/255/control/2210/0"
+msgid "监视文件夹以更新媒体库或默认的播放列表(需要Windows 2000或更高)"
+msgstr "监视文件夹以更新媒体库或默认的播放列表(需要Windows 2000或更高)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/255/control/2212/0"
+msgid "启用媒体库"
+msgstr "启用媒体库"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/255/control/4294967295/0"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/255/control/4294967295/1"
+msgid "监视下列的文件夹，如果有新增、删除、重命名或移动的媒体文件，自动将变化反应到媒体库中。(选定表示同时监控其子文件夹)"
+msgstr "监视下列的文件夹，如果有新增、删除、重命名或移动的媒体文件，自动将变化反应到媒体库中。(选定表示同时监控其子文件夹)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/255/control/4294967295/2"
+msgid "为了获得最佳性能，请避免监视网络中的共享文件夹、根文件夹。"
+msgstr "为了获得最佳性能，请避免监视网络中的共享文件夹、根文件夹。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/255/title"
+msgid "媒体库"
+msgstr "媒体库"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2021/0"
+msgid "有歌词时自动显示歌词秀，否则自动隐藏"
+msgstr "有歌词时自动显示歌词秀，否则自动隐藏"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2024/0"
+msgid "左键拖动歌词来定位播放(提示:用方向键可以实现单句歌词跳跃)"
+msgstr "左键拖动歌词来定位播放(提示:用方向键可以实现单句歌词跳跃)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2062/0"
+msgid "播放音频文件时自动加载歌词"
+msgstr "播放音频文件时自动加载歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2063/0"
+msgid "加载时剪裁行首和行尾的空格"
+msgstr "加载时剪裁行首和行尾的空格"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2066/0"
+msgid "用行压缩方式保存以减少大小"
+msgstr "用行压缩方式保存以减少大小"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2087/0"
+msgid "歌词关联"
+msgstr "歌词关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2089/0"
+msgid "本地搜索"
+msgstr "本地搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2091/0"
+msgid "在线搜索"
+msgstr "在线搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2126/0"
+msgid "自动嵌入歌词到音频文件"
+msgstr "自动嵌入歌词到音频文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/2176/0"
+msgid "不从音频文件中加载内嵌歌词"
+msgstr "不从音频文件中加载内嵌歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/4294967295/0"
+msgid "保存修改过的歌词"
+msgstr "保存修改过的歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/4294967295/1"
+msgid "->"
+msgstr "->"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/4294967295/2"
+msgid "->"
+msgstr "->"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/4294967295/3"
+msgid "歌词搜索顺序: 歌曲内嵌歌词 ->"
+msgstr "歌词搜索顺序: 歌曲内嵌歌词 ->"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/control/4294967295/4"
+msgid "选项"
+msgstr "选项"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/256/title"
+msgid "歌词秀"
+msgstr "歌词秀"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2016/0"
+msgid "自动覆盖已存在的歌词文件"
+msgstr "自动覆盖已存在的歌词文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2064/0"
+msgid "下载后与音频文件进行关联"
+msgstr "下载后与音频文件进行关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2065/0"
+msgid "播放音频文件时自动在线搜索"
+msgstr "播放音频文件时自动在线搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2067/0"
+msgid "有多个可选下载时自动选择最佳"
+msgstr "有多个可选下载时自动选择最佳"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2146/0"
+msgid "保存到歌曲所在的文件夹"
+msgstr "保存到歌曲所在的文件夹"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2147/0"
+msgid "保存成歌曲文件相同的文件名"
+msgstr "保存成歌曲文件相同的文件名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2180/0"
+msgid "当歌曲信息完整时才自动搜索"
+msgstr "当歌曲信息完整时才自动搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/2185/0"
+msgid "代理设置"
+msgstr "代理设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/4294967295/0"
+msgid "本地搜索(选定表示同时搜索子文件夹,上下移动来设置搜索顺序)"
+msgstr "本地搜索(选定表示同时搜索子文件夹,上下移动来设置搜索顺序)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/4294967295/1"
+msgid "在线搜索"
+msgstr "在线搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/4294967295/2"
+msgid "歌词服务器:"
+msgstr "歌词服务器:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/control/4294967295/3"
+msgid "保存到其它文件夹:"
+msgstr "保存到其它文件夹:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/257/title"
+msgid "歌词搜索"
+msgstr "歌词搜索"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/2173/0"
+msgid "播放缺少信息的CD音轨时自动查询"
+msgstr "播放缺少信息的CD音轨时自动查询"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/2176/0"
+msgid "查询失败时在屏幕右下角显示错误信息"
+msgstr "查询失败时在屏幕右下角显示错误信息"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/2190/0"
+msgid "不使用代理服务器"
+msgstr "不使用代理服务器"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/2191/0"
+msgid "使用 Internet Explorer 的代理设置"
+msgstr "使用 Internet Explorer 的代理设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/2192/0"
+msgid "使用自定义的代理服务器"
+msgstr "使用自定义的代理服务器"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/0"
+msgid "服务器:"
+msgstr "服务器:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/1"
+msgid "端口:"
+msgstr "端口:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/2"
+msgid "用户名:"
+msgstr "用户名:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/3"
+msgid "密码:"
+msgstr "密码:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/4"
+msgid "freedb (用于从 freedb.org 免费获取 CD 的专辑和音轨信息)"
+msgstr "freedb (用于从 freedb.org 免费获取 CD 的专辑和音轨信息)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/5"
+msgid "选择 freedb 服务器:"
+msgstr "选择 freedb 服务器:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/control/4294967295/6"
+msgid "代理服务器"
+msgstr "代理服务器"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/258/title"
+msgid "网络连接"
+msgstr "网络连接"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/259/control/1015/0"
+msgid "配置插件"
+msgstr "配置插件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/259/control/4294967295/0"
+msgid "Winamp 2 音效插件(dsp_*.dll)"
+msgstr "Winamp 2 音效插件(dsp_*.dll)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/259/control/4294967295/1"
+msgid "插件目录:"
+msgstr "插件目录:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/259/control/4294967295/2"
+msgid "提示: 选定即可激活,并且可以同时激活多个插件!"
+msgstr "提示: 选定即可激活,并且可以同时激活多个插件!"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/259/control/4294967295/3"
+msgid "调整加载顺序:"
+msgstr "调整加载顺序:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/259/title"
+msgid "音效插件"
+msgstr "音效插件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/2033/0"
+msgid "优先使用硬件混音缓冲区(DirectSound方式硬件加速)"
+msgstr "优先使用硬件混音缓冲区(DirectSound方式硬件加速)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/2034/0"
+msgid "创建主缓冲区(DirectSound方式用于修正老声卡的音质问题)"
+msgstr "创建主缓冲区(DirectSound方式用于修正老声卡的音质问题)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/2036/0"
+msgid "启用采样频率转换"
+msgstr "启用采样频率转换"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/2037/0"
+msgid "高频抖动"
+msgstr "高频抖动"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/0"
+msgid "毫秒"
+msgstr "毫秒"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/1"
+msgid "输出设备:"
+msgstr "输出设备:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/2"
+msgid "缓冲长度:"
+msgstr "缓冲长度:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/3"
+msgid "输出格式:"
+msgstr "输出格式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/4"
+msgid "提示: 上述所有参数设置都在重新播放时才会生效。"
+msgstr "提示: 上述所有参数设置都在重新播放时才会生效。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/5"
+msgid "注意: 对于某些声卡驱动或操作系统,Kernel Streaming和ASIO不支持音量调节,甚至可能无法正常播放声音。"
+msgstr "注意: 对于某些声卡驱动或操作系统,Kernel Streaming和ASIO不支持音量调节,甚至可能无法正常播放声音。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/control/4294967295/6"
+msgid "模式:"
+msgstr "模式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/260/title"
+msgid "音频设备"
+msgstr "音频设备"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/1039/0"
+msgid "删除"
+msgstr "删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/1098/0"
+msgid "应用"
+msgstr "应用"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/2109/0"
+msgid "下载更多皮肤..."
+msgstr "下载更多皮肤..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/4294967295/0"
+msgid "作  者:"
+msgstr "作  者:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/4294967295/1"
+msgid "主  页:"
+msgstr "主  页:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/4294967295/2"
+msgid "邮  箱:"
+msgstr "邮  箱:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/4294967295/3"
+msgid "请选择程序皮肤:"
+msgstr "请选择程序皮肤:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/control/4294967295/4"
+msgid "皮肤预览:"
+msgstr "皮肤预览:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/261/title"
+msgid "皮肤"
+msgstr "皮肤"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/1069/0"
+msgid "关联CD播放器"
+msgstr "关联CD播放器"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2030/0"
+msgid "我的桌面"
+msgstr "我的桌面"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2031/0"
+msgid "程序菜单"
+msgstr "程序菜单"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2032/0"
+msgid "快速启动"
+msgstr "快速启动"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2106/0"
+msgid "选择播放器图标"
+msgstr "选择播放器图标"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2108/0"
+msgid "选择文件图标"
+msgstr "选择文件图标"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2120/0"
+msgid "关联文件夹"
+msgstr "关联文件夹"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2121/0"
+msgid "启动时检查关联"
+msgstr "启动时检查关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2216/0"
+msgid "从文件夹自动选择图标"
+msgstr "从文件夹自动选择图标"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2281/0"
+msgid "手动设置关联"
+msgstr "手动设置关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/2282/0"
+msgid "Vista,Win7下设置关联失效"
+msgstr "Vista,Win7下设置关联失效"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/4294967295/0"
+msgid "创建快捷方式"
+msgstr "创建快捷方式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/4294967295/1"
+msgid "关联文件类型:"
+msgstr "关联文件类型:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/control/4294967295/2"
+msgid "当前文件类型的图标:"
+msgstr "当前文件类型的图标:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/262/title"
+msgid "系统关联"
+msgstr "系统关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/1036/0"
+msgid "选择"
+msgstr "选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/1155/0"
+msgid "普通"
+msgstr "普通"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/1156/0"
+msgid "加亮"
+msgstr "加亮"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/1158/0"
+msgid "背景"
+msgstr "背景"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/2022/0"
+msgid "自动调整字体以适应歌词宽度"
+msgstr "自动调整字体以适应歌词宽度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/2145/0"
+msgid "淡入淡出当前行的歌词"
+msgstr "淡入淡出当前行的歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/2150/0"
+msgid "卡拉OK方式显示当前行歌词"
+msgstr "卡拉OK方式显示当前行歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/2151/0"
+msgid "以桌面为背景显示全屏歌词"
+msgstr "以桌面为背景显示全屏歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/2233/0"
+msgid "对所有视觉效果使用统一设置"
+msgstr "对所有视觉效果使用统一设置"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/0"
+msgid "对齐方式:"
+msgstr "对齐方式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/1"
+msgid "歌词全屏显示"
+msgstr "歌词全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/10"
+msgid "视觉效果与歌词同屏显示"
+msgstr "视觉效果与歌词同屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/11"
+msgid "视觉效果:"
+msgstr "视觉效果:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/2"
+msgid "淡入淡出:"
+msgstr "淡入淡出:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/3"
+msgid "滚动模式:"
+msgstr "滚动模式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/4"
+msgid "竖直行距:"
+msgstr "竖直行距:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/5"
+msgid "像素"
+msgstr "像素"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/6"
+msgid "颜色:"
+msgstr "颜色:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/7"
+msgid "字体:"
+msgstr "字体:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/8"
+msgid "视觉效果与歌词位置:"
+msgstr "视觉效果与歌词位置:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/control/4294967295/9"
+msgid "歌词占居屏幕:"
+msgstr "歌词占居屏幕:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/263/title"
+msgid "全屏显示"
+msgstr "全屏显示"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/264/control/2271/0"
+msgid "浏览..."
+msgstr "浏览..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/264/control/2272/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/264/control/2273/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/264/control/2274/0"
+msgid "这是您第一次使用下载功能，是否需要更改歌曲默认保存文件夹："
+msgstr "这是您第一次使用下载功能，是否需要更改歌曲默认保存文件夹："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/264/control/2275/0"
+msgid "友情提示：如果您的皮肤没有下载管理面板，建议您更换默认皮肤完美享受下载体验"
+msgstr "友情提示：如果您的皮肤没有下载管理面板，建议您更换默认皮肤完美享受下载体验"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/264/title"
+msgid "下载歌曲保存路径"
+msgstr "下载歌曲保存路径"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/2281/0"
+msgid "覆盖原文件"
+msgstr "覆盖原文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/2282/0"
+msgid "自动重命名"
+msgstr "自动重命名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/2283/0"
+msgid "记住我的选择"
+msgstr "记住我的选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/2284/0"
+msgid "否"
+msgstr "否"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/2285/0"
+msgid "是"
+msgstr "是"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/4294967295/0"
+msgid "重新下载时会优先选择不同的文件。"
+msgstr "重新下载时会优先选择不同的文件。"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/control/4294967295/1"
+msgid "请选择歌曲保存方式："
+msgstr "请选择歌曲保存方式："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/265/title"
+msgid "重新下载"
+msgstr "重新下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/1066/0"
+msgid "歌手详情"
+msgstr "歌手详情"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/2160/0"
+msgid "从文件名猜测标签..."
+msgstr "从文件名猜测标签..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/2175/0"
+msgid "ID3v2写入时使用填充数据"
+msgstr "ID3v2写入时使用填充数据"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/0"
+msgid "标  题:"
+msgstr "标  题:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/1"
+msgid "艺术家:"
+msgstr "艺术家:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/10"
+msgid "读取类型优先级:"
+msgstr "读取类型优先级:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/11"
+msgid "ID3v2编码类型:"
+msgstr "ID3v2编码类型:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/12"
+msgid "编码:"
+msgstr "编码:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/13"
+msgid "声道:"
+msgstr "声道:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/14"
+msgid "频率:"
+msgstr "频率:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/15"
+msgid "码率:"
+msgstr "码率:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/16"
+msgid "长度:"
+msgstr "长度:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/17"
+msgid "比特:"
+msgstr "比特:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/18"
+msgid "格式"
+msgstr "格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/19"
+msgid "增益:"
+msgstr "增益:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/2"
+msgid "专  辑:"
+msgstr "专  辑:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/20"
+msgid "文件名:"
+msgstr "文件名:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/21"
+msgid "歌曲来源:"
+msgstr "歌曲来源:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/3"
+msgid "年代:"
+msgstr "年代:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/4"
+msgid "流  派:"
+msgstr "流  派:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/5"
+msgid "备  注:"
+msgstr "备  注:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/6"
+msgid "标签"
+msgstr "标签"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/7"
+msgid "音轨:"
+msgstr "音轨:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/8"
+msgid "写入类型:"
+msgstr "写入类型:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/control/4294967295/9"
+msgid "MP3标签"
+msgstr "MP3标签"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/372/title"
+msgid "属性"
+msgstr "属性"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/1066/0"
+msgid "歌手详情"
+msgstr "歌手详情"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/0"
+msgid "编码:"
+msgstr "编码:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/1"
+msgid "声道:"
+msgstr "声道:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/10"
+msgid "专  辑:"
+msgstr "专  辑:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/11"
+msgid "年代:"
+msgstr "年代:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/12"
+msgid "流  派:"
+msgstr "流  派:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/13"
+msgid "备  注:"
+msgstr "备  注:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/14"
+msgid "标签"
+msgstr "标签"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/15"
+msgid "音轨:"
+msgstr "音轨:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/2"
+msgid "频率:"
+msgstr "频率:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/3"
+msgid "码率:"
+msgstr "码率:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/4"
+msgid "长度:"
+msgstr "长度:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/5"
+msgid "比特:"
+msgstr "比特:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/6"
+msgid "格式"
+msgstr "格式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/7"
+msgid "文件名:"
+msgstr "文件名:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/8"
+msgid "标  题:"
+msgstr "标  题:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/control/4294967295/9"
+msgid "艺术家:"
+msgstr "艺术家:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/373/title"
+msgid "媒体属性"
+msgstr "媒体属性"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/374/control/1066/0"
+msgid "专辑详情"
+msgstr "专辑详情"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/374/control/2220/0"
+msgid "浏览..."
+msgstr "浏览..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/374/control/2221/0"
+msgid "删除"
+msgstr "删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/374/title"
+msgid "专辑封面"
+msgstr "专辑封面"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/378/control/2252/0"
+msgid "每次启动时自动关联"
+msgstr "每次启动时自动关联"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/378/control/4294967295/0"
+msgid "千千静听目前没有关联常见的音频格式。\n\n您想将千千静听设置为常见音频格式的默认播放器吗？"
+msgstr "千千静听目前没有关联常见的音频格式。\n\n您想将千千静听设置为常见音频格式的默认播放器吗？"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/378/control/6/0"
+msgid "是"
+msgstr "是"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/378/control/7/0"
+msgid "否"
+msgstr "否"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/378/title"
+msgid "检查文件关联"
+msgstr "检查文件关联"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/379/control/1/0"
+msgid "安装"
+msgstr "安装"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/379/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/379/control/2254/0"
+msgid "100%"
+msgstr "100%"
+
+#. Preserve separators, file patterns and format placeholders.
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/379/control/4294967295/0"
+msgid "\r\n正在下载升级文件..."
+msgstr "\r\n正在下载升级文件..."
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/379/title"
+msgid "千千静听在线升级"
+msgstr "千千静听在线升级"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/1165/0"
+msgid "正常限速(听歌体验更好)"
+msgstr "正常限速(听歌体验更好)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/1166/0"
+msgid "智能限速(节省带宽占用)"
+msgstr "智能限速(节省带宽占用)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/2249/0"
+msgid "接收每周推荐歌曲"
+msgstr "接收每周推荐歌曲"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/2250/0"
+msgid "缓存网络歌曲(使在线播放更加流畅)"
+msgstr "缓存网络歌曲(使在线播放更加流畅)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/4294967295/0"
+msgid "缓存空间:"
+msgstr "缓存空间:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/4294967295/1"
+msgid "(600MB-2GB)"
+msgstr "(600MB-2GB)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/4294967295/2"
+msgid "缓存路径:"
+msgstr "缓存路径:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/381/control/4294967295/3"
+msgid "MB"
+msgstr "MB"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/382/control/1175/0"
+msgid "按照歌手名创建文件夹保存"
+msgstr "按照歌手名创建文件夹保存"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/382/control/1176/0"
+msgid "重新下载歌曲时覆盖原文件"
+msgstr "重新下载歌曲时覆盖原文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/382/control/1180/0"
+msgid "试听歌曲时同步下载歌曲文件"
+msgstr "试听歌曲时同步下载歌曲文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/382/control/1182/0"
+msgid "下载歌曲时同步下载歌词"
+msgstr "下载歌曲时同步下载歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/382/control/4294967295/0"
+msgid "同时下载任务数(1-5)："
+msgstr "同时下载任务数(1-5)："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/382/control/4294967295/1"
+msgid "下载路径："
+msgstr "下载路径："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/1036/0"
+msgid "选择"
+msgstr "选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/1155/0"
+msgid "普通"
+msgstr "普通"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/1156/0"
+msgid "加亮"
+msgstr "加亮"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/1158/0"
+msgid "背景"
+msgstr "背景"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2022/0"
+msgid "自动调整窗口以适应歌词宽度"
+msgstr "自动调整窗口以适应歌词宽度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2023/0"
+msgid "仅调整垂直滚动模式"
+msgstr "仅调整垂直滚动模式"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2145/0"
+msgid "淡入淡出当前行的歌词"
+msgstr "淡入淡出当前行的歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2150/0"
+msgid "卡拉OK方式显示当前行歌词"
+msgstr "卡拉OK方式显示当前行歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2151/0"
+msgid "使用背景色来透明"
+msgstr "使用背景色来透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2152/0"
+msgid "连皮肤也作为背景一起透明"
+msgstr "连皮肤也作为背景一起透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/2154/0"
+msgid "配置文件"
+msgstr "配置文件"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/0"
+msgid "对齐方式:"
+msgstr "对齐方式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/1"
+msgid "淡入淡出:"
+msgstr "淡入淡出:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/2"
+msgid "滚动模式:"
+msgstr "滚动模式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/3"
+msgid "竖直行距:"
+msgstr "竖直行距:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/4"
+msgid "像素"
+msgstr "像素"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/5"
+msgid "颜色:"
+msgstr "颜色:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/384/control/4294967295/6"
+msgid "字体:"
+msgstr "字体:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/1036/0"
+msgid "选择"
+msgstr "选择"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/1038/0"
+msgid "描边"
+msgstr "描边"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/1155/0"
+msgid "未播放"
+msgstr "未播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/1156/0"
+msgid "已播放"
+msgstr "已播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/1158/0"
+msgid "背景"
+msgstr "背景"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/2022/0"
+msgid "自动调整窗口以适应歌词宽度"
+msgstr "自动调整窗口以适应歌词宽度"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/2023/0"
+msgid "关闭时自动解锁桌面歌词"
+msgstr "关闭时自动解锁桌面歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/2150/0"
+msgid "卡拉OK方式显示当前行歌词"
+msgstr "卡拉OK方式显示当前行歌词"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/2154/0"
+msgid "预设方案"
+msgstr "预设方案"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/2258/0"
+msgid "阴影"
+msgstr "阴影"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/2259/0"
+msgid "平滑字体效果"
+msgstr "平滑字体效果"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/0"
+msgid "对齐方式:"
+msgstr "对齐方式:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/1"
+msgid "歌词行数:"
+msgstr "歌词行数:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/2"
+msgid "颜色:"
+msgstr "颜色:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/3"
+msgid "字体:"
+msgstr "字体:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/4"
+msgid "文字:"
+msgstr "文字:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/5"
+msgid "背景:"
+msgstr "背景:"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/6"
+msgid "不透明"
+msgstr "不透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/7"
+msgid "透明"
+msgstr "透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/8"
+msgid "不透明"
+msgstr "不透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/385/control/4294967295/9"
+msgid "透明"
+msgstr "透明"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/1/0"
+msgid "确定"
+msgstr "确定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/2264/0"
+msgid "添加"
+msgstr "添加"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/2265/0"
+msgid "删除"
+msgstr "删除"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/2266/0"
+msgid "更改"
+msgstr "更改"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/2267/0"
+msgid "上移"
+msgstr "上移"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/2268/0"
+msgid "下移"
+msgstr "下移"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/control/4294967295/0"
+msgid "颜色列表："
+msgstr "颜色列表："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/386/title"
+msgid "歌词颜色设定"
+msgstr "歌词颜色设定"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/1155/0"
+msgid "未播放"
+msgstr "未播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/1156/0"
+msgid "已播放"
+msgstr "已播放"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/2/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/2094/0"
+msgid "保存修改"
+msgstr "保存修改"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/3/0"
+msgid "恢复默认"
+msgstr "恢复默认"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/4294967295/0"
+msgid "命名："
+msgstr "命名："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/4294967295/1"
+msgid "（限12个字符以内）"
+msgstr "（限12个字符以内）"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/4294967295/2"
+msgid "修改预设方案颜色："
+msgstr "修改预设方案颜色："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/control/4294967295/3"
+msgid "歌词示例："
+msgstr "歌词示例："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/387/title"
+msgid "修改预设方案"
+msgstr "修改预设方案"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/396/control/1/0"
+msgid "提交"
+msgstr "提交"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/396/control/1170/0"
+msgid "歌曲听不了"
+msgstr "歌曲听不了"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/396/control/1171/0"
+msgid "歌曲错了(包括听到的不是这首歌、版本不对或不完整)"
+msgstr "歌曲错了(包括听到的不是这首歌、版本不对或不完整)"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/396/control/2/0"
+msgid "关闭"
+msgstr "关闭"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/396/control/2276/0"
+msgid "举报歌曲："
+msgstr "举报歌曲："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/396/title"
+msgid "歌曲举报"
+msgstr "歌曲举报"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/397/control/2277/0"
+msgid "歌曲名"
+msgstr "歌曲名"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/397/control/2278/0"
+msgid "重新下载"
+msgstr "重新下载"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/397/control/2279/0"
+msgid "取消"
+msgstr "取消"
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/397/control/4294967295/0"
+msgid "请选择您的操作："
+msgstr "请选择您的操作："
+
+#. 资源参照：ttpres/chs
+msgctxt "ttpres/dialog/397/title"
+msgid "友情提示"
+msgstr "友情提示"
+

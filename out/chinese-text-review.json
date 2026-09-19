@@ -1,0 +1,1047 @@
+[
+  [
+    "app",
+    " / 未知时长",
+    " / 未知時長"
+  ],
+  [
+    "app",
+    " Bits",
+    " 位"
+  ],
+  [
+    "app",
+    " Channels",
+    " 聲道"
+  ],
+  [
+    "app",
+    " Samples",
+    " 個采樣"
+  ],
+  [
+    "app",
+    "%d stars",
+    "%d 星"
+  ],
+  [
+    "app",
+    "Aac.dll has no NERO_PLUGIN_GetPrimaryAudioObject export",
+    "Aac.dll 未導出 NERO_PLUGIN_GetPrimaryAudioObject"
+  ],
+  [
+    "app",
+    "Album",
+    "專輯"
+  ],
+  [
+    "app",
+    "Artist",
+    "藝術家"
+  ],
+  [
+    "app",
+    "Date",
+    "日期"
+  ],
+  [
+    "app",
+    "DirectSound capability query failed",
+    "查詢 DirectSound 設備能力失敗"
+  ],
+  [
+    "app",
+    "Equlizer Profile (*.tteq_cfg)",
+    "均衡器設置 (*.tteq_cfg)"
+  ],
+  [
+    "app",
+    "Error in ttpcomm.dll, please resetup this program!",
+    "ttpcomm.dll 加載失敗，請重新安裝播放器！"
+  ],
+  [
+    "app",
+    "Failed to save lyric file %s.",
+    "保存歌詞文件 %s 失敗。"
+  ],
+  [
+    "app",
+    "Genre",
+    "流派"
+  ],
+  [
+    "app",
+    "Github仓库",
+    "Github倉庫"
+  ],
+  [
+    "app",
+    "ISoundEncoder slot 4 start failed",
+    "ISoundEncoder 接口槽位 4 啟動失敗"
+  ],
+  [
+    "app",
+    "Kernel Streaming capability query failed",
+    "查詢 Kernel Streaming 設備能力失敗"
+  ],
+  [
+    "app",
+    "Load resource (ttpres.dll) failed, please resetup this program!",
+    "加載資源 ttpres.dll 失敗，請重新安裝播放器！"
+  ],
+  [
+    "app",
+    "Lyrics Profile (*.ttlr_cfg)",
+    "歌詞設置 (*.ttlr_cfg)"
+  ],
+  [
+    "app",
+    "MP3 (LAME DLL)",
+    "MP3 (LAME DLL)"
+  ],
+  [
+    "app",
+    "MP3 metadata write failed",
+    "寫入 MP3 標簽失敗"
+  ],
+  [
+    "app",
+    "Music",
+    "音樂"
+  ],
+  [
+    "app",
+    "Playlist Profile (*.ttpl_cfg)",
+    "播放列表設置 (*.ttpl_cfg)"
+  ],
+  [
+    "app",
+    "Rating",
+    "評分"
+  ],
+  [
+    "app",
+    "Sound Library init failed, the player can not run!",
+    "音頻庫初始化失敗，播放器無法運行！"
+  ],
+  [
+    "app",
+    "TTPlayer",
+    "TTPlayer"
+  ],
+  [
+    "app",
+    "The lyric file was modified. Save it?",
+    "歌詞文件已修改，是否保存？"
+  ],
+  [
+    "app",
+    "Unable to load Nero component: ",
+    "無法加載 Nero 組件："
+  ],
+  [
+    "app",
+    "Unavailable device",
+    "設備不可用"
+  ],
+  [
+    "app",
+    "Vis Profile (*.ttvi_cfg)",
+    "可視化設置 (*.ttvi_cfg)"
+  ],
+  [
+    "app",
+    "Windows error ",
+    "Windows 錯誤 "
+  ],
+  [
+    "app",
+    "association key is managed by another executable",
+    "關聯注冊表項由其他程序管理"
+  ],
+  [
+    "app",
+    "capabilities belong to another installation",
+    "功能注冊信息屬于另一個安裝實例"
+  ],
+  [
+    "app",
+    "clear legacy UserChoice backup",
+    "清除舊版 UserChoice 備份"
+  ],
+  [
+    "app",
+    "clear stale registry backup",
+    "清除過期的注冊表備份"
+  ],
+  [
+    "app",
+    "configure IShellLinkW",
+    "配置 IShellLinkW 快捷方式"
+  ],
+  [
+    "app",
+    "conversion cancelled",
+    "轉換已取消"
+  ],
+  [
+    "app",
+    "conversion destination is a source file",
+    "轉換目標與源文件相同"
+  ],
+  [
+    "app",
+    "conversion destination is another batch source",
+    "轉換目標是本批次的另一個源文件"
+  ],
+  [
+    "app",
+    "conversion destination is empty",
+    "轉換目標為空"
+  ],
+  [
+    "app",
+    "conversion worker exception",
+    "轉換工作線程發生異常"
+  ],
+  [
+    "app",
+    "create default-program registration",
+    "創建默認程序注冊信息"
+  ],
+  [
+    "app",
+    "create shortcut",
+    "創建快捷方式"
+  ],
+  [
+    "app",
+    "create shortcut directory",
+    "創建快捷方式目錄"
+  ],
+  [
+    "app",
+    "default program belongs to another installation",
+    "默認程序注冊信息屬于另一個安裝實例"
+  ],
+  [
+    "app",
+    "destination is a directory",
+    "目標是一個文件夾"
+  ],
+  [
+    "app",
+    "destination requires prompt",
+    "目標文件需要確認"
+  ],
+  [
+    "app",
+    "destination skipped",
+    "已跳過目標文件"
+  ],
+  [
+    "app",
+    "empty non-final PCM block",
+    "在結束前收到空的 PCM 數據塊"
+  ],
+  [
+    "app",
+    "encoder PCM write failed",
+    "編碼器寫入 PCM 數據失敗"
+  ],
+  [
+    "app",
+    "encoder destination open failed",
+    "編碼器打開目標文件失敗"
+  ],
+  [
+    "app",
+    "encoder finalize failed",
+    "編碼器完成文件寫入失敗"
+  ],
+  [
+    "app",
+    "encoder has no valid configured file extension",
+    "編碼器未配置有效的文件擴展名"
+  ],
+  [
+    "app",
+    "encoder index is out of range",
+    "編碼器索引超出范圍"
+  ],
+  [
+    "app",
+    "enumerate registered formats",
+    "枚舉已注冊的格式"
+  ],
+  [
+    "app",
+    "executable is empty",
+    "可執行文件路徑為空"
+  ],
+  [
+    "app",
+    "invalid ASIO descriptor",
+    "ASIO 描述符無效"
+  ],
+  [
+    "app",
+    "invalid DirectSound GUID",
+    "DirectSound GUID 無效"
+  ],
+  [
+    "app",
+    "invalid decoded PCM format",
+    "解碼后的 PCM 格式無效"
+  ],
+  [
+    "app",
+    "invalid extension",
+    "文件擴展名無效"
+  ],
+  [
+    "app",
+    "invalid shortcut name",
+    "快捷方式名稱無效"
+  ],
+  [
+    "app",
+    "isolated registration cannot launch the live shell",
+    "隔離的關聯注冊不能啟動實際系統界面"
+  ],
+  [
+    "app",
+    "legacy PCM processors require the x86 host",
+    "舊版 PCM 處理器需要 x86 主程序"
+  ],
+  [
+    "app",
+    "legacy UserChoice backup belongs to another installation",
+    "舊版 UserChoice 備份屬于另一個安裝實例"
+  ],
+  [
+    "app",
+    "nanling与社区",
+    "nanling與社區"
+  ],
+  [
+    "app",
+    "offline processor could not encode PCM",
+    "離線處理器無法編碼 PCM 數據"
+  ],
+  [
+    "app",
+    "offline processor does not support the PCM format",
+    "離線處理器不支持此 PCM 格式"
+  ],
+  [
+    "app",
+    "open OpenWithProgids",
+    "打開 OpenWithProgids 注冊表項"
+  ],
+  [
+    "app",
+    "open RegisteredApplications",
+    "打開 RegisteredApplications 注冊表項"
+  ],
+  [
+    "app",
+    "open capabilities",
+    "打開功能注冊信息"
+  ],
+  [
+    "app",
+    "open default programs",
+    "打開默認程序設置"
+  ],
+  [
+    "app",
+    "open extension key",
+    "打開擴展名注冊表項"
+  ],
+  [
+    "app",
+    "open legacy UserChoice backup",
+    "打開舊版 UserChoice 備份"
+  ],
+  [
+    "app",
+    "open system default programs",
+    "打開系統默認程序設置"
+  ],
+  [
+    "app",
+    "partial decoded PCM frame",
+    "解碼后的 PCM 幀不完整"
+  ],
+  [
+    "app",
+    "programs_subdirectory may not contain '..'",
+    "programs_subdirectory 不得包含 '..'"
+  ],
+  [
+    "app",
+    "programs_subdirectory must be relative",
+    "programs_subdirectory 必須是相對路徑"
+  ],
+  [
+    "app",
+    "query OpenWithProgids",
+    "查詢 OpenWithProgids 注冊表項"
+  ],
+  [
+    "app",
+    "query extension",
+    "查詢文件擴展名"
+  ],
+  [
+    "app",
+    "read RegisteredApplications",
+    "讀取 RegisteredApplications 注冊表項"
+  ],
+  [
+    "app",
+    "read association backup metadata",
+    "讀取關聯備份信息"
+  ],
+  [
+    "app",
+    "read association owner",
+    "讀取關聯所屬程序"
+  ],
+  [
+    "app",
+    "read capabilities owner",
+    "讀取功能注冊信息所屬程序"
+  ],
+  [
+    "app",
+    "read default-program registration",
+    "讀取默認程序注冊信息"
+  ],
+  [
+    "app",
+    "read extension backup",
+    "讀取擴展名備份"
+  ],
+  [
+    "app",
+    "read later legacy UserChoice",
+    "讀取后續的舊版 UserChoice 設置"
+  ],
+  [
+    "app",
+    "read legacy UserChoice",
+    "讀取舊版 UserChoice 設置"
+  ],
+  [
+    "app",
+    "read legacy UserChoice Progid",
+    "讀取舊版 UserChoice Progid"
+  ],
+  [
+    "app",
+    "read legacy UserChoice backup",
+    "讀取舊版 UserChoice 備份"
+  ],
+  [
+    "app",
+    "read legacy UserChoice backup owner",
+    "讀取舊版 UserChoice 備份所屬程序"
+  ],
+  [
+    "app",
+    "read registered formats",
+    "讀取已注冊的格式"
+  ],
+  [
+    "app",
+    "read registry default value",
+    "讀取注冊表默認值"
+  ],
+  [
+    "app",
+    "register default program",
+    "注冊默認程序"
+  ],
+  [
+    "app",
+    "registered application name already in use",
+    "注冊的應用程序名稱已被占用"
+  ],
+  [
+    "app",
+    "remove RegisteredApplications entry",
+    "移除 RegisteredApplications 條目"
+  ],
+  [
+    "app",
+    "remove association metadata",
+    "移除關聯信息"
+  ],
+  [
+    "app",
+    "remove capabilities",
+    "移除功能注冊信息"
+  ],
+  [
+    "app",
+    "remove empty association key",
+    "移除空的關聯注冊表項"
+  ],
+  [
+    "app",
+    "remove legacy UserChoice backup",
+    "移除舊版 UserChoice 備份"
+  ],
+  [
+    "app",
+    "remove legacy UserChoice key",
+    "移除舊版 UserChoice 注冊表項"
+  ],
+  [
+    "app",
+    "resolve Programs shortcut",
+    "解析開始菜單快捷方式"
+  ],
+  [
+    "app",
+    "resolve shortcut path",
+    "解析快捷方式路徑"
+  ],
+  [
+    "app",
+    "restore legacy UserChoice",
+    "恢復舊版 UserChoice 設置"
+  ],
+  [
+    "app",
+    "restore registry default value",
+    "恢復注冊表默認值"
+  ],
+  [
+    "app",
+    "save association ownership metadata",
+    "保存關聯所屬程序信息"
+  ],
+  [
+    "app",
+    "save legacy UserChoice backup",
+    "保存舊版 UserChoice 備份"
+  ],
+  [
+    "app",
+    "save registry default backup",
+    "保存注冊表默認值備份"
+  ],
+  [
+    "app",
+    "set extension association",
+    "設置文件擴展名關聯"
+  ],
+  [
+    "app",
+    "set icon for an unmanaged association",
+    "為非本程序管理的關聯設置圖標"
+  ],
+  [
+    "app",
+    "set shell integration",
+    "設置系統集成"
+  ],
+  [
+    "app",
+    "ttpcomm equalizer initialization failed",
+    "ttpcomm 均衡器初始化失敗"
+  ],
+  [
+    "app",
+    "ttpcomm equalizer is unavailable",
+    "ttpcomm 均衡器不可用"
+  ],
+  [
+    "app",
+    "ttpcomm equalizer processing failed",
+    "ttpcomm 均衡器處理失敗"
+  ],
+  [
+    "app",
+    "ttpcomm surround initialization failed",
+    "ttpcomm 環繞音效初始化失敗"
+  ],
+  [
+    "app",
+    "ttpcomm surround is unavailable",
+    "ttpcomm 環繞音效不可用"
+  ],
+  [
+    "app",
+    "ttpcomm surround processing failed",
+    "ttpcomm 環繞音效處理失敗"
+  ],
+  [
+    "app",
+    "unable to commit converted file",
+    "無法完成轉換文件的保存"
+  ],
+  [
+    "app",
+    "unable to create decoded audio source",
+    "無法創建解碼后的音頻源"
+  ],
+  [
+    "app",
+    "unable to create output file",
+    "無法創建輸出文件"
+  ],
+  [
+    "app",
+    "unregister default program",
+    "注銷默認程序"
+  ],
+  [
+    "app",
+    "unsupported output backend",
+    "不支持的輸出后端"
+  ],
+  [
+    "app",
+    "update OpenWithProgids",
+    "更新 OpenWithProgids 注冊表項"
+  ],
+  [
+    "app",
+    "waveOutGetDevCapsW failed",
+    "waveOutGetDevCapsW 調用失敗"
+  ],
+  [
+    "app",
+    "write default-program registration",
+    "寫入默認程序注冊信息"
+  ],
+  [
+    "app",
+    "write registry default value",
+    "寫入注冊表默認值"
+  ],
+  [
+    "app",
+    "专辑：",
+    "專輯："
+  ],
+  [
+    "app",
+    "保存失败，未完成的文件保持原样。",
+    "保存失敗，未完成的文件保持原樣。"
+  ],
+  [
+    "app",
+    "保存未完成（已成功保存的文件已保留）：",
+    "保存未完成（已成功保存的文件已保留）："
+  ],
+  [
+    "app",
+    "停止搜索",
+    "停止搜索"
+  ],
+  [
+    "app",
+    "公用文档",
+    "公用文檔"
+  ],
+  [
+    "app",
+    "公用音乐",
+    "公用音樂"
+  ],
+  [
+    "app",
+    "原始文本",
+    "原始文本"
+  ],
+  [
+    "app",
+    "向 Discord 发送播放的歌曲信息",
+    "向 Discord 發送播放的歌曲信息"
+  ],
+  [
+    "app",
+    "向 Discord 发送歌词",
+    "向 Discord 發送歌詞"
+  ],
+  [
+    "app",
+    "已收听 ",
+    "已收聽 "
+  ],
+  [
+    "app",
+    "已暂停 · ",
+    "已暫停 · "
+  ],
+  [
+    "app",
+    "开始搜索",
+    "開始搜索"
+  ],
+  [
+    "app",
+    "我的音乐",
+    "我的音樂"
+  ],
+  [
+    "app",
+    "报告服务不可用，尚未提交。",
+    "報告服務不可用，尚未提交。"
+  ],
+  [
+    "app",
+    "提交反馈",
+    "提交反饋"
+  ],
+  [
+    "app",
+    "无法保存界面语言设置。",
+    "無法保存界面語言設置。"
+  ],
+  [
+    "app",
+    "无法读取有效的服务器 XML，保留原文件，不允许覆盖。",
+    "無法讀取有效的服務器 XML，保留原文件，不允許覆蓋。"
+  ],
+  [
+    "app",
+    "时长未知",
+    "時長未知"
+  ],
+  [
+    "app",
+    "未知曲目",
+    "未知曲目"
+  ],
+  [
+    "app",
+    "构建日期:",
+    "構建日期:"
+  ],
+  [
+    "app",
+    "正在播放",
+    "正在播放"
+  ],
+  [
+    "app",
+    "电台",
+    "電臺"
+  ],
+  [
+    "app",
+    "电台直播",
+    "電臺直播"
+  ],
+  [
+    "app",
+    "界面语言",
+    "界面語言"
+  ],
+  [
+    "app",
+    "界面语言将在下次启动播放器时生效。",
+    "界面語言將在下次啟動播放器時生效。"
+  ],
+  [
+    "app",
+    "社区版",
+    "社區版"
+  ],
+  [
+    "app",
+    "网络音频",
+    "網絡音頻"
+  ],
+  [
+    "app",
+    "网络音频 · 时长未知",
+    "網絡音頻 · 時長未知"
+  ],
+  [
+    "app",
+    "自动（系统语言）",
+    "自動（系統語言）"
+  ],
+  [
+    "app",
+    "自定义...",
+    "自訂..."
+  ],
+  [
+    "app",
+    "计算机",
+    "計算機"
+  ],
+  [
+    "app",
+    "读取歌词服务器列表失败。",
+    "讀取歌詞服務器列表失敗。"
+  ],
+  [
+    "app/search/count",
+    "%u 个",
+    "%u 個"
+  ],
+  [
+    "exe/string/4091",
+    "屏幕选择",
+    "屏幕選擇"
+  ],
+  [
+    "exe/string/4093",
+    "显示器",
+    "顯示器"
+  ],
+  [
+    "exe/string/4094",
+    "主显示器",
+    "主顯示器"
+  ],
+  [
+    "exe/string/4095",
+    "专辑图片",
+    "專輯圖片"
+  ],
+  [
+    "exe/string/4096",
+    "专辑图片背景",
+    "專輯圖片背景"
+  ],
+  [
+    "exe/string/4097",
+    "备用图片:",
+    "備用圖片:"
+  ],
+  [
+    "exe/string/4098",
+    "浏览…",
+    "瀏覽…"
+  ],
+  [
+    "exe/string/4099",
+    "清除",
+    "清除"
+  ],
+  [
+    "exe/string/4100",
+    "透明度:",
+    "透明度:"
+  ],
+  [
+    "exe/string/4101",
+    "选择无专辑封面时使用的备用图片",
+    "選擇無專輯封面時使用的備用圖片"
+  ],
+  [
+    "exe/string/4102",
+    "图片文件",
+    "圖片文件"
+  ],
+  [
+    "exe/string/4103",
+    "允许拖拽歌词",
+    "允許拖拽歌詞"
+  ],
+  [
+    "exe/string/4104",
+    "放大歌词",
+    "放大歌詞"
+  ],
+  [
+    "exe/string/4105",
+    "缩小歌词",
+    "縮小歌詞"
+  ],
+  [
+    "exe/string/4110",
+    "编辑列表",
+    "編輯列表"
+  ],
+  [
+    "exe/string/4111",
+    "正在读取歌词服务器列表…",
+    "正在讀取歌詞服務器列表…"
+  ],
+  [
+    "exe/string/4112",
+    "DLL 内置服务器不可修改或删除。新增条目保存到所选 DLL 同名的 INI 文件。",
+    "DLL 內置服務器不可修改或刪除。新增條目保存到所選 DLL 同名的 INI 文件。"
+  ],
+  [
+    "exe/string/4113",
+    "可编辑 INI 条目；地址须为兼容千千歌词搜索协议的 HTTP 或 HTTPS 服务。",
+    "可編輯 INI 條目；地址須為兼容千千歌詞搜索協議的 HTTP 或 HTTPS 服務。"
+  ],
+  [
+    "exe/string/4114",
+    "正在保存，请稍候…",
+    "正在保存，請稍候…"
+  ],
+  [
+    "exe/string/4115",
+    "列表已保存，下次搜索立即生效。",
+    "列表已保存，下次搜索立即生效。"
+  ],
+  [
+    "exe/string/4116",
+    "放弃尚未保存的服务器列表更改？",
+    "放棄尚未保存的服務器列表更改？"
+  ],
+  [
+    "exe/string/4117",
+    "名称",
+    "名稱"
+  ],
+  [
+    "exe/string/4118",
+    "地址",
+    "地址"
+  ],
+  [
+    "exe/string/4119",
+    "保存位置（只读）",
+    "保存位置（只讀）"
+  ],
+  [
+    "exe/string/4120",
+    "新服务器",
+    "新服務器"
+  ],
+  [
+    "exe/string/4121",
+    "未加载歌词搜索 DLL，无法添加服务器。",
+    "未加載歌詞搜索 DLL，無法添加服務器。"
+  ],
+  [
+    "exe/string/4122",
+    "上移",
+    "上移"
+  ],
+  [
+    "exe/string/4123",
+    "下移",
+    "下移"
+  ],
+  [
+    "exe/string/4124",
+    "新增",
+    "新增"
+  ],
+  [
+    "exe/string/4125",
+    "删除",
+    "刪除"
+  ],
+  [
+    "exe/string/4126",
+    "Win7 以上系统需要手动关联",
+    "Win7 以上系統需要手動關聯"
+  ],
+  [
+    "exe/string/4127",
+    "已注册可打开的音频格式。默认播放器需要在 Windows 的系统关联界面中由您确认；返回后列表将显示实际关联状态。",
+    "已注冊可打開的音頻格式。默認播放器需要在 Windows 的系統關聯界面中由您確認；返回后列表將顯示實際關聯狀態。"
+  ],
+  [
+    "exe/string/4128",
+    "不再提示关联提醒",
+    "不再提示關聯提醒"
+  ],
+  [
+    "exe/string/4129",
+    "刷新",
+    "刷新"
+  ],
+  [
+    "exe/string/4130",
+    "前往系统设置",
+    "前往系統設置"
+  ],
+  [
+    "exe/string/4131",
+    "正在打开歌词上传页面…",
+    "正在打開歌詞上傳頁面…"
+  ],
+  [
+    "exe/string/4132",
+    "已填入歌曲信息和歌词，请在网页中确认并提交。",
+    "已填入歌曲信息和歌詞，請在網頁中確認并提交。"
+  ],
+  [
+    "exe/string/4133",
+    "上传页面不可用或不兼容，未提交歌词。",
+    "上傳頁面不可用或不兼容，未提交歌詞。"
+  ],
+  [
+    "exe/string/4134",
+    "请先在歌词搜索中选择有效的 HTTP 或 HTTPS 服务器。",
+    "請先在歌詞搜索中選擇有效的 HTTP 或 HTTPS 服務器。"
+  ],
+  [
+    "exe/dialog/4090/control/1/0",
+    "OK",
+    "確定"
+  ],
+  [
+    "exe/dialog/4090/control/2/0",
+    "Cancel",
+    "取消"
+  ],
+  [
+    "exe/dialog/4090/control/4294967295/0",
+    "Mode:",
+    "模式:"
+  ],
+  [
+    "exe/dialog/4090/control/4294967295/1",
+    "Bitrate (kbps):",
+    "比特率 (kbps):"
+  ],
+  [
+    "exe/dialog/4090/control/4294967295/2",
+    "VBR quality (0-9):",
+    "VBR 質量 (0-9):"
+  ],
+  [
+    "exe/dialog/4090/title",
+    "LAME MP3",
+    "LAME MP3"
+  ],
+  [
+    "exe/dialog/4200/control/1/0",
+    "保存",
+    "儲存"
+  ],
+  [
+    "exe/dialog/4200/control/2/0",
+    "关闭",
+    "關閉"
+  ],
+  [
+    "exe/dialog/4200/control/4294967295/0",
+    "名称:",
+    "名稱:"
+  ],
+  [
+    "exe/dialog/4200/control/4294967295/1",
+    "地址:",
+    "地址:"
+  ],
+  [
+    "exe/dialog/4200/control/4294967295/2",
+    "保存位置:",
+    "保存位置:"
+  ],
+  [
+    "exe/dialog/4200/title",
+    "编辑歌词服务器列表",
+    "編輯歌詞服務器列表"
+  ]
+]
