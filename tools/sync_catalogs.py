@@ -164,7 +164,7 @@ def main():
     template = [entry for entry in read_po(args.i18n / 'ttplayer.pot') if not entry.obsolete]
     changed = []
     for language in ('en_US', 'chs', 'cht'):
-        path = args.i18n / language / 'LC_MESSAGES/ttplayer.po'
+        path = args.i18n / language / 'ttplayer.po'
         previous = read_po(path) if path.exists() else []
         resources = {} if language == 'en_US' else resource_entries(args.ttpres / language / 'texts.json')
         text, translated, imported = synchronize(template, previous, resources, language)

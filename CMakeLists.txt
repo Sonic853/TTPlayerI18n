@@ -17,7 +17,10 @@ target_compile_definitions(ttp_i18n PRIVATE UNICODE _UNICODE NOMINMAX WIN32_LEAN
 if(MSVC)
   target_compile_options(ttp_i18n PRIVATE /W4 /permissive- /EHsc /utf-8)
 endif()
-set_target_properties(ttp_i18n PROPERTIES PREFIX "" OUTPUT_NAME "ttp_i18n")
+set(TTP_I18N_RUNTIME_DIR "${CMAKE_CURRENT_BINARY_DIR}/$<CONFIG>")
+set_target_properties(ttp_i18n PROPERTIES PREFIX "" OUTPUT_NAME "ttp_i18n"
+  RUNTIME_OUTPUT_DIRECTORY "${TTP_I18N_RUNTIME_DIR}/AddIn"
+  PDB_OUTPUT_DIRECTORY "${TTP_I18N_RUNTIME_DIR}")
 # Discard unused thunk sections even in Debug; otherwise their optional
 # dependency imports would become mandatory XP loader dependencies.
 target_link_options(ttp_i18n PRIVATE /OPT:REF /INCREMENTAL:NO)
@@ -29,7 +32,7 @@ add_custom_command(TARGET ttp_i18n POST_BUILD
     "$<TARGET_FILE:ttp_i18n>"
     --exports "${ttplayer_yy_thunks_SOURCE_DIR}/Config/x86/5.1.2600.txt"
     --exports "${ttplayer_yy_thunks_SOURCE_DIR}/Config/x86/6.1.7600.txt"
-    --report "$<TARGET_FILE_DIR:ttp_i18n>/i18n-legacy-imports.json"
+    --report "${TTP_I18N_RUNTIME_DIR}/i18n-legacy-imports.json"
   COMMENT "Auditing the shared i18n DLL for XP and Windows 7"
   VERBATIM)
 set_property(TARGET ttp_i18n APPEND PROPERTY LINK_DEPENDS "${TTP_I18N_IMPORT_CHECK}")
@@ -43,14 +46,14 @@ foreach(license IN ITEMS VC-LTL-LICENSE.txt legacy-third-party.md)
 endforeach()
 add_custom_target(ttp_i18n_licenses
   COMMAND "${CMAKE_COMMAND}" -E copy_directory
-    "${CMAKE_CURRENT_BINARY_DIR}/i18n-licenses" "$<TARGET_FILE_DIR:ttp_i18n>/licenses"
+    "${CMAKE_CURRENT_BINARY_DIR}/i18n-licenses" "${TTP_I18N_RUNTIME_DIR}/licenses"
   VERBATIM)
 add_dependencies(ttp_i18n ttp_i18n_licenses)
 
 # Keep this as a build target so PO-only edits are copied without relinking.
 add_custom_target(ttp_i18n_catalogs
   COMMAND "${CMAKE_COMMAND}" -E copy_directory
-    "${CMAKE_CURRENT_SOURCE_DIR}/i18n" "$<TARGET_FILE_DIR:ttp_i18n>/i18n"
+    "${CMAKE_CURRENT_SOURCE_DIR}/i18n" "${TTP_I18N_RUNTIME_DIR}/i18n"
   COMMENT "Staging gettext catalogs"
   VERBATIM)
 add_dependencies(ttp_i18n ttp_i18n_catalogs)

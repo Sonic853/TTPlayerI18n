@@ -16,7 +16,7 @@ cmake --build build --config Release --target ttp_i18n ttp_i18n_catalog_tests --
 ctest --test-dir build -C Release --output-on-failure
 ```
 
-DLL 和翻译分别输出到 `build/Release/ttp_i18n.dll` 和 `build/Release/i18n`。
+DLL 和翻译分别输出到 `build/Release/AddIn/ttp_i18n.dll` 和 `build/Release/i18n`。
 只修改翻译文件后，重新构建也会复制更新的文件。
 
 如果使用包含 `gettext`、`rebuild` 两个目录的本地工作区，也可在工作区根目录执行：
@@ -26,7 +26,7 @@ cmake -S gettext -B gettext/build -G "Visual Studio 18 2026" -A Win32
 cmake --build gettext/build --config Release --target ttp_i18n
 ```
 
-DLL 和翻译目录分别输出到 `gettext/build/Release/ttp_i18n.dll` 和
+DLL 和翻译目录分别输出到 `gettext/build/Release/AddIn/ttp_i18n.dll` 和
 `gettext/build/Release/i18n`。
 
 普通版和 XP／Win7 兼容版共用同一份 x86 `ttp_i18n.dll`。
@@ -52,7 +52,7 @@ ABI、兼容构建脚本、导入检查脚本和所需许可均随本仓库提�
 成功后，在该次运行的 **Artifacts** 下载 `ttp_i18n-Windows-x86-配置-运行编号`。
 其中的 `ttp_i18n-x86-配置.zip` 包含：
 
-- 两版播放器共用的 `ttp_i18n.dll`。
+- `AddIn/ttp_i18n.dll`，由两版播放器共用。
 - `i18n` 下的简体、繁体、英文翻译及模板。
 - XP／Win7 导入审计报告、构建信息、文件 SHA-256 清单。
 - 使用说明、项目许可和兼容依赖许可。
@@ -71,19 +71,20 @@ ZIP 的 SHA-256 清单随产物提供；有调试符号时另附 PDB。产物保
 
 ## 部署与读取规则
 
-将 DLL 和翻译目录放在播放器旁边，运行时仍使用 `i18n` 目录名：
+将 DLL 放入播放器的 `AddIn` 目录，翻译文件放入播放器旁的 `i18n/<语言>` 目录：
 
 ```text
 TTPlayerRebuild.exe
-ttp_i18n.dll
 ttpcomm.dll
 ttpres.dll
+AddIn/
+  ttp_i18n.dll
 i18n/
-  chs/LC_MESSAGES/
+  chs/
     ttplayer.po          # 简体中文
-  cht/LC_MESSAGES/
+  cht/
     ttplayer.po          # 繁體中文
-  en_US/LC_MESSAGES/
+  en_US/
     ttplayer.po
     ttplayer.mo          # 可选
 ```
@@ -117,10 +118,11 @@ MO 支持版本 0 的大小端格式。空译文、模糊（fuzzy）条目和废
 接口继续兼容 ABI v1；部署时同时更新 EXE 和 DLL，可获得上述跨资源语言匹配能力。
 旧 DLL 仍可加载，但它只能按实际资源原文精确查找，未命中时显示资源原文。
 
-正常播放器启动时，先尝试加载 EXE 同目录的 `ttp_i18n.dll`，再主动加载并初始化
+正常播放器启动时，先尝试加载 EXE 目录下的 `AddIn/ttp_i18n.dll`，再主动加载并初始化
 `ttpcomm.dll`。此时只读取配置中的语言并初始化翻译，完整设置和皮肤仍在后续阶段加载，
 DLL 保持到会话结束。因此启动阶段的错误弹窗也可以使用所选语言。
 私有插件工作进程沿用原有启动流程。
+音频插件扫描会跳过 `ttp_i18n.dll`，不会将它列为音频插件或插件加载错误。
 
 `MessageBox` 的正文和标题使用同一套翻译：资源提示按 `msgctxt` 查找，
 代码中的固定提示使用 `app` 上下文。包含文件路径、曲目名或错误码的提示，
@@ -134,8 +136,8 @@ EXE 保留了对它的启动导入，因此 Windows 会在入口函数运行前�
 ## 维护翻译
 
 翻译模板位于 [`i18n/ttplayer.pot`](i18n/ttplayer.pot)。语言文件分别为
-[简体中文](i18n/chs/LC_MESSAGES/ttplayer.po)、[繁體中文](i18n/cht/LC_MESSAGES/ttplayer.po)
-和 [English](i18n/en_US/LC_MESSAGES/ttplayer.po)。简繁中文已补齐当前模板；英文仍为部分翻译。
+[简体中文](i18n/chs/ttplayer.po)、[繁體中文](i18n/cht/ttplayer.po)
+和 [English](i18n/en_US/ttplayer.po)。简繁中文已补齐当前模板；英文仍为部分翻译。
 各 PO 按自建文本、重建版资源、`ttpres` 字符串表、菜单及对话框分节，使用相同的
 `msgctxt` 和 `msgid`，便于维护同一套模板。资源原文语言差异由 DLL 的资源上下文索引处理。
 新增语言采用相同目录结构。
@@ -178,7 +180,7 @@ python gettext/tools/sync_catalogs.py --check
 如已安装 GNU gettext 工具，可在工作区根目录生成 MO：
 
 ```powershell
-msgfmt --check --check-format -o gettext/i18n/en_US/LC_MESSAGES/ttplayer.mo gettext/i18n/en_US/LC_MESSAGES/ttplayer.po
+msgfmt --check --check-format -o gettext/i18n/en_US/ttplayer.mo gettext/i18n/en_US/ttplayer.po
 ```
 
 ## 验证
@@ -194,7 +196,7 @@ ctest --test-dir build -C Release --output-on-failure
 DLL 绝对路径传入播放器的 `TTPLAYER_I18N_TEST_DLL`，再构建和运行播放器测试：
 
 ```powershell
-cmake -S rebuild -B rebuild/build -G "Visual Studio 18 2026" -A Win32 -DBUILD_TESTING=ON -DTTPLAYER_STAGE_RUNTIME=OFF "-DTTPLAYER_I18N_TEST_DLL=$((Resolve-Path gettext/build/Release/ttp_i18n.dll).Path)"
+cmake -S rebuild -B rebuild/build -G "Visual Studio 18 2026" -A Win32 -DBUILD_TESTING=ON -DTTPLAYER_STAGE_RUNTIME=OFF "-DTTPLAYER_I18N_TEST_DLL=$((Resolve-Path gettext/build/Release/AddIn/ttp_i18n.dll).Path)"
 cmake --build rebuild/build --config Release --target i18n_ui_tests --parallel 4
 ctest --test-dir rebuild/build -C Release -R "^(i18n_ui_tests|i18n_startup_tests)$" --output-on-failure
 ```

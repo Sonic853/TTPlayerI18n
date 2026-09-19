@@ -1,15 +1,15 @@
 # 界面翻译
 
-把本目录和 `ttp_i18n.dll` 放在 `TTPlayerRebuild.exe` 旁边，在主窗口右键菜单
+把本目录放在 `TTPlayerRebuild.exe` 旁边，将 `ttp_i18n.dll` 放入播放器的 `AddIn` 目录，在主窗口右键菜单
 “界面语言”中选择语言，重启生效。“原始文本”可恢复原来的界面文字。
 
-每种语言使用 `语言标识/LC_MESSAGES/ttplayer.po`：
+每种语言使用 `语言标识/ttplayer.po`：
 
 | 目录 | 语言 | 内容 |
 | --- | --- | --- |
-| `chs/LC_MESSAGES/ttplayer.po` | 简体中文 | `ttpres/chs` 资源译文及重建版自建文本 |
-| `cht/LC_MESSAGES/ttplayer.po` | 繁體中文 | `ttpres/cht` 资源译文及重建版自建文本 |
-| `en_US/LC_MESSAGES/ttplayer.po` | English | 部分翻译，缺词显示原文 |
+| `chs/ttplayer.po` | 简体中文 | `ttpres/chs` 资源译文及重建版自建文本 |
+| `cht/ttplayer.po` | 繁體中文 | `ttpres/cht` 资源译文及重建版自建文本 |
+| `en_US/ttplayer.po` | English | 部分翻译，缺词显示原文 |
 
 PO 使用 UTF-8；`ttplayer.pot` 是完整翻译模板。各 PO 内按自建文本、
 重建版资源、`ttpres` 字符串表、菜单和对话框分节。
@@ -23,7 +23,7 @@ PO 使用 UTF-8；`ttplayer.pot` 是完整翻译模板。各 PO 内按自建文�
 修改 PO 后，需要删除旧 MO 或重新编译 MO，再重启播放器：
 
 ```powershell
-msgfmt --check --check-format -o en_US/LC_MESSAGES/ttplayer.mo en_US/LC_MESSAGES/ttplayer.po
+msgfmt --check --check-format -o en_US/ttplayer.mo en_US/ttplayer.po
 ```
 
 只有 PO 也可以运行，无需安装 gettext 工具。空译文、模糊（fuzzy）条目和

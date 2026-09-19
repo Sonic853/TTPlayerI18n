@@ -139,7 +139,7 @@ msgstr[2] "many"
 
         temporary = std::filesystem::temp_directory_path() /
             (L"ttp-i18n-catalog-" + std::to_wstring(GetCurrentProcessId()) + L"-" + std::to_wstring(GetTickCount()));
-        const auto base = temporary / L"en_US/LC_MESSAGES";
+        const auto base = temporary / L"en_US";
         Write(base / L"ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"PO\"\n");
         auto catalogs = LoadCatalogs(temporary, L"en-US");
         Check(catalogs.size() == 1 && *catalogs[0].Lookup("app", "hello", "", 1) == L"PO", "PO-only loading");
@@ -149,11 +149,11 @@ msgstr[2] "many"
         Write(base / L"ttplayer.mo", "broken");
         catalogs = LoadCatalogs(temporary, L"en_US");
         Check(catalogs.size() == 1 && *catalogs[0].Lookup("app", "hello", "", 1) == L"PO", "Invalid MO -> PO");
-        Write(temporary / L"en/LC_MESSAGES/ttplayer.po", "msgid \"parent\"\nmsgstr \"language fallback\"\n");
+        Write(temporary / L"en/ttplayer.po", "msgid \"parent\"\nmsgstr \"language fallback\"\n");
         catalogs = LoadCatalogs(temporary, L"en_US");
         Check(catalogs.size() == 2 && *catalogs[1].Lookup(nullptr, "parent", "", 1) == L"language fallback", "Parent locale");
-        Write(temporary / L"chs/LC_MESSAGES/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"simplified\"\n");
-        Write(temporary / L"cht/LC_MESSAGES/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"traditional\"\n");
+        Write(temporary / L"chs/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"simplified\"\n");
+        Write(temporary / L"cht/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"traditional\"\n");
         for (const auto language : {L"chs", L"CHS", L"zh_CN", L"zh-SG.UTF-8", L"zh-Hans", L"zh-Hans-TW", L"zh_CHS"}) {
             catalogs = LoadCatalogs(temporary, language);
             Check(catalogs.size() == 1 && *catalogs[0].Lookup("app", "hello", "", 1) == L"simplified", "Simplified Chinese aliases");
@@ -162,9 +162,9 @@ msgstr[2] "many"
             catalogs = LoadCatalogs(temporary, language);
             Check(catalogs.size() == 1 && *catalogs[0].Lookup("app", "hello", "", 1) == L"traditional", "Traditional Chinese aliases");
         }
-        Write(temporary / L"zh_CN/LC_MESSAGES/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"exact PO\"\n");
-        Write(temporary / L"zh_CN/LC_MESSAGES/ttplayer.mo", Mo(false, "exact MO"));
-        Write(temporary / L"zh/LC_MESSAGES/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"generic\"\n");
+        Write(temporary / L"zh_CN/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"exact PO\"\n");
+        Write(temporary / L"zh_CN/ttplayer.mo", Mo(false, "exact MO"));
+        Write(temporary / L"zh/ttplayer.po", "msgctxt \"app\"\nmsgid \"hello\"\nmsgstr \"generic\"\n");
         catalogs = LoadCatalogs(temporary, L"zh_CN");
         Check(catalogs.size() == 3 && *catalogs[0].Lookup("app", "hello", "", 1) == L"exact MO" &&
               *catalogs[1].Lookup("app", "hello", "", 1) == L"simplified" &&

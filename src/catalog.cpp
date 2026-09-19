@@ -401,7 +401,7 @@ std::vector<Catalog> LoadCatalogs(const std::filesystem::path& directory,
     }
     std::vector<Catalog> result;
     const auto append = [&](std::wstring_view name) {
-        const auto base = directory / name / L"LC_MESSAGES" / L"ttplayer";
+        const auto base = directory / name / L"ttplayer";
         bool loaded{};
         try { result.push_back(Catalog::Mo(Read(base.wstring() + L".mo"))); loaded = true; } catch (...) {}
         if (!loaded) try { result.push_back(Catalog::Po(Read(base.wstring() + L".po"))); } catch (...) {}

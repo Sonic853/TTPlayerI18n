@@ -37,7 +37,7 @@ class TranslationTests(unittest.TestCase):
     def test_chinese_coverage_and_format_contracts(self):
         template = {entry.key for entry in sync.read_po(ROOT / 'i18n/ttplayer.pot')}
         for language in ('chs', 'cht'):
-            entries = sync.read_po(ROOT / f'i18n/{language}/LC_MESSAGES/ttplayer.po')
+            entries = sync.read_po(ROOT / f'i18n/{language}/ttplayer.po')
             active = [entry for entry in entries if not entry.obsolete]
             self.assertEqual(template, {entry.key for entry in active})
             for entry in active:
@@ -54,7 +54,7 @@ class TranslationTests(unittest.TestCase):
     def test_resource_imports_and_catalog_order_are_current(self):
         template = sync.read_po(ROOT / 'i18n/ttplayer.pot')
         for language in ('en_US', 'chs', 'cht'):
-            path = ROOT / f'i18n/{language}/LC_MESSAGES/ttplayer.po'
+            path = ROOT / f'i18n/{language}/ttplayer.po'
             entries = sync.read_po(path)
             resource_path = ROOT.parent / f'ttpres/{language}/texts.json'
             # Resource exports are optional in a standalone checkout. Coverage

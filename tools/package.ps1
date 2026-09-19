@@ -7,7 +7,7 @@ param(
 $ErrorActionPreference = 'Stop'
 $source = Split-Path $PSScriptRoot -Parent
 $output = Join-Path $BuildDirectory $Configuration
-$dll = Join-Path $output 'ttp_i18n.dll'
+$dll = Join-Path $output 'AddIn/ttp_i18n.dll'
 $report = Join-Path $output 'i18n-legacy-imports.json'
 foreach ($file in @($dll, $report)) {
     if (-not (Test-Path -LiteralPath $file -PathType Leaf)) {
@@ -28,15 +28,29 @@ foreach ($license in @('YY-Thunks-LICENSE.txt', 'VC-LTL-LICENSE.txt', 'legacy-th
 }
 $translations = Join-Path $output 'i18n'
 foreach ($language in @('chs', 'cht', 'en_US')) {
-    $catalog = Join-Path $translations "$language/LC_MESSAGES/ttplayer.po"
+    $catalog = Join-Path $translations "$language/ttplayer.po"
     if (-not (Test-Path -LiteralPath $catalog -PathType Leaf)) { throw "Missing catalog: $catalog" }
 }
 
 # Use fresh staging so a previous build's files cannot leak into the ZIP.
 $package = Join-Path $BuildDirectory ('i18n-package-' + [guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory -Path $package | Out-Null
-Copy-Item -LiteralPath $dll, $report -Destination $package
-Copy-Item -LiteralPath $translations, (Join-Path $output 'licenses') -Destination $package -Recurse
+New-Item -ItemType Directory -Path (Join-Path $package 'AddIn') | Out-Null
+Copy-Item -LiteralPath $dll -Destination (Join-Path $package 'AddIn')
+Copy-Item -LiteralPath $report -Destination $package
+Copy-Item -LiteralPath (Join-Path $output 'licenses') -Destination $package -Recurse
+$packageTranslations = Join-Path $package 'i18n'
+New-Item -ItemType Directory -Path $packageTranslations | Out-Null
+Get-ChildItem -LiteralPath $translations -File | Copy-Item -Destination $packageTranslations
+# Package only the active flat catalog layout, including after an incremental build.
+foreach ($locale in Get-ChildItem -LiteralPath $translations -Directory) {
+    $catalogs = @(Get-ChildItem -LiteralPath $locale.FullName -File |
+        Where-Object { $_.Name -in @('ttplayer.po', 'ttplayer.mo') })
+    if ($catalogs.Count -eq 0) { continue }
+    $localeDestination = Join-Path $packageTranslations $locale.Name
+    New-Item -ItemType Directory -Path $localeDestination | Out-Null
+    $catalogs | Copy-Item -Destination $localeDestination
+}
 Copy-Item -LiteralPath (Join-Path $source 'LICENSE'), (Join-Path $source 'README.md') -Destination $package
 New-Item -ItemType Directory -Path (Join-Path $package 'docs') | Out-Null
 Copy-Item -LiteralPath (Join-Path $source 'docs/I18N.md') -Destination (Join-Path $package 'docs')
