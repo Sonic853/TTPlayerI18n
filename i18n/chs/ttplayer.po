@@ -768,6 +768,16 @@ msgctxt "app"
 msgid "社区版"
 msgstr "社区版"
 
+#: src/ui/player_window_options.cpp:4352
+msgctxt "app"
+msgid "简体中文"
+msgstr "简体中文"
+
+#: src/ui/player_window_options.cpp:4353
+msgctxt "app"
+msgid "繁体中文"
+msgstr "繁体中文"
+
 #: src/integrations/discord_presence.cpp:131 src/integrations/discord_track_presence.cpp:91
 msgctxt "app"
 msgid "网络音频"
@@ -787,6 +797,11 @@ msgstr "自动（系统语言）"
 msgctxt "app"
 msgid "自定义..."
 msgstr "自定义..."
+
+#: src/ui/player_window_options.cpp:4354
+msgctxt "app"
+msgid "英文"
+msgstr "英文"
 
 #: src/ui/player_window_playlist_search.cpp:406
 msgctxt "app"

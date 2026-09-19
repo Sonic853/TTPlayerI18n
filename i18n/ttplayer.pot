@@ -6406,3 +6406,18 @@ msgctxt "ttpres/string/8"
 msgid "关闭"
 msgstr ""
 
+#: src/ui/player_window_options.cpp:4352
+msgctxt "app"
+msgid "简体中文"
+msgstr ""
+
+#: src/ui/player_window_options.cpp:4353
+msgctxt "app"
+msgid "繁体中文"
+msgstr ""
+
+#: src/ui/player_window_options.cpp:4354
+msgctxt "app"
+msgid "英文"
+msgstr ""
+

@@ -89,7 +89,7 @@ i18n/
     ttplayer.mo          # 可选
 ```
 
-在主窗口右键菜单的“界面语言”中选择语言，重启后生效。设置保存在
+在“选项 → 常规 → 选项”的“界面语言”下拉框中选择语言，重启后生效。设置保存在
 `TTPlayerRebuild.xml` 的 `General/@Language`：`auto` 跟随系统界面语言，
 `source` 使用原始文本，也可指定 `chs`、`cht`、`en_US` 等语言标识。
 
