@@ -74,17 +74,17 @@ jobs:
           --output-on-failure --no-tests=error
 
       - name: Package DLL and translations
-        env:
-          SOURCE_REVISION: ${{ github.sha }}
         run: >-
           ./tools/package.ps1 -BuildDirectory build -Configuration "$env:BUILD_CONFIGURATION"
-          -Destination artifact -SourceRevision "$env:SOURCE_REVISION"
+          -Destination artifact
 
       - name: Upload package
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
         with:
           name: ttp_i18n-Windows-x86-${{ inputs.configuration }}-${{ github.run_number }}
-          path: artifact/
+          path: |
+            artifact/ttp_i18n-x86-*.zip
+            artifact/SHA256SUMS.txt
           if-no-files-found: error
           retention-days: 14
 

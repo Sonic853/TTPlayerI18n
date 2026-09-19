@@ -37,7 +37,7 @@ DLL 的 Debug 配置也使用兼容运行库，保留调试符号；发布时使
 
 首次构建会下载固定版本并校验哈希的 VC-LTL 和 YY-Thunks，需要 MSVC、Win32 工具链
 及 Python 3。审计报告输出为 `i18n-legacy-imports.json`，依赖许可输出到 `licenses`，
-分发 DLL 时一并携带许可。
+这些文件保留在构建目录。
 
 ## GitHub Actions
 
@@ -50,14 +50,13 @@ DLL 的 Debug 配置也使用兼容运行库，保留调试符号；发布时使
 ABI、兼容构建脚本、导入检查脚本和所需许可均随本仓库提供。
 
 成功后，在该次运行的 **Artifacts** 下载 `ttp_i18n-Windows-x86-配置-运行编号`。
-其中的 `ttp_i18n-x86-配置.zip` 包含：
+其中的 `ttp_i18n-x86-配置.zip` 仅包含：
 
 - `AddIn/ttp_i18n.dll`，由两版播放器共用。
 - `i18n` 下的简体、繁体、英文翻译及模板。
-- XP／Win7 导入审计报告、构建信息、文件 SHA-256 清单。
-- 使用说明、项目许可和兼容依赖许可。
+- `SHA256SUMS.txt`，记录 DLL 和 `i18n` 目录内各文件的校验值。
 
-ZIP 的 SHA-256 清单随产物提供；有调试符号时另附 PDB。产物保留 14 天，
+ZIP 的 SHA-256 清单随产物提供；PDB 保留在构建目录。产物保留 14 天，
 失败时上传配置／测试诊断并保留 7 天。工作流仅需仓库读取权限，生成可下载构建产物。
 导入检查用于验证加载依赖，旧系统上的实际行为仍需在对应系统中测试。
 
@@ -67,7 +66,7 @@ ZIP 的 SHA-256 清单随产物提供；有调试符号时另附 PDB。产物保
 ./tools/package.ps1 -BuildDirectory build -Configuration Release -Destination artifact
 ```
 
-打包脚本会检查 DLL 与兼容审计报告的 SHA-256 一致，并检查翻译和依赖许可齐全。
+打包脚本会检查 DLL 与兼容审计报告的 SHA-256 一致，并检查翻译齐全。
 
 ## 部署与读取规则
 
