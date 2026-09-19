@@ -1,21 +1,18 @@
 cmake_minimum_required(VERSION 3.24)
 project(TtpI18n LANGUAGES CXX)
 
-set(TTP_I18N_API_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../rebuild/include" CACHE PATH
-    "Directory containing ttplayer/i18n/api.h")
 if(NOT WIN32)
   message(FATAL_ERROR "ttp_i18n is a Windows DLL")
 endif()
 
 # One DLL serves both player editions, including standalone and Debug builds.
-# Keep this policy in this directory so the modern player retains its own CRT.
-get_filename_component(TTP_I18N_REBUILD_DIR "${TTP_I18N_API_INCLUDE_DIR}/.." ABSOLUTE)
-include("${TTP_I18N_REBUILD_DIR}/cmake/xp_runtime.cmake")
+# The player is a separate build; this repository owns its ABI and runtime policy.
+include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/xp_runtime.cmake")
 # Runtime checks require a modern debug CRT; symbols and /Od still work.
 string(REGEX REPLACE "/RTC[1csu]+" "" CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG}")
 add_library(ttp_i18n SHARED src/catalog.cpp src/dll.cpp src/ttp_i18n.def)
 target_compile_features(ttp_i18n PRIVATE cxx_std_20)
-target_include_directories(ttp_i18n PRIVATE "${TTP_I18N_API_INCLUDE_DIR}" src)
+target_include_directories(ttp_i18n PRIVATE include src)
 target_compile_definitions(ttp_i18n PRIVATE UNICODE _UNICODE NOMINMAX WIN32_LEAN_AND_MEAN)
 if(MSVC)
   target_compile_options(ttp_i18n PRIVATE /W4 /permissive- /EHsc /utf-8)
@@ -26,7 +23,7 @@ set_target_properties(ttp_i18n PROPERTIES PREFIX "" OUTPUT_NAME "ttp_i18n")
 target_link_options(ttp_i18n PRIVATE /OPT:REF /INCREMENTAL:NO)
 
 find_package(Python3 REQUIRED COMPONENTS Interpreter)
-set(TTP_I18N_IMPORT_CHECK "${TTP_I18N_REBUILD_DIR}/cmake/check_legacy_imports.py")
+set(TTP_I18N_IMPORT_CHECK "${CMAKE_CURRENT_SOURCE_DIR}/cmake/check_legacy_imports.py")
 add_custom_command(TARGET ttp_i18n POST_BUILD
   COMMAND "${Python3_EXECUTABLE}" "${TTP_I18N_IMPORT_CHECK}"
     "$<TARGET_FILE:ttp_i18n>"
@@ -41,7 +38,7 @@ file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/i18n-licenses")
 configure_file("${ttplayer_yy_thunks_SOURCE_DIR}/LICENSE"
   "${CMAKE_CURRENT_BINARY_DIR}/i18n-licenses/YY-Thunks-LICENSE.txt" COPYONLY)
 foreach(license IN ITEMS VC-LTL-LICENSE.txt legacy-third-party.md)
-  configure_file("${TTP_I18N_REBUILD_DIR}/docs/licenses/${license}"
+  configure_file("${CMAKE_CURRENT_SOURCE_DIR}/docs/licenses/${license}"
     "${CMAKE_CURRENT_BINARY_DIR}/i18n-licenses/${license}" COPYONLY)
 endforeach()
 add_custom_target(ttp_i18n_licenses
@@ -50,16 +47,13 @@ add_custom_target(ttp_i18n_licenses
   VERBATIM)
 add_dependencies(ttp_i18n ttp_i18n_licenses)
 
-# The parent player stages catalogs itself, including builds without the DLL.
 # Keep this as a build target so PO-only edits are copied without relinking.
-if(PROJECT_IS_TOP_LEVEL)
-  add_custom_target(ttp_i18n_catalogs
-    COMMAND "${CMAKE_COMMAND}" -E copy_directory
-      "${CMAKE_CURRENT_SOURCE_DIR}/i18n" "$<TARGET_FILE_DIR:ttp_i18n>/i18n"
-    COMMENT "Staging gettext catalogs"
-    VERBATIM)
-  add_dependencies(ttp_i18n ttp_i18n_catalogs)
-endif()
+add_custom_target(ttp_i18n_catalogs
+  COMMAND "${CMAKE_COMMAND}" -E copy_directory
+    "${CMAKE_CURRENT_SOURCE_DIR}/i18n" "$<TARGET_FILE_DIR:ttp_i18n>/i18n"
+  COMMENT "Staging gettext catalogs"
+  VERBATIM)
+add_dependencies(ttp_i18n ttp_i18n_catalogs)
 
 if(BUILD_TESTING)
   add_executable(ttp_i18n_catalog_tests tests/catalog_tests.cpp src/catalog.cpp)

@@ -1,22 +1,25 @@
 # ttp_i18n.dll
 
 为 TTPlayer 重建版提供可选的 gettext 翻译支持。本目录保存 DLL 源码、翻译文件和提取工具，
-通过 [`api.h`](../rebuild/include/ttplayer/i18n/api.h) 中带版本号的 C ABI 与播放器交互。
+通过 [`api.h`](include/ttplayer/i18n/api.h) 中带版本号的 C ABI 与播放器交互。
 实现为项目自有代码，不依赖 `libintl.dll` 或 `libiconv.dll`。
 
 ## 构建
 
-在 TTPlayer 工作区根目录执行，随播放器一起构建：
+`gettext` 和 `rebuild` 分别构建、分别发布，通过版本化 C ABI 在运行时交互。
+本仓库包含自己的接口头文件、兼容运行库配置、导入审计和依赖许可，可单独克隆构建。
+在本仓库根目录执行：
 
 ```powershell
-cmake -S rebuild -B rebuild/build -G "Visual Studio 18 2026" -A Win32 -DTTPLAYER_BUILD_I18N=ON -DTTPLAYER_STAGE_RUNTIME=OFF
-cmake --build rebuild/build --config Release --target ttplayer_rebuild --parallel 4
+cmake -S . -B build -G "Visual Studio 18 2026" -A Win32 -DBUILD_TESTING=ON
+cmake --build build --config Release --target ttp_i18n ttp_i18n_catalog_tests --parallel 4
+ctest --test-dir build -C Release --output-on-failure
 ```
 
-播放器和 `ttp_i18n.dll` 输出到 `rebuild/build/Release`，`gettext/i18n` 自动复制到
-该输出目录下的 `i18n` 文件夹。只修改翻译文件后，重新构建也会复制更新的文件。
+DLL 和翻译分别输出到 `build/Release/ttp_i18n.dll` 和 `build/Release/i18n`。
+只修改翻译文件后，重新构建也会复制更新的文件。
 
-单独构建 DLL：
+如果使用包含 `gettext`、`rebuild` 两个目录的本地工作区，也可在工作区根目录执行：
 
 ```powershell
 cmake -S gettext -B gettext/build -G "Visual Studio 18 2026" -A Win32
@@ -26,16 +29,45 @@ cmake --build gettext/build --config Release --target ttp_i18n
 DLL 和翻译目录分别输出到 `gettext/build/Release/ttp_i18n.dll` 和
 `gettext/build/Release/i18n`。
 
-普通版和 XP／Win7 兼容版共用同一份 x86 `ttp_i18n.dll`。无论独立构建还是随任一版
-播放器构建，DLL 始终使用 VC-LTL 的 XP 运行库和 YY-Thunks 系统 API 适配，
+普通版和 XP／Win7 兼容版共用同一份 x86 `ttp_i18n.dll`。
+DLL 始终使用 VC-LTL 的 XP 运行库和 YY-Thunks 系统 API 适配，
 并自动检查 XP／Win7 导入兼容性，不需要分别维护两个版本。
-该配置只作用于 DLL 所在的构建目录，不改变普通版播放器的运行库。
+播放器构建独立完成，不编译本仓库，也不复制本仓库的翻译文件。
 DLL 的 Debug 配置也使用兼容运行库，保留调试符号；发布时使用 Release。
 
 首次构建会下载固定版本并校验哈希的 VC-LTL 和 YY-Thunks，需要 MSVC、Win32 工具链
 及 Python 3。审计报告输出为 `i18n-legacy-imports.json`，依赖许可输出到 `licenses`，
-分发 DLL 时一并携带许可。播放器兼容版的完整构建参数见
-[兼容版构建说明](../rebuild/docs/LEGACY_WINDOWS.md)。
+分发 DLL 时一并携带许可。
+
+## GitHub Actions
+
+在本仓库的 **Actions → Manual i18n Windows Build → Run workflow** 手动运行
+[构建工作流](.github/workflows/manual-build.yml)。`configuration` 可选择
+`Release`（默认）、`RelWithDebInfo` 或 `Debug`。
+
+工作流使用 [GitHub 官方 Windows Server 2025／VS 2026 镜像](https://github.com/actions/runner-images#available-images)，
+构建 x86 DLL，运行目录解析和简繁翻译测试，并检查 DLL 的 XP／Win7 静态导入。
+ABI、兼容构建脚本、导入检查脚本和所需许可均随本仓库提供。
+
+成功后，在该次运行的 **Artifacts** 下载 `ttp_i18n-Windows-x86-配置-运行编号`。
+其中的 `ttp_i18n-x86-配置.zip` 包含：
+
+- 两版播放器共用的 `ttp_i18n.dll`。
+- `i18n` 下的简体、繁体、英文翻译及模板。
+- XP／Win7 导入审计报告、构建信息、文件 SHA-256 清单。
+- 使用说明、项目许可和兼容依赖许可。
+
+ZIP 的 SHA-256 清单随产物提供；有调试符号时另附 PDB。产物保留 14 天，
+失败时上传配置／测试诊断并保留 7 天。工作流仅需仓库读取权限，生成可下载构建产物。
+导入检查用于验证加载依赖，旧系统上的实际行为仍需在对应系统中测试。
+
+本地打包可在本仓库根目录执行：
+
+```powershell
+./tools/package.ps1 -BuildDirectory build -Configuration Release -Destination artifact
+```
+
+打包脚本会检查 DLL 与兼容审计报告的 SHA-256 一致，并检查翻译和依赖许可齐全。
 
 ## 部署与读取规则
 
@@ -151,11 +183,20 @@ msgfmt --check --check-format -o gettext/i18n/en_US/LC_MESSAGES/ttplayer.mo gett
 
 ## 验证
 
-播放器构建时启用 `BUILD_TESTING=ON`，然后运行翻译解析、界面回退和启动弹窗测试：
+本仓库构建时启用 `BUILD_TESTING=ON`，然后运行翻译解析和目录校验：
 
 ```powershell
-cmake --build rebuild/build --config Release --target i18n_ui_tests ttp_i18n_catalog_tests --parallel 4
-ctest --test-dir rebuild/build -C Release -R "^(i18n_ui_tests|i18n_startup_tests|ttp_i18n_catalog_tests|ttp_i18n_translation_tests)$" --output-on-failure
+cmake --build build --config Release --target ttp_i18n ttp_i18n_catalog_tests --parallel 4
+ctest --test-dir build -C Release --output-on-failure
+```
+
+在含两个仓库的本地工作区中，需要播放器界面和启动弹窗集成测试时，可将已经构建好的
+DLL 绝对路径传入播放器的 `TTPLAYER_I18N_TEST_DLL`，再构建和运行播放器测试：
+
+```powershell
+cmake -S rebuild -B rebuild/build -G "Visual Studio 18 2026" -A Win32 -DBUILD_TESTING=ON -DTTPLAYER_STAGE_RUNTIME=OFF "-DTTPLAYER_I18N_TEST_DLL=$((Resolve-Path gettext/build/Release/ttp_i18n.dll).Path)"
+cmake --build rebuild/build --config Release --target i18n_ui_tests --parallel 4
+ctest --test-dir rebuild/build -C Release -R "^(i18n_ui_tests|i18n_startup_tests)$" --output-on-failure
 ```
 
 翻译校验会检查简繁中文的模板覆盖、占位符、分隔符及过滤模式，并验证资源导入和

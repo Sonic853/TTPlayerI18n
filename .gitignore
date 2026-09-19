@@ -67,3 +67,7 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Local CI packages and Python caches
+/artifact/
+__pycache__/
