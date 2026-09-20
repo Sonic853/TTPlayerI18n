@@ -44,21 +44,37 @@ DLL 的 Debug 配置也使用兼容运行库，保留调试符号；发布时使
 在本仓库的 **Actions → Manual i18n Windows Build → Run workflow** 手动运行
 [构建工作流](.github/workflows/manual-build.yml)。`configuration` 可选择
 `Release`（默认）、`RelWithDebInfo` 或 `Debug`。
+勾选 **Release a Version (GitHub)** 后，构建和测试通过时自动创建 GitHub Release；
+发布必须选择 `Release` 配置。默认不勾选，仅生成 Actions 构建产物。
 
 工作流使用 [GitHub 官方 Windows Server 2025／VS 2026 镜像](https://github.com/actions/runner-images#available-images)，
 构建 x86 DLL，运行目录解析和简繁翻译测试，并检查 DLL 的 XP／Win7 静态导入。
 ABI、兼容构建脚本、导入检查脚本和所需许可均随本仓库提供。
 
 成功后，在该次运行的 **Artifacts** 下载 `ttp_i18n-Windows-x86-配置-运行编号`。
-其中的 `ttp_i18n-x86-配置.zip` 仅包含：
+其中的 `ttp_i18n-x86-YYYY.MM.DD.zip` 使用构建开始时捕获的北京时间日期，仅包含：
 
 - `AddIn/ttp_i18n.dll`，由两版播放器共用。
 - `i18n` 下的简体、繁体、英文翻译及模板。
 - `SHA256SUMS.txt`，记录 DLL 和 `i18n` 目录内各文件的校验值。
 
-ZIP 的 SHA-256 清单随产物提供；PDB 保留在构建目录。产物保留 14 天，
-失败时上传配置／测试诊断并保留 7 天。工作流仅需仓库读取权限，生成可下载构建产物。
+ZIP 的 SHA-256 清单及用于核对构建来源的 `build-info.json` 随 Actions 产物提供，
+构建信息不放入 ZIP；PDB 保留在构建目录。产物保留 14 天，
+失败时上传配置／测试诊断并保留 7 天。构建和发布准备只使用仓库读取权限，
+仅 GitHub Release 发布任务使用 `contents: write`，通过内置 `GITHUB_TOKEN` 发布。
 导入检查用于验证加载依赖，旧系统上的实际行为仍需在对应系统中测试。
+
+版本号沿用 rebuild 的规则，但在本仓库独立计算：当天首次发布为 `YYYY.MM.DD`，
+当天已有版本则使用 `YYYY.MM.DDp1`、`YYYY.MM.DDp2` 等，按已有最大补丁号递增。
+工作流分页读取本仓库的标签和 Release，草稿 Release 也占用版本号；
+发布运行共用一个并发组，覆盖构建、版本分配和发布，普通构建可独立运行。
+日期在构建开始时确定，即使构建跨过北京时间午夜，发布仍使用该日期。
+
+发布按“构建与测试 → 准备发布 → GitHub Release”进行。准备和发布时均核对提交、
+配置及 ZIP 的 SHA-256。最终附件为 `ttp_i18n-x86-版本号.zip` 和 `SHA256SUMS.txt`，
+同日补丁发布只重命名 ZIP 并更新外部校验清单，不改变 ZIP 内容。
+Release 标题和标签均为版本号，标签指向本次构建提交；说明包含完整更新日志链接和安装步骤。
+已有版本不会被覆盖，重新完整运行工作流时会根据当时已占用的版本号重新分配。
 
 本地打包可在本仓库根目录执行：
 
@@ -67,6 +83,9 @@ ZIP 的 SHA-256 清单随产物提供；PDB 保留在构建目录。产物保留
 ```
 
 打包脚本会检查 DLL 与兼容审计报告的 SHA-256 一致，并检查翻译齐全。
+本地不传版本号时仍生成 `ttp_i18n-x86-Release.zip`；可传入
+`-PackageVersion 2026.09.20` 使用与 Actions 相同的日期文件名。
+打包和发布流程的本地回归检查可运行 `./tests/manual_release_tests.ps1`，使用模拟 API，不创建远程 Release。
 
 ## 部署与读取规则
 

@@ -13,9 +13,20 @@ on:
           - Release
           - RelWithDebInfo
           - Debug
+      release_a_version:
+        description: Release a Version (GitHub)
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
+
+# Reserve one publication slot through version allocation and release creation.
+# Build-only runs remain independent.
+concurrency:
+  group: ${{ inputs.release_a_version && 'manual-i18n-release' || format('manual-i18n-build-{0}', github.run_id) }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -29,12 +40,29 @@ jobs:
       BUILD_CONFIGURATION: ${{ inputs.configuration }}
       PYTHONUTF8: '1'
       PYTHONDONTWRITEBYTECODE: '1'
+    outputs:
+      release_date: ${{ steps.release_date.outputs.value }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           persist-credentials: false
+
+      - name: Validate release configuration and capture Beijing date
+        id: release_date
+        env:
+          PUBLISH_RELEASE: ${{ inputs.release_a_version }}
+        run: |
+          if ($env:PUBLISH_RELEASE -eq 'true' -and $env:BUILD_CONFIGURATION -ne 'Release') {
+            throw 'Publishing to GitHub requires the Release build configuration.'
+          }
+          $releaseDate = [DateTimeOffset]::UtcNow.ToOffset([TimeSpan]::FromHours(8)).ToString(
+            'yyyy.MM.dd', [Globalization.CultureInfo]::InvariantCulture)
+          "value=$releaseDate" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Test packaging and release workflow
+        run: ./tests/manual_release_tests.ps1
 
       - name: Verify VS 2026 toolchain
         run: |
@@ -74,9 +102,24 @@ jobs:
           --output-on-failure --no-tests=error
 
       - name: Package DLL and translations
-        run: >-
-          ./tools/package.ps1 -BuildDirectory build -Configuration "$env:BUILD_CONFIGURATION"
-          -Destination artifact
+        env:
+          PACKAGE_VERSION: ${{ steps.release_date.outputs.value }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          ./tools/package.ps1 -BuildDirectory build -Configuration "$env:BUILD_CONFIGURATION" `
+            -Destination artifact -PackageVersion "$env:PACKAGE_VERSION"
+          [ordered]@{
+            commit = $env:GITHUB_SHA
+            ref = $env:GITHUB_REF
+            configuration = $env:BUILD_CONFIGURATION
+            package_version = $env:PACKAGE_VERSION
+            architecture = 'x86'
+            generator = 'Visual Studio 18 2026'
+            minimum_windows = 'XP SP3 / Windows 7'
+            yy_thunks = '1.2.2'
+            vc_ltl = '5.3.1'
+            run = "$env:GITHUB_SERVER_URL/$env:GITHUB_REPOSITORY/actions/runs/$env:GITHUB_RUN_ID"
+          } | ConvertTo-Json | Set-Content -LiteralPath artifact/build-info.json -Encoding utf8
 
       - name: Upload package
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
@@ -85,6 +128,7 @@ jobs:
           path: |
             artifact/ttp_i18n-x86-*.zip
             artifact/SHA256SUMS.txt
+            artifact/build-info.json
           if-no-files-found: error
           retention-days: 14
 
@@ -100,3 +144,148 @@ jobs:
             build/**/i18n-legacy-imports.json
           if-no-files-found: ignore
           retention-days: 7
+
+  prepare_release:
+    name: Prepare Release
+    needs: build
+    if: inputs.release_a_version
+    runs-on: windows-2025
+    timeout-minutes: 10
+    outputs:
+      version: ${{ steps.prepare.outputs.version }}
+      artifact_name: ${{ steps.prepare.outputs.artifact_name }}
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      RELEASE_DATE: ${{ needs.build.outputs.release_date }}
+    steps:
+      - name: Download built i18n package
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: ttp_i18n-Windows-x86-${{ inputs.configuration }}-${{ github.run_number }}
+          path: artifact
+
+      - name: Prepare release files
+        id: prepare
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_INSTALL_NOTES: |
+            普通版和 XP／Win7 兼容版共用同一份 x86 翻译 DLL。
+            1. 下载并解压 ttp_i18n-x86-{version}.zip。
+            2. 退出 TTPlayer 重建版，将 AddIn/ttp_i18n.dll 放入播放器的 AddIn 目录。
+            3. 将 i18n 文件夹放到 TTPlayerRebuild.exe 所在目录；翻译路径为 i18n/<语言>/ttplayer.po 或 ttplayer.mo，无需 LC_MESSAGES。
+            4. 启动重建版，在“选项 → 常规 → 选项”的“界面语言”中选择语言，重启后生效。
+            同一语言存在有效 MO 时优先读取 MO；修改 PO 后请重新生成或移除对应的旧 MO。
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $info = Get-Content -LiteralPath artifact/build-info.json -Raw -Encoding utf8 | ConvertFrom-Json
+          if ($info.commit -cne $env:GITHUB_SHA -or $info.configuration -cne 'Release' -or
+              $info.architecture -cne 'x86' -or $info.package_version -cne $env:RELEASE_DATE) {
+            throw 'The downloaded artifact does not match this Release build.'
+          }
+          function Read-VersionTag([string]$name) {
+            $match = [regex]::Match($name, '^(?<date>[0-9]{4}\.[0-9]{2}\.[0-9]{2})(?:p(?<patch>[1-9][0-9]*))?$')
+            if (-not $match.Success) { return }
+            $date = [datetime]::MinValue
+            if (-not [datetime]::TryParseExact($match.Groups['date'].Value, 'yyyy.MM.dd',
+                [Globalization.CultureInfo]::InvariantCulture,
+                [Globalization.DateTimeStyles]::None, [ref]$date)) { return }
+            $patch = 0L
+            if ($match.Groups['patch'].Success -and -not [long]::TryParse($match.Groups['patch'].Value, [ref]$patch)) {
+              throw 'Version patch number is too large.'
+            }
+            [pscustomobject]@{ Name = $name; Date = $date; Patch = $patch }
+          }
+          $base = Read-VersionTag $env:RELEASE_DATE
+          if (-not $base -or $base.Patch -ne 0) { throw 'Missing or invalid Beijing build date.' }
+          $archiveName = "ttp_i18n-x86-$($base.Name).zip"
+          $archive = "artifact/$archiveName"
+          $hash = (Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant()
+          $expectedHash = (Get-Content -LiteralPath artifact/SHA256SUMS.txt -Raw -Encoding utf8).Trim()
+          if ($expectedHash -cne "$hash  $archiveName") { throw 'i18n package SHA-256 verification failed.' }
+
+          $tags = @(gh api "repos/$env:GITHUB_REPOSITORY/tags?per_page=100" --paginate --jq '.[].name')
+          if ($LASTEXITCODE -ne 0) { throw 'Could not read repository tags.' }
+          # Also reserve draft releases left by failed uploads, even without a tag.
+          $releaseTags = @(gh api "repos/$env:GITHUB_REPOSITORY/releases?per_page=100" --paginate --jq '.[].tag_name')
+          if ($LASTEXITCODE -ne 0) { throw 'Could not read existing releases.' }
+          $versions = @($tags | ForEach-Object { Read-VersionTag $_ })
+          $occupied = @($versions) + @($releaseTags | ForEach-Object { Read-VersionTag $_ })
+          $sameDay = @($occupied | Where-Object { $_.Date -eq $base.Date } | Sort-Object Patch -Descending)
+          $version = $base.Name
+          if ($sameDay.Count) {
+            if ($sameDay[0].Patch -eq [long]::MaxValue) { throw 'Version patch number is exhausted.' }
+            $version += 'p' + ($sameDay[0].Patch + 1).ToString([Globalization.CultureInfo]::InvariantCulture)
+          }
+          # Only rename the verified ZIP; its contents and checksum stay unchanged.
+          $archiveName = "ttp_i18n-x86-$version.zip"
+          if ($version -cne $info.package_version) {
+            Rename-Item -LiteralPath $archive -NewName $archiveName
+          }
+          "$hash  $archiveName" | Set-Content -LiteralPath artifact/SHA256SUMS.txt -Encoding utf8
+          $previous = $versions | Sort-Object Date, Patch -Descending | Select-Object -First 1
+          $repoUrl = "$env:GITHUB_SERVER_URL/$env:GITHUB_REPOSITORY"
+          $logUrl = if ($previous) { "$repoUrl/compare/$($previous.Name)...$version" }
+                    else { "$repoUrl/commits/$version" }
+          $notes = "**完整更新日志**: $logUrl`n`n" + $env:RELEASE_INSTALL_NOTES.Replace('{version}', $version)
+          Write-Output "Preparing $version; changelog: $logUrl"
+          $notes | Set-Content -LiteralPath artifact/release-notes.md -Encoding utf8
+          [ordered]@{
+            version = $version
+            commit = $env:GITHUB_SHA
+            configuration = 'Release'
+          } | ConvertTo-Json | Set-Content -LiteralPath artifact/release-info.json -Encoding utf8
+          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "artifact_name=ttp_i18n-release-$env:GITHUB_RUN_ID-$env:GITHUB_RUN_ATTEMPT" |
+            Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+
+      - name: Upload prepared release
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7
+        with:
+          name: ttp_i18n-release-${{ github.run_id }}-${{ github.run_attempt }}
+          path: artifact/
+          if-no-files-found: error
+          retention-days: 14
+
+  github_release:
+    name: GitHub Release
+    needs: prepare_release
+    if: inputs.release_a_version
+    runs-on: windows-2025
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      RELEASE_VERSION: ${{ needs.prepare_release.outputs.version }}
+    steps:
+      - name: Download prepared release
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8
+        with:
+          name: ${{ needs.prepare_release.outputs.artifact_name }}
+          path: artifact
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $release = Get-Content -LiteralPath artifact/release-info.json -Raw -Encoding utf8 | ConvertFrom-Json
+          $version = $env:RELEASE_VERSION
+          if ($version -notmatch '^[0-9]{4}\.[0-9]{2}\.[0-9]{2}(?:p[1-9][0-9]*)?$' -or
+              $release.version -cne $version -or $release.commit -cne $env:GITHUB_SHA -or
+              $release.configuration -cne 'Release') {
+            throw 'Prepared release does not match this build and version.'
+          }
+          $archiveName = "ttp_i18n-x86-$version.zip"
+          $archive = "artifact/$archiveName"
+          $hash = (Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant()
+          $expectedHash = (Get-Content -LiteralPath artifact/SHA256SUMS.txt -Raw -Encoding utf8).Trim()
+          if ($expectedHash -cne "$hash  $archiveName") { throw 'Prepared release SHA-256 verification failed.' }
+          gh release create "$version" $archive artifact/SHA256SUMS.txt `
+            --repo "$env:GITHUB_REPOSITORY" --target "$env:GITHUB_SHA" `
+            --title "$version" --notes-file artifact/release-notes.md
+          if ($LASTEXITCODE -ne 0) { throw 'GitHub publication failed; existing releases are not overwritten.' }

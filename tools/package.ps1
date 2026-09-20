@@ -1,9 +1,20 @@
 param(
     [Parameter(Mandatory)][string]$BuildDirectory,
     [ValidateSet('Release', 'RelWithDebInfo', 'Debug')][string]$Configuration = 'Release',
-    [Parameter(Mandatory)][string]$Destination
+    [Parameter(Mandatory)][string]$Destination,
+    [string]$PackageVersion
 )
 $ErrorActionPreference = 'Stop'
+$archiveVersion = $Configuration
+if ($PSBoundParameters.ContainsKey('PackageVersion')) {
+    $date = [datetime]::MinValue
+    if (-not [datetime]::TryParseExact($PackageVersion, 'yyyy.MM.dd',
+        [Globalization.CultureInfo]::InvariantCulture,
+        [Globalization.DateTimeStyles]::None, [ref]$date)) {
+        throw 'PackageVersion must be a valid Beijing build date in yyyy.MM.dd format.'
+    }
+    $archiveVersion = $PackageVersion
+}
 $output = Join-Path $BuildDirectory $Configuration
 $dll = Join-Path $output 'AddIn/ttp_i18n.dll'
 $report = Join-Path $output 'i18n-legacy-imports.json'
@@ -50,7 +61,7 @@ $checksums = Get-ChildItem -LiteralPath $packageRoot -File -Recurse | Sort-Objec
 }
 $checksums | Set-Content -LiteralPath (Join-Path $package 'SHA256SUMS.txt') -Encoding utf8
 New-Item -ItemType Directory -Path $Destination -Force | Out-Null
-$archive = Join-Path $Destination "ttp_i18n-x86-$Configuration.zip"
+$archive = Join-Path $Destination "ttp_i18n-x86-$archiveVersion.zip"
 Compress-Archive -Path (Join-Path $package '*') -DestinationPath $archive -Force
 $archiveHash = (Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant()
 "$archiveHash  $([IO.Path]::GetFileName($archive))" |
